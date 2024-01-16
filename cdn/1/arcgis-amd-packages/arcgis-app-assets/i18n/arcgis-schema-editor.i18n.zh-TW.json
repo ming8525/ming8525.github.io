@@ -1,0 +1,14 @@
+{
+  "expandAll": "試_Expand all_____________________驗",
+  "collapseAll": "試_Collapse all_____________驗",
+  "categoryItem": {
+    "expand": "試_Expand_____________驗",
+    "collapse": "試_Collapse_________________驗",
+    "editCategory": "試_Edit category______________驗",
+    "deleteCategory": "試_Delete category________________驗",
+    "addSubcategory": "試_Add subcategory________________驗",
+    "addCategory": "試_Add category_____________驗",
+    "save": "試_Save_________驗",
+    "cancel": "試_Cancel_____________驗"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Öppna mall",
+  "addFunction": "",
+  "addConstant": "Lägg till konstant",
+  "addRaster": "",
+  "move": "Flytta",
+  "zoom": "Zooma",
+  "expand": "Expandera",
+  "run": "Kör",
+  "save": "Spara",
+  "saveAs": "Spara som",
+  "clear": "Radera",
+  "close": "Stäng",
+  "addRasterFunctionTitle": "Lägg till rasterfunktioner",
+  "templatePropertiesTitle": "Mallegenskaper",
+  "browseLayerDialogTitle": "Välj raster",
+  "browseRFT": "Bläddra bland mallar för rasterfunktion"
+}

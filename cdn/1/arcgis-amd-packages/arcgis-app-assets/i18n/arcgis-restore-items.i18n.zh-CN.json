@@ -1,0 +1,29 @@
+{
+  "back": "试_Back_________验",
+  "cancel": "试_Cancel_____________验",
+  "learnMore": "试_Learn more_____________________验",
+  "restore": "试_Restore_______________验",
+  "restoreTo": "试_Restore to_____________________验",
+  "restoreItem": "试_Restore Item_____________验",
+  "restoreItems": "试_Restore Items______________验",
+  "noticeMessage": "试_Restored items will be unshared. Please review your content before sharing it again___________________________________________验.",
+  "cannotBulkRestoreXItems": "试_Cannot bulk restore more than ${number} items, please deselect a few items_______________________________________验.",
+  "cannotBulkRestoreMultipleOwners": "试_Cannot bulk restore items that belong to different owners. Select items from a single owner to bulk restore_______________________________________________________验.",
+  "toRestore": {
+    "single": "试_Item to Restore_________________验:",
+    "multiple": "试_Items to Restore__________________验:"
+  },
+  "cannotRestore": "试_Cannot restore________________验:",
+  "dependentItems": {
+    "single": "试_This item cannot be restored because it is dependent on <strong style='font-weight: 500'>${parent}</strong>. Restore them together___________________________________________________________________验.",
+    "multiple": "试_These items cannot be restored because they are dependent on other items in the recycle bin. Restore them together___________________________________________________________验."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "试_${start} - ${end} of ${total} (${size}) in recycle bin____________________________验",
+    "other": "试_${start} - ${end}, total: ${total} (${size}) in recycle bin_______________________________验"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "试_${start} - ${end} of ${total} (>${size}) in recycle bin_____________________________验",
+    "other": "试_${start} - ${end}, total: ${total} (>${size}) in recycle bin_______________________________验"
+  }
+}

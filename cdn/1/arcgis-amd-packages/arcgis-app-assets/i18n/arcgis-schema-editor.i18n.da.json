@@ -1,0 +1,14 @@
+{
+  "expandAll": "ø_Expand all_____________________å",
+  "collapseAll": "ø_Collapse all_____________å",
+  "categoryItem": {
+    "expand": "ø_Expand_____________å",
+    "collapse": "ø_Collapse_________________å",
+    "editCategory": "ø_Edit category______________å",
+    "deleteCategory": "ø_Delete category________________å",
+    "addSubcategory": "ø_Add subcategory________________å",
+    "addCategory": "ø_Add category_____________å",
+    "save": "ø_Save_________å",
+    "cancel": "ø_Cancel_____________å"
+  }
+}

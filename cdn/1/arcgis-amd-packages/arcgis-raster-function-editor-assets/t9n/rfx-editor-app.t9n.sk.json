@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Otvoriť šablónu",
+  "addFunction": "",
+  "addConstant": "Pridať konštantu",
+  "addRaster": "",
+  "move": "Presunúť",
+  "zoom": "Priblížiť",
+  "expand": "Rozbaliť",
+  "run": "Spustiť",
+  "save": "Uložiť",
+  "saveAs": "Uložiť ako",
+  "clear": "Vyčistiť",
+  "close": "Zatvoriť",
+  "addRasterFunctionTitle": "Pridať rastrové funkcie",
+  "templatePropertiesTitle": "Vlastnosti šablóny",
+  "browseLayerDialogTitle": "Vybrať raster",
+  "browseRFT": "Prechádzať šablóny rastrových funkcií"
+}

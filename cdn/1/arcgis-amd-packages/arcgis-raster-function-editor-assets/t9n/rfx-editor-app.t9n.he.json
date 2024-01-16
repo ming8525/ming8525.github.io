@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "פתח תבנית",
+  "addFunction": "",
+  "addConstant": "הוסף קבוע",
+  "addRaster": "",
+  "move": "הזז",
+  "zoom": "זום",
+  "expand": "הרחב",
+  "run": "הרץ",
+  "save": "שמירה",
+  "saveAs": "שמירה בשם",
+  "clear": "נקה",
+  "close": "סגירה",
+  "addRasterFunctionTitle": "הוסף פונקציות רסטר",
+  "templatePropertiesTitle": "מאפייני תבנית",
+  "browseLayerDialogTitle": "בחר רסטר",
+  "browseRFT": "עיין בתבניות לפונקציות רסטרים"
+}

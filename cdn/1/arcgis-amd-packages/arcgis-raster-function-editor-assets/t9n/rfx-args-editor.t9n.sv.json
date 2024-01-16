@@ -1,0 +1,7 @@
+{
+  "unsupportedDataType": "Typen stöds inte",
+  "currentlyUnsupported": " En standardredigerare för ${missingType} är väntande men kommer snart. Temporär platshållartextruta för att ange strängbaserade indata.",
+  "unsupportedOverrideWarning": "En komponent för åsidosättningsredigerare som ger en bättre användarupplevelse för arbete med följande parameter/parametrar är väntande men kommer snart:",
+  "overrideWidgetMissing": "Komponent för åsidosättningsredigerare saknas!",
+  "uiIncomplete": "Jobbinlämningen misslyckades. Funktionen kan inte köras eftersom vissa av de obligatoriska fälten är ofullständiga eller saknas i gränssnittet."
+}

@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Mở biểu mẫu",
+  "addFunction": "",
+  "addConstant": "Thêm hằng số",
+  "addRaster": "",
+  "move": "Di chuyển",
+  "zoom": "Thu phóng",
+  "expand": "Expand (Mở rộng)",
+  "run": "Chạy",
+  "save": "Lưu",
+  "saveAs": "Lưu thành",
+  "clear": "Xóa",
+  "close": "Đóng",
+  "addRasterFunctionTitle": "Thêm hàm raster",
+  "templatePropertiesTitle": "Thuộc tính biểu mẫu",
+  "browseLayerDialogTitle": "Chọn Raster",
+  "browseRFT": "Duyệt biểu mẫu hàm raster"
+}

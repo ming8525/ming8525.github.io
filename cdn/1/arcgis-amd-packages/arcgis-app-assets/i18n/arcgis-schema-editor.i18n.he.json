@@ -1,0 +1,14 @@
+{
+  "expandAll": "כן_Expand all_____________________ש",
+  "collapseAll": "כן_Collapse all_____________ש",
+  "categoryItem": {
+    "expand": "כן_Expand_____________ש",
+    "collapse": "כן_Collapse_________________ש",
+    "editCategory": "כן_Edit category______________ש",
+    "deleteCategory": "כן_Delete category________________ש",
+    "addSubcategory": "כן_Add subcategory________________ש",
+    "addCategory": "כן_Add category_____________ש",
+    "save": "כן_Save_________ש",
+    "cancel": "כן_Cancel_____________ש"
+  }
+}

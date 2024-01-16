@@ -1,0 +1,14 @@
+{
+  "expandAll": "Ж_Expand all_____________________Я",
+  "collapseAll": "Ж_Collapse all_____________Я",
+  "categoryItem": {
+    "expand": "Ж_Expand_____________Я",
+    "collapse": "Ж_Collapse_________________Я",
+    "editCategory": "Ж_Edit category______________Я",
+    "deleteCategory": "Ж_Delete category________________Я",
+    "addSubcategory": "Ж_Add subcategory________________Я",
+    "addCategory": "Ж_Add category_____________Я",
+    "save": "Ж_Save_________Я",
+    "cancel": "Ж_Cancel_____________Я"
+  }
+}

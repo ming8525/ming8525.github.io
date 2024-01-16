@@ -1,0 +1,7 @@
+{
+  "searchMembers": "ng_Search members_______________ny",
+  "selectUser": "ng_Select user____________ny",
+  "editSelection": "ng_Edit selected user. Currently selected: ${name}_________________________ny",
+  "clear": "ng_Clear___________ny",
+  "members": "ng_Members_______________ny"
+}

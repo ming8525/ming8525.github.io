@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Åbn skabelon",
+  "addFunction": "",
+  "addConstant": "Tilføj kontrast",
+  "addRaster": "",
+  "move": "Flyt",
+  "zoom": "Zoom",
+  "expand": "Vis",
+  "run": "Kør",
+  "save": "Gem",
+  "saveAs": "Gem som",
+  "clear": "Ryd",
+  "close": "Luk",
+  "addRasterFunctionTitle": "Tilføj rasterfunktioner",
+  "templatePropertiesTitle": "Egenskaber for skabelon",
+  "browseLayerDialogTitle": "Vælg raster",
+  "browseRFT": "Gennemse rasterfunktionsskabeloner"
+}

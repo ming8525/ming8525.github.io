@@ -1,0 +1,7 @@
+{
+  "unsupportedDataType": "Toetuseta tüüp",
+  "currentlyUnsupported": " Üksuse ${missingType} vaikeredaktor on ootel, kuid saabub peagi. Ajutise kohatäite tekstiväli stringipõhiste sisendite määramiseks.",
+  "unsupportedOverrideWarning": "Alistamisredaktori komponent, mis pakub paremat kasutuskogemust järgmiste parameetritega töötlemiseks, on ootel, kuid saabub peagi:",
+  "overrideWidgetMissing": "Alistamisredaktori komponent puudub!",
+  "uiIncomplete": "Töö edastamine nurjus. Funktsiooni ei saa käitada, kuna mõni nõutav väli ei ühildu või puudub kasutajaliidesest."
+}

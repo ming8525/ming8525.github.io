@@ -1,0 +1,29 @@
+{
+  "back": "Ж_Back_________Я",
+  "cancel": "Ж_Cancel_____________Я",
+  "learnMore": "Ж_Learn more_____________________Я",
+  "restore": "Ж_Restore_______________Я",
+  "restoreTo": "Ж_Restore to_____________________Я",
+  "restoreItem": "Ж_Restore Item_____________Я",
+  "restoreItems": "Ж_Restore Items______________Я",
+  "noticeMessage": "Ж_Restored items will be unshared. Please review your content before sharing it again___________________________________________Я.",
+  "cannotBulkRestoreXItems": "Ж_Cannot bulk restore more than ${number} items, please deselect a few items_______________________________________Я.",
+  "cannotBulkRestoreMultipleOwners": "Ж_Cannot bulk restore items that belong to different owners. Select items from a single owner to bulk restore_______________________________________________________Я.",
+  "toRestore": {
+    "single": "Ж_Item to Restore_________________Я:",
+    "multiple": "Ж_Items to Restore__________________Я:"
+  },
+  "cannotRestore": "Ж_Cannot restore________________Я:",
+  "dependentItems": {
+    "single": "Ж_This item cannot be restored because it is dependent on <strong style='font-weight: 500'>${parent}</strong>. Restore them together___________________________________________________________________Я.",
+    "multiple": "Ж_These items cannot be restored because they are dependent on other items in the recycle bin. Restore them together___________________________________________________________Я."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "Ж_${start} - ${end} of ${total} (${size}) in recycle bin____________________________Я",
+    "other": "Ж_${start} - ${end}, total: ${total} (${size}) in recycle bin_______________________________Я"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "Ж_${start} - ${end} of ${total} (>${size}) in recycle bin_____________________________Я",
+    "other": "Ж_${start} - ${end}, total: ${total} (>${size}) in recycle bin_______________________________Я"
+  }
+}

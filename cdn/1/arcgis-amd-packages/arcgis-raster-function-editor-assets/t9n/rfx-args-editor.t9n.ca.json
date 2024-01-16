@@ -1,0 +1,7 @@
+{
+  "unsupportedDataType": "Tipus no compatible",
+  "currentlyUnsupported": " Hi ha un editor predeterminat per a ${missingType}, estarà disponible properament. Quadre de text de marcador de posició temporal per especificar entrades basades en cadena.",
+  "unsupportedOverrideWarning": "Properament, hi haurà disponible un editor d'invalidació que oferirà una UX millor per treballar amb els paràmetres següents:",
+  "overrideWidgetMissing": "Falta un component de l'editor d'invalidació.",
+  "uiIncomplete": "No s'ha pogut enviar el treball. La funció no es pot executar perquè alguns dels camps necessaris no són compatibles o no apareixen a la UI."
+}

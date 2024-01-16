@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Abrir plantilla",
+  "addFunction": "",
+  "addConstant": "Agregar constante",
+  "addRaster": "",
+  "move": "Mover",
+  "zoom": "Zoom",
+  "expand": "Expandir",
+  "run": "Ejecutar",
+  "save": "Guardar",
+  "saveAs": "Guardar como",
+  "clear": "Borrar",
+  "close": "Cerrar",
+  "addRasterFunctionTitle": "Agregar funciones de ráster",
+  "templatePropertiesTitle": "Propiedades de plantilla",
+  "browseLayerDialogTitle": "Seleccionar ráster",
+  "browseRFT": "Examinar plantillas de función ráster"
+}

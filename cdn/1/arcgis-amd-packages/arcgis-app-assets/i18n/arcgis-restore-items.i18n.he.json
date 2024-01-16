@@ -1,0 +1,29 @@
+{
+  "back": "כן_Back_________ש",
+  "cancel": "כן_Cancel_____________ש",
+  "learnMore": "כן_Learn more_____________________ש",
+  "restore": "כן_Restore_______________ש",
+  "restoreTo": "כן_Restore to_____________________ש",
+  "restoreItem": "כן_Restore Item_____________ש",
+  "restoreItems": "כן_Restore Items______________ש",
+  "noticeMessage": "כן_Restored items will be unshared. Please review your content before sharing it again___________________________________________ש.",
+  "cannotBulkRestoreXItems": "כן_Cannot bulk restore more than ${number} items, please deselect a few items_______________________________________ש.",
+  "cannotBulkRestoreMultipleOwners": "כן_Cannot bulk restore items that belong to different owners. Select items from a single owner to bulk restore_______________________________________________________ש.",
+  "toRestore": {
+    "single": "כן_Item to Restore_________________ש:",
+    "multiple": "כן_Items to Restore__________________ש:"
+  },
+  "cannotRestore": "כן_Cannot restore________________ש:",
+  "dependentItems": {
+    "single": "כן_This item cannot be restored because it is dependent on <strong style='font-weight: 500'>${parent}</strong>. Restore them together___________________________________________________________________ש.",
+    "multiple": "כן_These items cannot be restored because they are dependent on other items in the recycle bin. Restore them together___________________________________________________________ש."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "כן_${start} - ${end} of ${total} (${size}) in recycle bin____________________________ש",
+    "other": "כן_${start} - ${end}, total: ${total} (${size}) in recycle bin_______________________________ש"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "כן_${start} - ${end} of ${total} (>${size}) in recycle bin_____________________________ש",
+    "other": "כן_${start} - ${end}, total: ${total} (>${size}) in recycle bin_______________________________ש"
+  }
+}

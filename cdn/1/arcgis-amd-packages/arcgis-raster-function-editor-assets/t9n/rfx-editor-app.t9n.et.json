@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Ava mall",
+  "addFunction": "",
+  "addConstant": "Lisa konstant",
+  "addRaster": "",
+  "move": "Teisalda",
+  "zoom": "Suumi",
+  "expand": "Laienda",
+  "run": "Käivita",
+  "save": "Salvesta",
+  "saveAs": "Salvesta nimega",
+  "clear": "Tühista",
+  "close": "Sule",
+  "addRasterFunctionTitle": "Lisa rasterfunktsioonid",
+  "templatePropertiesTitle": "Malli omadused",
+  "browseLayerDialogTitle": "Vali raster",
+  "browseRFT": "Sirvi rasterfunktsioonide malle"
+}

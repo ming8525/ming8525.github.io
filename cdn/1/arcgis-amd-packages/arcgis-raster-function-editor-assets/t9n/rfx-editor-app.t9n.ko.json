@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "템플릿 열기",
+  "addFunction": "",
+  "addConstant": "상수 추가",
+  "addRaster": "",
+  "move": "이동",
+  "zoom": "확대/축소",
+  "expand": "확장(Expand)",
+  "run": "실행",
+  "save": "저장",
+  "saveAs": "다른 이름으로 저장",
+  "clear": "선택 해제",
+  "close": "닫기",
+  "addRasterFunctionTitle": "래스터 함수 추가",
+  "templatePropertiesTitle": "템플릿 등록정보",
+  "browseLayerDialogTitle": "래스터 선택",
+  "browseRFT": "래스터 함수 템플릿 찾아보기"
+}

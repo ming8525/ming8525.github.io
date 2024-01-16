@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Apri modello",
+  "addFunction": "",
+  "addConstant": "Aggiungi costante",
+  "addRaster": "",
+  "move": "Sposta",
+  "zoom": "Zoom",
+  "expand": "Espandi",
+  "run": "Esegui",
+  "save": "Salva",
+  "saveAs": "Salvare come",
+  "clear": "Azzera",
+  "close": "Chiudi",
+  "addRasterFunctionTitle": "Aggiungi funzioni raster",
+  "templatePropertiesTitle": "Proprietà modello",
+  "browseLayerDialogTitle": "Seleziona raster",
+  "browseRFT": "Cercare modelli di funzione raster"
+}

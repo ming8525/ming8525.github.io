@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "テンプレートを開く",
+  "addFunction": "",
+  "addConstant": "定数の追加",
+  "addRaster": "",
+  "move": "移動",
+  "zoom": "ズーム",
+  "expand": "拡張",
+  "run": "実行",
+  "save": "保存",
+  "saveAs": "名前を付けて保存",
+  "clear": "消去",
+  "close": "閉じる",
+  "addRasterFunctionTitle": "ラスター関数の追加",
+  "templatePropertiesTitle": "テンプレート プロパティ",
+  "browseLayerDialogTitle": "ラスターの選択",
+  "browseRFT": "ラスター関数テンプレートの参照"
+}

@@ -1,0 +1,19 @@
+{
+  "newTemplate": "New template",
+  "openTemplate": "Open template",
+  "addFunction": "Add function",
+  "addConstant": "Add constant",
+  "addRaster": "Add raster",
+  "move": "Move",
+  "zoom": "Zoom",
+  "expand": "Expand",
+  "run": "Run",
+  "save": "Save",
+  "saveAs": "Save as",
+  "clear": "Clear",
+  "close": "Close",
+  "addRasterFunctionTitle": "Add raster functions",
+  "templatePropertiesTitle": "Template properties",
+  "browseLayerDialogTitle": "Select Raster",
+  "browseRFT": "Browse raster function templates"
+}

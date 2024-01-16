@@ -1,0 +1,14 @@
+{
+  "expandAll": "ก้_Expand all_____________________ษฺ",
+  "collapseAll": "ก้_Collapse all_____________ษฺ",
+  "categoryItem": {
+    "expand": "ก้_Expand_____________ษฺ",
+    "collapse": "ก้_Collapse_________________ษฺ",
+    "editCategory": "ก้_Edit category______________ษฺ",
+    "deleteCategory": "ก้_Delete category________________ษฺ",
+    "addSubcategory": "ก้_Add subcategory________________ษฺ",
+    "addCategory": "ก้_Add category_____________ษฺ",
+    "save": "ก้_Save_________ษฺ",
+    "cancel": "ก้_Cancel_____________ษฺ"
+  }
+}

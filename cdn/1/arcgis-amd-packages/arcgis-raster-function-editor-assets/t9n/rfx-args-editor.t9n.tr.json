@@ -1,0 +1,7 @@
+{
+  "unsupportedDataType": "Desteklenmeyen tür",
+  "currentlyUnsupported": " ${missingType} için varsayılan bir düzenleyici beklemededir ancak yakında kullanıma sunulacaktır. Dizi tabanlı girdileri belirtmek için geçici yer tutucu metin kutusu.",
+  "unsupportedOverrideWarning": "Aşağıdaki parametrelerle çalışırken daha iyi bir kullanıcı deneyimi sağlayan bir geçersiz kılma düzenleyici bileşeni beklemededir ancak yakında kullanıma sunulacaktır:",
+  "overrideWidgetMissing": "Geçersiz kılma düzenleyici bileşeni eksik!",
+  "uiIncomplete": "İş gönderimi başarısız oldu. Gerekli alanlardan bazıları eksik veya kullanıcı arayüzünde eksik olduğundan işlev çalıştırılamıyor."
+}

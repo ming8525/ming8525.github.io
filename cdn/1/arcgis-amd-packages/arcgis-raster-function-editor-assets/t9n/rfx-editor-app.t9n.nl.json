@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Sjabloon openen",
+  "addFunction": "",
+  "addConstant": "Constante toevoegen",
+  "addRaster": "",
+  "move": "Verplaatsen",
+  "zoom": "Zoomen",
+  "expand": "Uitklappen",
+  "run": "Uitvoeren",
+  "save": "Opslaan",
+  "saveAs": "Opslaan als",
+  "clear": "Wissen",
+  "close": "Sluiten",
+  "addRasterFunctionTitle": "Rasterfuncties toevoegen",
+  "templatePropertiesTitle": "Eigenschappen sjabloon",
+  "browseLayerDialogTitle": "Raster selecteren",
+  "browseRFT": "Door rasterfunctiesjablonen bladeren"
+}

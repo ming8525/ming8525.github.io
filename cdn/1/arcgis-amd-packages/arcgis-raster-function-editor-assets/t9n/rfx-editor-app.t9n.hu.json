@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Sablon megnyitása",
+  "addFunction": "",
+  "addConstant": "Állandó hozzáadása",
+  "addRaster": "",
+  "move": "Mozgatás",
+  "zoom": "Nagyítás/kicsinyítés",
+  "expand": "Kibontás",
+  "run": "Futtatás",
+  "save": "Mentés",
+  "saveAs": "Mentés másként",
+  "clear": "Törlés",
+  "close": "Bezárás",
+  "addRasterFunctionTitle": "Raszterfunkciók hozzáadása",
+  "templatePropertiesTitle": "Sablon tulajdonságai",
+  "browseLayerDialogTitle": "Raszer kiválasztás",
+  "browseRFT": "Raszterfüggvénysablonok tallózása"
+}

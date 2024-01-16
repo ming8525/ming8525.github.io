@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Åpne mal",
+  "addFunction": "",
+  "addConstant": "Legg til konstant",
+  "addRaster": "",
+  "move": "Flytt",
+  "zoom": "Zoom",
+  "expand": "Utvid",
+  "run": "Kjør",
+  "save": "Lagre",
+  "saveAs": "Lagre som",
+  "clear": "Fjern",
+  "close": "Lukk",
+  "addRasterFunctionTitle": "Legg til rasterfunksjoner",
+  "templatePropertiesTitle": "Egenskaper for mal",
+  "browseLayerDialogTitle": "Velg raster",
+  "browseRFT": "Bla gjennom rasterfunksjonsmaler"
+}

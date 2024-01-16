@@ -1,0 +1,14 @@
+{
+  "expandAll": "بيت_Expand all_____________________لاحقة",
+  "collapseAll": "بيت_Collapse all_____________لاحقة",
+  "categoryItem": {
+    "expand": "بيت_Expand_____________لاحقة",
+    "collapse": "بيت_Collapse_________________لاحقة",
+    "editCategory": "بيت_Edit category______________لاحقة",
+    "deleteCategory": "بيت_Delete category________________لاحقة",
+    "addSubcategory": "بيت_Add subcategory________________لاحقة",
+    "addCategory": "بيت_Add category_____________لاحقة",
+    "save": "بيت_Save_________لاحقة",
+    "cancel": "بيت_Cancel_____________لاحقة"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unsupportedDataType": "Nepalaikomas tipas",
+  "currentlyUnsupported": " Numatytoji ${missingType} rengyklė – jau netrukus. Laikinas rezervuotos vietos teksto laukelis, skirtas nurodyti eilutes pagal įvestis.",
+  "unsupportedOverrideWarning": "Jau netrukus bus pristatytas perdarytas rengyklės komponentas, suteikiantis geresnę naudotojo sąsają dirbant su šiais parametrais (-ais):",
+  "overrideWidgetMissing": "Trūksta perdaryto rengyklės komponento!",
+  "uiIncomplete": "Nepavyko pateikti užduoties. Funkcijos paleisti negalima, nes kai kurie privalomi laukai yra neužpildyti arba jų nėra naudotojo sąsajoje."
+}

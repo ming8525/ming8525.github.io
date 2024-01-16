@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Otvorite šablon",
+  "addFunction": "",
+  "addConstant": "Dodajte konstantu",
+  "addRaster": "",
+  "move": "Premesti",
+  "zoom": "Zumiranje",
+  "expand": "Proširi",
+  "run": "Pokreni",
+  "save": "Sačuvaj",
+  "saveAs": "Sačuvaj kao",
+  "clear": "Obriši",
+  "close": "Zatvori",
+  "addRasterFunctionTitle": "Dodajte rasterske funkcije",
+  "templatePropertiesTitle": "Svojstva šablona",
+  "browseLayerDialogTitle": "Izaberite raster",
+  "browseRFT": "Pregled šablona rasterske funkcije"
+}

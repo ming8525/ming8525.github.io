@@ -1,0 +1,16 @@
+{
+  "sketches": "Обекти за скициране",
+  "actions": "й_Actions_______________й",
+  "edit": "Редактиране",
+  "duplicate": "й_Duplicate___________________й",
+  "addToNewSketch": "й_Add to new sketch__________________й",
+  "delete": "й_Delete_____________й",
+  "addSketch": "Добавяне на обект",
+  "textPreview": "й_A___й",
+  "point": "Точка",
+  "line": "Линия",
+  "polygon": "Полигон",
+  "text": "Текст",
+  "collapse": "Сгъване",
+  "expand": "Разгъване"
+}

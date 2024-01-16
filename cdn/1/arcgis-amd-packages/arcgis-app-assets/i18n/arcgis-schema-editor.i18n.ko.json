@@ -1,0 +1,14 @@
+{
+  "expandAll": "한_Expand all_____________________빠",
+  "collapseAll": "한_Collapse all_____________빠",
+  "categoryItem": {
+    "expand": "한_Expand_____________빠",
+    "collapse": "한_Collapse_________________빠",
+    "editCategory": "한_Edit category______________빠",
+    "deleteCategory": "한_Delete category________________빠",
+    "addSubcategory": "한_Add subcategory________________빠",
+    "addCategory": "한_Add category_____________빠",
+    "save": "한_Save_________빠",
+    "cancel": "한_Cancel_____________빠"
+  }
+}

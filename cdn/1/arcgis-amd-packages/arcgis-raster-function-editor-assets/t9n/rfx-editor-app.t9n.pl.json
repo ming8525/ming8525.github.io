@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Otwórz szablon",
+  "addFunction": "",
+  "addConstant": "Dodaj stałą",
+  "addRaster": "",
+  "move": "Przenieś",
+  "zoom": "Powiększ",
+  "expand": "Rozszerzanie",
+  "run": "Uruchom",
+  "save": "Zapisz",
+  "saveAs": "Zapisz jako",
+  "clear": "Wyczyść",
+  "close": "Zamknij",
+  "addRasterFunctionTitle": "Dodaj funkcje rastrowe",
+  "templatePropertiesTitle": "Właściwości szablonu",
+  "browseLayerDialogTitle": "Wybierz raster",
+  "browseRFT": "Przeglądaj szablony funkcji rastrowych"
+}

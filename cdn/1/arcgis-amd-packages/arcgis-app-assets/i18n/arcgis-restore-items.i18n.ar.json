@@ -1,0 +1,29 @@
+{
+  "back": "بيت_Back_________لاحقة",
+  "cancel": "بيت_Cancel_____________لاحقة",
+  "learnMore": "بيت_Learn more_____________________لاحقة",
+  "restore": "بيت_Restore_______________لاحقة",
+  "restoreTo": "بيت_Restore to_____________________لاحقة",
+  "restoreItem": "بيت_Restore Item_____________لاحقة",
+  "restoreItems": "بيت_Restore Items______________لاحقة",
+  "noticeMessage": "بيت_Restored items will be unshared. Please review your content before sharing it again___________________________________________لاحقة.",
+  "cannotBulkRestoreXItems": "بيت_Cannot bulk restore more than ${number} items, please deselect a few items_______________________________________لاحقة.",
+  "cannotBulkRestoreMultipleOwners": "بيت_Cannot bulk restore items that belong to different owners. Select items from a single owner to bulk restore_______________________________________________________لاحقة.",
+  "toRestore": {
+    "single": "بيت_Item to Restore_________________لاحقة:",
+    "multiple": "بيت_Items to Restore__________________لاحقة:"
+  },
+  "cannotRestore": "بيت_Cannot restore________________لاحقة:",
+  "dependentItems": {
+    "single": "بيت_This item cannot be restored because it is dependent on <strong style='font-weight: 500'>${parent}</strong>. Restore them together___________________________________________________________________لاحقة.",
+    "multiple": "بيت_These items cannot be restored because they are dependent on other items in the recycle bin. Restore them together___________________________________________________________لاحقة."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "بيت_${start} - ${end} of ${total} (${size}) in recycle bin____________________________لاحقة",
+    "other": "بيت_${start} - ${end}, total: ${total} (${size}) in recycle bin_______________________________لاحقة"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "بيت_${start} - ${end} of ${total} (>${size}) in recycle bin_____________________________لاحقة",
+    "other": "بيت_${start} - ${end}, total: ${total} (>${size}) in recycle bin_______________________________لاحقة"
+  }
+}

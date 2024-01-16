@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Otevřít šablonu",
+  "addFunction": "",
+  "addConstant": "Přidat konstantu",
+  "addRaster": "",
+  "move": "Přesunout",
+  "zoom": "Přiblížení",
+  "expand": "Rozšířit",
+  "run": "Spustit",
+  "save": "Uložit",
+  "saveAs": "Uložit jako",
+  "clear": "Vymazat",
+  "close": "Zavřít",
+  "addRasterFunctionTitle": "Přidat rastrové funkce",
+  "templatePropertiesTitle": "Vlastnosti šablony",
+  "browseLayerDialogTitle": "Vybrat rastr",
+  "browseRFT": "Procházet šablony rastrových funkcí"
+}

@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Atvērt veidni",
+  "addFunction": "",
+  "addConstant": "Pievienot konstanti",
+  "addRaster": "",
+  "move": "Pārvietot",
+  "zoom": "Tālummaiņa",
+  "expand": "Izvērst",
+  "run": "Palaist",
+  "save": "Saglabāt",
+  "saveAs": "Saglabāt kā",
+  "clear": "Notīrīt",
+  "close": "Aizvērt",
+  "addRasterFunctionTitle": "Pievienot rastra funkcijas",
+  "templatePropertiesTitle": "Veidnes rekvizīti",
+  "browseLayerDialogTitle": "Atlasīt rastru",
+  "browseRFT": "Pārlūkot rastra funkciju veidnes"
+}

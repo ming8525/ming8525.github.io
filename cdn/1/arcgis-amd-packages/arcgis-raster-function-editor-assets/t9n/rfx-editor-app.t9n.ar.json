@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "فتح قالب",
+  "addFunction": "",
+  "addConstant": "إضافة ثابت",
+  "addRaster": "",
+  "move": "تحريك",
+  "zoom": "تغيير مقياس الرسم",
+  "expand": "توسيع",
+  "run": "تشغيل",
+  "save": "حفظ",
+  "saveAs": "حفظ باسم",
+  "clear": "مسح",
+  "close": "إغلاق",
+  "addRasterFunctionTitle": "إضافة دوال البيانات النقطية",
+  "templatePropertiesTitle": "خصائص القالب",
+  "browseLayerDialogTitle": "تحديد البيانات النقطية",
+  "browseRFT": "تصفح قوالب دالة البيانات النقطية"
+}

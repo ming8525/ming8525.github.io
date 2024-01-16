@@ -1,0 +1,6 @@
+{
+  "header": "",
+  "content": "Você tem alterações não salvas em ${rftTitle}. Se você recomeçar com um novo modelo, essas alterações serão perdidas.",
+  "cancel": "Cancelar",
+  "continue": "Continuar"
+}

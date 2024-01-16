@@ -1,0 +1,14 @@
+{
+  "expandAll": "Đ_Expand all_____________________ớ",
+  "collapseAll": "Đ_Collapse all_____________ớ",
+  "categoryItem": {
+    "expand": "Đ_Expand_____________ớ",
+    "collapse": "Đ_Collapse_________________ớ",
+    "editCategory": "Đ_Edit category______________ớ",
+    "deleteCategory": "Đ_Delete category________________ớ",
+    "addSubcategory": "Đ_Add subcategory________________ớ",
+    "addCategory": "Đ_Add category_____________ớ",
+    "save": "Đ_Save_________ớ",
+    "cancel": "Đ_Cancel_____________ớ"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Atidaryti šabloną",
+  "addFunction": "",
+  "addConstant": "Pridėti konstantą",
+  "addRaster": "",
+  "move": "Perkelti",
+  "zoom": "Didinti",
+  "expand": "Išskleisti",
+  "run": "Vykdyti",
+  "save": "Išsaugoti",
+  "saveAs": "Įrašyti kaip",
+  "clear": "Valyti",
+  "close": "Uždaryti",
+  "addRasterFunctionTitle": "Įtraukti rastrų funkcijas",
+  "templatePropertiesTitle": "Šablono savybės",
+  "browseLayerDialogTitle": "Pasirinkite rastrą",
+  "browseRFT": "Naršyti rastrų funkcijų šablonus"
+}

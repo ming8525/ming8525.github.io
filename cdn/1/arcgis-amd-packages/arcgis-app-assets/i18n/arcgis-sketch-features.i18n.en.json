@@ -1,0 +1,16 @@
+{
+  "sketches": "Sketch features",
+  "actions": "Actions",
+  "edit": "Edit",
+  "duplicate": "Duplicate",
+  "addToNewSketch": "Add to new sketch",
+  "delete": "Delete",
+  "addSketch": "Add feature",
+  "textPreview": "A",
+  "point": "Point",
+  "line": "Line",
+  "polygon": "Polygon",
+  "text": "Text",
+  "collapse": "Collapse",
+  "expand": "Expand"
+}

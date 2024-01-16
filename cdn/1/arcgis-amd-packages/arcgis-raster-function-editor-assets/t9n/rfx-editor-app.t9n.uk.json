@@ -1,0 +1,19 @@
+{
+  "newTemplate": "",
+  "openTemplate": "Відкрити шаблон",
+  "addFunction": "",
+  "addConstant": "Додати константу",
+  "addRaster": "",
+  "move": "Перемістити",
+  "zoom": "Масштабування",
+  "expand": "Розширити",
+  "run": "Запустити",
+  "save": "Зберегти",
+  "saveAs": "Зберегти як",
+  "clear": "Очистити",
+  "close": "Закрити",
+  "addRasterFunctionTitle": "Додати функції растру",
+  "templatePropertiesTitle": "Властивості шаблону",
+  "browseLayerDialogTitle": "Вибрати растр",
+  "browseRFT": "Перегляд шаблонів растрових функцій"
+}

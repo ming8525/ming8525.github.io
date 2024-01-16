@@ -1,0 +1,29 @@
+{
+  "back": "Đ_Back_________ớ",
+  "cancel": "Đ_Cancel_____________ớ",
+  "learnMore": "Đ_Learn more_____________________ớ",
+  "restore": "Đ_Restore_______________ớ",
+  "restoreTo": "Đ_Restore to_____________________ớ",
+  "restoreItem": "Đ_Restore Item_____________ớ",
+  "restoreItems": "Đ_Restore Items______________ớ",
+  "noticeMessage": "Đ_Restored items will be unshared. Please review your content before sharing it again___________________________________________ớ.",
+  "cannotBulkRestoreXItems": "Đ_Cannot bulk restore more than ${number} items, please deselect a few items_______________________________________ớ.",
+  "cannotBulkRestoreMultipleOwners": "Đ_Cannot bulk restore items that belong to different owners. Select items from a single owner to bulk restore_______________________________________________________ớ.",
+  "toRestore": {
+    "single": "Đ_Item to Restore_________________ớ:",
+    "multiple": "Đ_Items to Restore__________________ớ:"
+  },
+  "cannotRestore": "Đ_Cannot restore________________ớ:",
+  "dependentItems": {
+    "single": "Đ_This item cannot be restored because it is dependent on <strong style='font-weight: 500'>${parent}</strong>. Restore them together___________________________________________________________________ớ.",
+    "multiple": "Đ_These items cannot be restored because they are dependent on other items in the recycle bin. Restore them together___________________________________________________________ớ."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "Đ_${start} - ${end} of ${total} (${size}) in recycle bin____________________________ớ",
+    "other": "Đ_${start} - ${end}, total: ${total} (${size}) in recycle bin_______________________________ớ"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "Đ_${start} - ${end} of ${total} (>${size}) in recycle bin_____________________________ớ",
+    "other": "Đ_${start} - ${end}, total: ${total} (>${size}) in recycle bin_______________________________ớ"
+  }
+}
