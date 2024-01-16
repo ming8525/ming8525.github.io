@@ -1,1 +1,3 @@
-System.register([],(function(e){return{execute:function(){e({layerIsNotSupported:"Este tipo de camada não tem suporte."})}}}));
+System.register([], function (_export) {return {execute: function () {_export({
+  layerIsNotSupported: 'Este tipo de camada não tem suporte.'
+})}}});

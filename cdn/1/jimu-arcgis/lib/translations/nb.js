@@ -1,1 +1,3 @@
-System.register([],(function(e){return{execute:function(){e({layerIsNotSupported:"Denne lagtypen støttes ikke."})}}}));
+System.register([], function (_export) {return {execute: function () {_export({
+  layerIsNotSupported: 'Denne lagtypen støttes ikke.'
+})}}});

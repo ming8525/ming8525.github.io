@@ -1,1 +1,3 @@
-System.register([],(function(e){return{execute:function(){e({layerIsNotSupported:"Tento typ vrstvy nie je podporovaný."})}}}));
+System.register([], function (_export) {return {execute: function () {_export({
+  layerIsNotSupported: 'Tento typ vrstvy nie je podporovaný.'
+})}}});

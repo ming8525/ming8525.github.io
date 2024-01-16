@@ -1,1 +1,1 @@
-define(["exports","./_baseIsEqual-422e05a5"],(function(e,s){"use strict";e.isEqual=function(e,u){return s.baseIsEqual(e,u)}}));
+define(["exports","./_baseIsEqual-422e05a5"],(function(exports,_baseIsEqual){"use strict";function isEqual(value,other){return _baseIsEqual.baseIsEqual(value,other)}exports.isEqual=isEqual}));

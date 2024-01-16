@@ -16,37 +16,37 @@
     "layout_0": {
       "type": "FIXED",
       "content": {
-        "0": {
+        "1": {
           "type": "WIDGET",
-          "widgetId": "widget_1",
+          "widgetId": "widget_2",
           "bbox": {
             "left": "0.0%",
-            "right": "50.0%",
-            "top": "-0.1%",
+            "right": "48.3%",
+            "top": "0.0%",
             "bottom": "0.0%",
-            "width": "50.0%",
-            "height": "100.1%"
+            "width": "50.00%",
+            "height": "100.0%"
           },
           "setting": {
             "autoProps": {
               "left": false,
               "right": true,
-              "top": false,
-              "bottom": true
+              "top": true,
+              "bottom": false
             },
             "vCenter": false,
             "hCenter": false
           }
         },
-        "1": {
+        "2": {
           "type": "WIDGET",
-          "widgetId": "widget_2",
+          "widgetId": "widget_3",
           "bbox": {
-            "left": "50.0%",
+            "left": "51.6%",
             "right": "0.0%",
             "top": "0.0%",
             "bottom": "0.0%",
-            "width": "50.0%",
+            "width": "50.00%",
             "height": "100.0%"
           },
           "setting": {
@@ -55,13 +55,15 @@
               "left": true,
               "top": true,
               "bottom": false
-            }
+            },
+            "vCenter": false,
+            "hCenter": false
           }
         }
       },
       "order": [
-        "0",
-        "1"
+        "1",
+        "2"
       ]
     },
     "layout_1": {
@@ -78,7 +80,7 @@
   },
   "template": "blankfullscreen",
   "widgets": {
-    "widget_1": {
+    "widget_2": {
       "uri": "widgets/arcgis/arcgis-map/",
       "version": "1.14.0",
       "label": "Map",
@@ -96,26 +98,29 @@
             "scale": 288895.277144,
             "targetGeometry": {
               "spatialReference": {
+                "latestWkid": 3857,
                 "wkid": 102100
               },
-              "x": -9756934.21354063,
-              "y": 5144976.902414719
+              "x": -9760267.823081205,
+              "y": 5140421.477889442
             }
           },
           "extent": {
             "spatialReference": {
+              "latestWkid": 3857,
               "wkid": 102100
             },
-            "xmin": -9781394.062591854,
-            "ymin": 5114363.8725865465,
-            "xmax": -9732474.364489406,
-            "ymax": 5175589.932242891
+            "xmin": -9785492.042415278,
+            "ymin": 5120586.0690494655,
+            "xmax": -9735043.603747131,
+            "ymax": 5160256.886729418
           },
           "rotation": 0,
           "viewType": "2d"
-        }
+        },
+        "initialMapDataSourceID": "dataSource_1"
       },
-      "id": "widget_1",
+      "id": "widget_2",
       "layouts": {
         "MapFixedLayout": {
           "LARGE": "layout_1"
@@ -123,12 +128,12 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2",
-          "mainDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
         }
       ]
     },
-    "widget_2": {
+    "widget_3": {
       "uri": "widgets/common/chart/",
       "version": "1.14.0",
       "label": "Chart",
@@ -136,7 +141,6 @@
         "tools": {
           "cursorEnable": true
         },
-        "template": "column",
         "webChart": {
           "version": "7.3.1",
           "id": "column",
@@ -158,7 +162,7 @@
               ],
               "where": ""
             },
-            "mapid": "widget_1"
+            "mapid": "widget_2"
           },
           "sortLabelsBy": "originalValue",
           "rotated": false,
@@ -390,14 +394,15 @@
             },
             "position": "right"
           }
-        }
+        },
+        "template": "column"
       },
-      "id": "widget_2",
+      "id": "widget_3",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-ChicagoCr_2518",
-          "mainDataSourceId": "dataSource_2-ChicagoCr_2518",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_1-ChicagoCr_2518",
+          "mainDataSourceId": "dataSource_1-ChicagoCr_2518",
+          "rootDataSourceId": "dataSource_1",
           "fields": [
             "Year",
             "FID"
@@ -405,7 +410,7 @@
         }
       ],
       "outputDataSources": [
-        "widget_2_ouput"
+        "widget_3_ouput"
       ]
     }
   },
@@ -421,8 +426,8 @@
       "itemId": "f41763f3ec144ac4b771c7b8d17cca11",
       "portalUrl": "https://esridevbeijing.maps.arcgis.com"
     },
-    "widget_2_ouput": {
-      "id": "widget_2_ouput",
+    "widget_3_ouput": {
+      "id": "widget_3_ouput",
       "type": "FEATURE_LAYER",
       "label": "Chart statistics",
       "originDataSources": [
@@ -446,13 +451,6 @@
           }
         }
       }
-    },
-    "dataSource_2": {
-      "id": "dataSource_2",
-      "type": "WEB_MAP",
-      "sourceLabel": "Chart split field",
-      "itemId": "7b8a70a9c6124352a8ac7596af149ecd",
-      "portalUrl": "https://www.arcgis.com"
     }
   },
   "messageConfigs": {},
@@ -494,5 +492,5 @@
       "page_0": []
     }
   ],
-  "timestamp": 1705384032614
+  "timestamp": 1705385185904
 }

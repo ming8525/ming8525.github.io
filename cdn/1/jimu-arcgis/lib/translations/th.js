@@ -1,1 +1,3 @@
-System.register([],(function(e){return{execute:function(){e({layerIsNotSupported:"ระบบไม่รองรับประเภทชั้นข้อมูลนี้"})}}}));
+System.register([], function (_export) {return {execute: function () {_export({
+  layerIsNotSupported: 'ระบบไม่รองรับประเภทชั้นข้อมูลนี้'
+})}}});

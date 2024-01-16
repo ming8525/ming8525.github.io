@@ -1,1 +1,3 @@
-System.register([],(function(e){return{execute:function(){e({layerIsNotSupported:"Цей тип шару не підтримується."})}}}));
+System.register([], function (_export) {return {execute: function () {_export({
+  layerIsNotSupported: 'Цей тип шару не підтримується.'
+})}}});

@@ -1,1 +1,1 @@
-define(["exports","./isObject-072a0200"],(function(e,t){"use strict";e.isSymbol=function(e){return"symbol"==typeof e||t.isObjectLike(e)&&"[object Symbol]"==t.baseGetTag(e)}}));
+define(["exports","./isObject-072a0200"],(function(exports,isObject){"use strict";var symbolTag="[object Symbol]";function isSymbol(value){return typeof value=="symbol"||isObject.isObjectLike(value)&&isObject.baseGetTag(value)==symbolTag}exports.isSymbol=isSymbol}));

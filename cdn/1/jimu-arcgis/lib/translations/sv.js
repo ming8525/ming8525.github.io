@@ -1,1 +1,3 @@
-System.register([],(function(e){return{execute:function(){e({layerIsNotSupported:"Den här lagertypen stöds inte."})}}}));
+System.register([], function (_export) {return {execute: function () {_export({
+  layerIsNotSupported: 'Den här lagertypen stöds inte.'
+})}}});

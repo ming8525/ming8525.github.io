@@ -1,1 +1,17 @@
-define(["exports"],(function(_){"use strict";const e={mean:"المتوسط",median:"متوسط",sum:"مجموع",discretePercentitle:"النسبة المئوية المنفصلة",minimum:"الحد الأدنى",maximum:"الحد الأقصى",variance:"تنوع",count:"عدد",aggregation:"${ statistics } من ${ fieldName }",noAggregation:"لا يوجد تجميع"},t="الرسم البياني",a="سلسلة العدد",s="محور س",i="غير مرئي",n={start:"انطباق على نقطة البيانات الأولى",end:"انطباق على نقطة البيانات الأخيرة"},o="لا توجد بيانات متاحة للعرض بسبب حقل (حقول) البيانات الفارغة أو مجموعة المرشحات أو كلتيهما.",r="بيت_Filter by selection is enabled. There are no selected features to display______________________________________لاحقة.",l="بيت_Filter by extent is enabled. There are no features in the map extent to display_________________________________________لاحقة.";var g={statistics:e,defaultTitle:t,countSeries:a,xAxis:s,notAvailable:i,timeAggregationTypes:n,noDataMessage:o,noDataFBSMessage:r,noDataFBEMessage:l};_.countSeries=a,_.default=g,_.defaultTitle=t,_.noDataFBEMessage=l,_.noDataFBSMessage=r,_.noDataMessage=o,_.notAvailable=i,_.statistics=e,_.timeAggregationTypes=n,_.xAxis=s}));
+define(['exports'], (function (exports) { 'use strict';
+
+	const statistics={mean:"المتوسط",median:"متوسط",sum:"مجموع",discretePercentitle:"النسبة المئوية المنفصلة",minimum:"الحد الأدنى",maximum:"الحد الأقصى",variance:"تنوع",count:"عدد",aggregation:"${ statistics } من ${ fieldName }",noAggregation:"لا يوجد تجميع"};const defaultTitle="الرسم البياني";const countSeries="سلسلة العدد";const xAxis="محور س";const notAvailable="غير مرئي";const timeAggregationTypes={start:"انطباق على نقطة البيانات الأولى",end:"انطباق على نقطة البيانات الأخيرة"};const noDataMessage="لا توجد بيانات متاحة للعرض بسبب حقل (حقول) البيانات الفارغة أو مجموعة المرشحات أو كلتيهما.";const noDataFBSMessage="بيت_Filter by selection is enabled. There are no selected features to display______________________________________لاحقة.";const noDataFBEMessage="بيت_Filter by extent is enabled. There are no features in the map extent to display_________________________________________لاحقة.";var common_t9n_ar={statistics,defaultTitle,countSeries,xAxis,notAvailable,timeAggregationTypes,noDataMessage,noDataFBSMessage,noDataFBEMessage};
+
+	exports.countSeries = countSeries;
+	exports["default"] = common_t9n_ar;
+	exports.defaultTitle = defaultTitle;
+	exports.noDataFBEMessage = noDataFBEMessage;
+	exports.noDataFBSMessage = noDataFBSMessage;
+	exports.noDataMessage = noDataMessage;
+	exports.notAvailable = notAvailable;
+	exports.statistics = statistics;
+	exports.timeAggregationTypes = timeAggregationTypes;
+	exports.xAxis = xAxis;
+
+}));
+//# sourceMappingURL=common.t9n.ar-ea8bf1cd-8d690057.js.map

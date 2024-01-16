@@ -1,1 +1,3 @@
-System.register([],(function(e){return{execute:function(){e({layerIsNotSupported:"نوع هذه الطبقة غير مدعوم."})}}}));
+System.register([], function (_export) {return {execute: function () {_export({
+  layerIsNotSupported: 'نوع هذه الطبقة غير مدعوم.'
+})}}});

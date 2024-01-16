@@ -1,1 +1,3 @@
-System.register([],(function(t){return{execute:function(){t({layerIsNotSupported:"A rétegtípus nem támogatott."})}}}));
+System.register([], function (_export) {return {execute: function () {_export({
+  layerIsNotSupported: 'A rétegtípus nem támogatott.'
+})}}});

@@ -1,1 +1,17 @@
-define(["exports"],(function(_){"use strict";const e={mean:"平均",median:"中央値",sum:"合計",discretePercentitle:"不連続パーセンタイル",minimum:"最小",maximum:"最大",variance:"分散",count:"個数",aggregation:"${ fieldName } の ${ statistics }",noAggregation:"集約なし"},t="チャート",a="シリーズ数",s="利用不可",i={start:"最初のデータ ポイントにスナップ",end:"最後のデータ ポイントにスナップ"},n="データ フィールドが空であるかフィルターの組み合わせのために、表示できるデータがありません。",o="須_Filter by selection is enabled. There are no selected features to display______________________________________鷗.",r="須_Filter by extent is enabled. There are no features in the map extent to display_________________________________________鷗.";var l={statistics:e,defaultTitle:t,countSeries:a,xAxis:"X 軸",notAvailable:s,timeAggregationTypes:i,noDataMessage:n,noDataFBSMessage:o,noDataFBEMessage:r};_.countSeries=a,_.default=l,_.defaultTitle=t,_.noDataFBEMessage=r,_.noDataFBSMessage=o,_.noDataMessage=n,_.notAvailable=s,_.statistics=e,_.timeAggregationTypes=i,_.xAxis="X 軸"}));
+define(['exports'], (function (exports) { 'use strict';
+
+	const statistics={mean:"平均",median:"中央値",sum:"合計",discretePercentitle:"不連続パーセンタイル",minimum:"最小",maximum:"最大",variance:"分散",count:"個数",aggregation:"${ fieldName } の ${ statistics }",noAggregation:"集約なし"};const defaultTitle="チャート";const countSeries="シリーズ数";const xAxis="X 軸";const notAvailable="利用不可";const timeAggregationTypes={start:"最初のデータ ポイントにスナップ",end:"最後のデータ ポイントにスナップ"};const noDataMessage="データ フィールドが空であるかフィルターの組み合わせのために、表示できるデータがありません。";const noDataFBSMessage="須_Filter by selection is enabled. There are no selected features to display______________________________________鷗.";const noDataFBEMessage="須_Filter by extent is enabled. There are no features in the map extent to display_________________________________________鷗.";var common_t9n_ja={statistics,defaultTitle,countSeries,xAxis,notAvailable,timeAggregationTypes,noDataMessage,noDataFBSMessage,noDataFBEMessage};
+
+	exports.countSeries = countSeries;
+	exports["default"] = common_t9n_ja;
+	exports.defaultTitle = defaultTitle;
+	exports.noDataFBEMessage = noDataFBEMessage;
+	exports.noDataFBSMessage = noDataFBSMessage;
+	exports.noDataMessage = noDataMessage;
+	exports.notAvailable = notAvailable;
+	exports.statistics = statistics;
+	exports.timeAggregationTypes = timeAggregationTypes;
+	exports.xAxis = xAxis;
+
+}));
+//# sourceMappingURL=common.t9n.ja-5d878680-6498f7c5.js.map

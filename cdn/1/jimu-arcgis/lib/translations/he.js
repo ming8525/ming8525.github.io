@@ -1,1 +1,3 @@
-System.register([],(function(e){return{execute:function(){e({layerIsNotSupported:"סוג שכבה זה אינו נתמך."})}}}));
+System.register([], function (_export) {return {execute: function () {_export({
+  layerIsNotSupported: 'סוג שכבה זה אינו נתמך.'
+})}}});

@@ -1,1 +1,3 @@
-System.register([],(function(e){return{execute:function(){e({layerIsNotSupported:"Ten typ warstwy nie jest obsługiwany."})}}}));
+System.register([], function (_export) {return {execute: function () {_export({
+  layerIsNotSupported: 'Ten typ warstwy nie jest obsługiwany.'
+})}}});

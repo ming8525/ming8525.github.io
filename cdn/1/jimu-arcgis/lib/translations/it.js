@@ -1,1 +1,3 @@
-System.register([],(function(t){return{execute:function(){t({layerIsNotSupported:"Questo tipo di layer non è supportato."})}}}));
+System.register([], function (_export) {return {execute: function () {_export({
+  layerIsNotSupported: 'Questo tipo di layer non è supportato.'
+})}}});

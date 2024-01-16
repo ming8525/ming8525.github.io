@@ -1,1 +1,3 @@
-System.register([],(function(e){return{execute:function(){e({layerIsNotSupported:"Šis sluoksnio tipas nepalaikomas."})}}}));
+System.register([], function (_export) {return {execute: function () {_export({
+  layerIsNotSupported: 'Šis sluoksnio tipas nepalaikomas.'
+})}}});

@@ -1,1 +1,1 @@
-define(["exports"],(function(t){"use strict";let n;t.getStrings=function(){if(void 0===n)throw new Error("Translation strings are not loaded.");return n},t.setStrings=function(t){n=t}}));
+define(["exports"],(function(exports){"use strict";let strings;function setStrings(newStrings){strings=newStrings}function getStrings(){if(strings===undefined){throw new Error("Translation strings are not loaded.")}return strings}exports.getStrings=getStrings;exports.setStrings=setStrings}));

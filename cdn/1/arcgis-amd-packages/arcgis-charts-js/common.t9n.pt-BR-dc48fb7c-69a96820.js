@@ -1,1 +1,17 @@
-define(["exports"],(function(e){"use strict";const _={mean:"Médio",median:"Mediana",sum:"Soma",discretePercentitle:"Percentil discreto",minimum:"Mínimo",maximum:"Máximo",variance:"Variância",count:"Contagem",aggregation:"${ statistics } de ${ fieldName }",noAggregation:"Sem agregação"},a="Gráfico",t="Séries de contagem",i="Eixo X",o="Não Disponível",s={start:"Ajustar ao primeiro ponto de dados",end:"Ajustar ao útimo ponto de dados"},n="Nenhum dado está disponível para exibição devido aos campos de dados vazios e/ou combinação de filtros.",d="ã_Filter by selection is enabled. There are no selected features to display______________________________________Ç.",r="ã_Filter by extent is enabled. There are no features in the map extent to display_________________________________________Ç.";var m={statistics:_,defaultTitle:a,countSeries:t,xAxis:i,notAvailable:o,timeAggregationTypes:s,noDataMessage:n,noDataFBSMessage:d,noDataFBEMessage:r};e.countSeries=t,e.default=m,e.defaultTitle=a,e.noDataFBEMessage=r,e.noDataFBSMessage=d,e.noDataMessage=n,e.notAvailable=o,e.statistics=_,e.timeAggregationTypes=s,e.xAxis=i}));
+define(['exports'], (function (exports) { 'use strict';
+
+	const statistics={mean:"Médio",median:"Mediana",sum:"Soma",discretePercentitle:"Percentil discreto",minimum:"Mínimo",maximum:"Máximo",variance:"Variância",count:"Contagem",aggregation:"${ statistics } de ${ fieldName }",noAggregation:"Sem agregação"};const defaultTitle="Gráfico";const countSeries="Séries de contagem";const xAxis="Eixo X";const notAvailable="Não Disponível";const timeAggregationTypes={start:"Ajustar ao primeiro ponto de dados",end:"Ajustar ao útimo ponto de dados"};const noDataMessage="Nenhum dado está disponível para exibição devido aos campos de dados vazios e/ou combinação de filtros.";const noDataFBSMessage="ã_Filter by selection is enabled. There are no selected features to display______________________________________Ç.";const noDataFBEMessage="ã_Filter by extent is enabled. There are no features in the map extent to display_________________________________________Ç.";var common_t9n_ptBR={statistics,defaultTitle,countSeries,xAxis,notAvailable,timeAggregationTypes,noDataMessage,noDataFBSMessage,noDataFBEMessage};
+
+	exports.countSeries = countSeries;
+	exports["default"] = common_t9n_ptBR;
+	exports.defaultTitle = defaultTitle;
+	exports.noDataFBEMessage = noDataFBEMessage;
+	exports.noDataFBSMessage = noDataFBSMessage;
+	exports.noDataMessage = noDataMessage;
+	exports.notAvailable = notAvailable;
+	exports.statistics = statistics;
+	exports.timeAggregationTypes = timeAggregationTypes;
+	exports.xAxis = xAxis;
+
+}));
+//# sourceMappingURL=common.t9n.pt-BR-dc48fb7c-69a96820.js.map

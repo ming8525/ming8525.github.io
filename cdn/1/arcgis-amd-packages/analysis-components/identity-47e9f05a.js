@@ -1,1 +1,1 @@
-define(["exports"],(function(t){"use strict";t.identity=function(t){return t}}));
+define(["exports"],(function(exports){"use strict";function identity(value){return value}exports.identity=identity}));
