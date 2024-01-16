@@ -1,0 +1,149 @@
+{
+  "deleteItem": "試_Delete item____________驗",
+  "deleteItems": "試_Delete items_____________驗",
+  "deleteFolder": "試_Delete folder______________驗",
+  "recycleBin": "試_Recycle bin____________驗",
+  "delete": "試_Delete_____________驗",
+  "permanentlyDelete": "試_Permanently delete___________________驗",
+  "back": "試_Back_________驗",
+  "cancel": "試_Cancel_____________驗",
+  "item": "試_item_________驗",
+  "items": "試_items___________驗",
+  "cantDelete": "試_The following items can't be deleted because they are delete protected or have dependent items_________________________________________________驗.",
+  "proceed": "試_Proceed with deleting the remaining items______________________驗?",
+  "moreOptions": "試_More options_____________驗",
+  "hideOptions": "試_Hide options_____________驗",
+  "deletePermanently": "試_Delete permanently (This action cannot be undone)__________________________驗",
+  "learnMore": "試_Learn more_____________________驗",
+  "summary": {
+    "select": "試_Select_____________驗",
+    "deselect": "試_Deselect_________________驗",
+    "selectedItems": "試_Selected items________________驗:",
+    "permanentlyDelete": "試_Permanently delete____________________驗:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "試_This item is not supported by the recycle bin________________________驗.",
+        "multiple": "試_These items are not supported by the recycle bin__________________________驗."
+      },
+      "unsynchronized": "試_Unsynchronized edits made to items in a distributed collaboration group will be lost.<br>${startLink}Learn more${endLink}______________________________________________________________驗",
+      "notSupportedAndUnsynchronized": "試_Some item types are not supported. Unsynchronized edits made to items in a distributed collaboration group will be lost.<br>${startLink}Learn more${endLink}_______________________________________________________________________________驗",
+      "group": {
+        "notSupported": "試_Not supported______________驗",
+        "distributedCollaboration": "試_Part of distributed collaboration__________________驗"
+      }
+    },
+    "canBeRecovered": {
+      "single": "試_This item can be recovered up to ${days} days________________________驗.",
+      "multiple": "試_These items can be recovered up to ${days} days_________________________驗.",
+      "unknown": "試_These items can be recovered up to ${days} days_________________________驗."
+    },
+    "willBeRecycled": "試_Send to the recycle bin_________________________驗:",
+    "cannotBeDeleted": "試_Cannot delete_______________驗:",
+    "deleteDiscouraged": "試_Delete discouraged____________________驗:",
+    "hasDependentItems": "試_Has dependent items_____________________驗:",
+    "someActionsMayNoLongerWork": {
+      "single": "試_If you send this item to the recycle bin, some actions that require access to the source item may no longer work as expected________________________________________________________________驗.",
+      "multiple": "試_If you send these items to the recycle bin, some actions that require access to the source items may no longer work as expected_________________________________________________________________驗."
+    },
+    "cannotDelete": {
+      "all": "試_Items that are delete protected, part of a distributed collaboration group or have dependent items cannot be deleted____________________________________________________________驗.",
+      "protectedAndCollaboration": "試_Items that are delete protected or part of a distributed collaboration group cannot be deleted_________________________________________________驗.",
+      "protectedAndDependent": "試_Items that are delete protected or have dependent items cannot be deleted______________________________________驗.",
+      "collaborationAndDependent": "試_Items that are part of a distributed collaboration group or have dependent items cannot be deleted___________________________________________________驗."
+    },
+    "deletePermanently": "試_Delete permanently: ${count} (This action cannot be undone)_______________________________驗",
+    "deleteAllPermanently": "試_Delete all items permanently: ${count} (This action cannot be undone)____________________________________驗",
+    "deleteXPermanently": "試_Delete ${subset} of ${total} items permanently (This action cannot be undone)________________________________________驗",
+    "protectedGroup": {
+      "deleteProtected": "試_Delete protected_________________驗",
+      "deleteProtectedDescription": "試_Items that are delete protected cannot be deleted__________________________驗.",
+      "hasDependentItems": "試_Has dependent items____________________驗",
+      "itemUsedBy": "試_This item has been used by____________________________驗:",
+      "hasDependentItemsDescription": {
+        "single": "試_This item has a dependent item. They must be deleted together________________________________驗.",
+        "multiple": "試_These items have other items dependent on them. They must be deleted together________________________________________驗."
+      },
+      "distributedCollaboration": "試_Part of distributed collaboration__________________驗",
+      "distributedCollaborationDescription": "試_Items that are part of a distributed collaboration group cannot be deleted_______________________________________驗.",
+      "deleteDiscouraged": "試_Delete discouraged___________________驗",
+      "deleteDiscouragedDescription": {
+        "single": "試_If this item is deleted, dependent items may lose some functionality. You can delete this item from the item details page______________________________________________________________驗.",
+        "multiple": "試_If these items are deleted, dependent items may lose some functionality. You can delete these items individually from the item details page_______________________________________________________________________驗."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "試_This item will be permanently deleted because it is not supported by the recycle bin____________________________________________驗.",
+    "multiple": "試_These items will be permanently deleted because they are not supported by the recycle bin______________________________________________驗.",
+    "unknown": "試_These items will be permanently deleted because they are not supported by the recycle bin______________________________________________驗."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "試_The selected item belongs to a distributed collaboration group and cannot be moved to the recycle bin. It will be permanently deleted____________________________________________________________________驗.",
+    "multiple": "試_The selected items belong to a distributed collaboration group and cannot be moved to the recycle bin. They will be permanently deleted_____________________________________________________________________驗.",
+    "unknown": "試_The selected items belong to a distributed collaboration group and cannot be moved to the recycle bin. They will be permanently deleted_____________________________________________________________________驗."
+  },
+  "areYouSure": {
+    "single": "試_Are you sure you want to delete this item______________________驗?",
+    "multiple": "試_Are you sure you want to delete these items_______________________驗?",
+    "unknown": "試_Are you sure you want to delete these items_______________________驗?"
+  },
+  "areYouSureRecycle": {
+    "single": "試_This item will stay in the recycle bin for ${days} days before it is permanently deleted______________________________________________驗.",
+    "multiple": "試_These items will stay in the recycle bin for ${days} days before they are permanently deleted________________________________________________驗.",
+    "unknown": "試_These items will stay in the recycle bin for ${days} days before they are permanently deleted________________________________________________驗."
+  },
+  "areYouSurePermanent": {
+    "single": "試_Are you sure you want to permanently delete this ${number} item? This ${carrot} item cannot be recovered after it has been permanently deleted_________________________________________________________________________驗.",
+    "multiple": "試_Are you sure you want to permanently delete these items? These items cannot be recovered after they have been permanently deleted__________________________________________________________________驗.",
+    "unknown": "試_Are you sure you want to permanently delete these items? These items cannot be recovered after they have been permanently deleted__________________________________________________________________驗."
+  },
+  "folder": {
+    "mustBeEmpty": "試_The folder <b>${folder}</b> must be empty in order to be deleted__________________________________驗.",
+    "aFewCannotBeDeleted": "試_A few items cannot be deleted. Are you sure you want to proceed with deleting the rest_____________________________________________驗?",
+    "mustBeEmptyProceed": "試_The folder <b>${folder}</b> must be empty in order to be deleted. Are you sure you want to proceed with deleting these items________________________________________________________________驗?",
+    "cannotBeDeleted": "試_The folder <b>${folder}</b> cannot be deleted because its items cannot be deleted__________________________________________驗."
+  },
+  "deletes": {
+    "single": "試_Deletes in ${days} day_______________________驗",
+    "multiple": "試_Deletes in ${days} days________________________驗",
+    "unknown": "試_Days until delete: ${days}___________________________驗"
+  },
+  "deleteOverride": {
+    "single": "試_Are you sure you want to permanently delete this item instead? This action cannot be undone_______________________________________________驗.",
+    "multiple": "試_Are you sure you want to permanently delete these items instead? This action cannot be undone________________________________________________驗."
+  },
+  "restore": {
+    "restore": "試_Restore_______________驗",
+    "restoreTo": "試_Restore to_____________________驗",
+    "restoreItem": "試_Restore Item_____________驗",
+    "restoreItems": "試_Restore Items______________驗",
+    "noticeMessage": "試_Restored items will be unshared. Please review your content before sharing it again___________________________________________驗.",
+    "cannotBulkRestoreXItems": "試_Cannot bulk restore more than ${number} items, please deselect a few items_______________________________________驗.",
+    "cannotBulkRestoreMultipleOwners": "試_Cannot bulk restore items that belong to different owners. Select items from a single owner to bulk restore_______________________________________________________驗.",
+    "toRestore": {
+      "single": "試_Item to Restore_________________驗:",
+      "multiple": "試_Items to Restore__________________驗:"
+    },
+    "cannotRestore": "試_Cannot restore________________驗:",
+    "dependentItems": {
+      "single": "試_This item cannot be restored because it is dependent on <b>${parent}</b>. Restore them together_________________________________________________驗.",
+      "multiple": "試_These items cannot be restored because they are dependent on other items in the recycle bin. Restore them together___________________________________________________________驗: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "試_Need to recover that accidentally deleted item? Check out the new recycle bin________________________________________驗!",
+    "takeALook": "試_Take a look at the new recycle bin___________________驗!",
+    "learnMore": "試_Learn more about restoring deleted items_____________________驗",
+    "heldInRecycleBin": "試_Items in the recycle bin are held for up to ${days} days______________________________驗.",
+    "goToUserRecycleBin": "試_Go to your ${linkStart}recycle bin${linkEnd} to restore or permanently delete items___________________________________________驗.",
+    "goToOrgRecycleBin": "試_Go to your ${linkStart}organization's recycle bin${linkEnd} to restore or permanently delete items. Content in the recycle bin continues to consume credits_______________________________________________________________________________驗."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "試_${start} - ${end} of ${total} (${size}) in recycle bin____________________________驗",
+    "other": "試_${start} - ${end}, total: ${total} (${size}) in recycle bin_______________________________驗"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "試_${start} - ${end} of ${total} (>${size}) in recycle bin_____________________________驗",
+    "other": "試_${start} - ${end}, total: ${total} (>${size}) in recycle bin_______________________________驗"
+  }
+}

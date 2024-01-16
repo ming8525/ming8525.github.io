@@ -1,0 +1,62 @@
+{
+  "modalHeader": "試_Configure content categories_____________________________驗",
+  "helpText": "試_Edit, delete, or reorder categories in your organization______________________________驗.",
+  "loadingText": "試_Loading schema templates_________________________驗",
+  "cancel": "試_Cancel_____________驗",
+  "finishSetup": "試_Finish setup_____________驗",
+  "error": {
+    "generic": {
+      "title": "試_Error updating categories__________________________驗",
+      "message": "試_Something went wrong. Please try again later________________________驗."
+    },
+    "maxDepthExceeded": {
+      "title": "試_Error updating categories__________________________驗",
+      "message": "試_You cannot nest categories more than 2 levels deep___________________________驗."
+    },
+    "destinationHasSameName": {
+      "title": "試_Error updating categories__________________________驗",
+      "message": "試_A category with the same name already exists in the destination category______________________________________驗."
+    },
+    "emptyTitle": {
+      "title": "試_Error updating categories__________________________驗",
+      "message": "試_Category title cannot be empty_________________驗."
+    },
+    "noSchema": {
+      "title": "試_Schema not found_________________驗",
+      "message": "試_Item schema not found for user_________________驗."
+    },
+    "maxCharacter": {
+      "title": "試_Error updating categories__________________________驗",
+      "message": "試_Category names can be a maximum of ${maxCharacter} characters long___________________________________驗."
+    }
+  },
+  "warning": {
+    "deleteInUseCategory": {
+      "title": "試_Delete category________________驗",
+      "message": "試_${numItem} items are assigned to this category. Deleting the category will also remove it from these items_______________________________________________________驗.",
+      "cta": "試_Delete category________________驗"
+    }
+  },
+  "template": {
+    "title": "試_Category templates___________________驗",
+    "learnMore": "試_Learn more_____________________驗",
+    "templateList": {
+      "custom": {
+        "title": "試_Custom categories__________________驗",
+        "message": "試_Create your own categories to organize content within your organization_____________________________________驗."
+      },
+      "arcgis": {
+        "title": "試_ArcGIS categories__________________驗",
+        "message": "試_ArcGIS categories include a selection of topic categories and subcategories that can be used to categorize many types of geospatial content. These categories are used to support ArcGIS Living Atlas of the World___________________________________________________________________________________________________________驗."
+      },
+      "iso": {
+        "title": "試_ISO categories_______________驗",
+        "message": "試_ISO categories includes topic categories from the International Organization for Standardization that provide a method for describing and cataloging geographic information_______________________________________________________________________________________驗."
+      },
+      "inspire": {
+        "title": "試_INSPIRE categories___________________驗",
+        "message": "試_INSPIRE categories include a comprehensive set of spatial data themes set out in the INSPIRE Directive_____________________________________________________驗."
+      }
+    }
+  }
+}

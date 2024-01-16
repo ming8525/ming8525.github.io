@@ -1,0 +1,14 @@
+{
+  "AddDataFromUrl": "須_Add data from URL__________________鷗",
+  "addData": "須_Add data_________________鷗",
+  "clear": "須_Clear___________鷗",
+  "file": "須_File_________鷗",
+  "fileNotFound": "須_Failed to load file_____________________鷗.",
+  "invalidUrl": "須_Invalid URL or file extension_______________________________鷗.",
+  "item": "須_Item_________鷗",
+  "replaceData": "須_Replace data_____________鷗",
+  "required": "須_This parameter is required____________________________鷗.",
+  "uploadData": "須_Upload data____________鷗",
+  "uploadFailureMsg": "須_Error performing upload operation, file size or type not supported for this service___________________________________________鷗.",
+  "url": "須_Url_______鷗"
+}

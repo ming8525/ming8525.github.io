@@ -1,0 +1,17 @@
+{
+  "allowAnalysisReason": "ã_One or more imagery layers from the map are not listed here because the allow analysis service property is not enabled. <a href='${ docLink }' target='_blank'>Learn more.</a><br>__________________________________________________________________________________________Ç",
+  "featureCountAboveMaximum": "A contagem de feições não pode ser maior que${maximum}.",
+  "featureCountBelowMinimum": "A contagem de feições não pode ser inferior a${minimum}.",
+  "isRequired": "Este parâmetro é exigido.",
+  "layer": "Camada",
+  "layerAction": "Ações ${layerName}",
+  "layerNotAvailable": "Falha ao carregar camada ${layerName}",
+  "layerNotSupported": "A camada selecionada não é suportada.",
+  "layersFilteredOut": "Algumas camadas foram filtradas.",
+  "layersNotAllowAnalysis": "A análise não é permitida para algumas camadas neste mapa.",
+  "multipleLayersNotAvailable": "Falha ao carregar camada ${layerName} e outros",
+  "numberFeatures": "Contagem de feições: ${featureCount}",
+  "numberFeaturesLoading": "Calculando...",
+  "proxyReason": "ã_One or more layers from the map are not listed here because they are either not shared with you or not publicly accessible. <a href='${ docLink }' target='_blank'>Learn more.</a><br>____________________________________________________________________________________________Ç",
+  "replaceLayer": "Substituir camada"
+}

@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Ж_Delete item____________Я",
+  "deleteItems": "Ж_Delete items_____________Я",
+  "deleteFolder": "Ж_Delete folder______________Я",
+  "recycleBin": "Ж_Recycle bin____________Я",
+  "delete": "Ж_Delete_____________Я",
+  "permanentlyDelete": "Ж_Permanently delete___________________Я",
+  "back": "Ж_Back_________Я",
+  "cancel": "Ж_Cancel_____________Я",
+  "item": "Ж_item_________Я",
+  "items": "Ж_items___________Я",
+  "cantDelete": "Ж_The following items can't be deleted because they are delete protected or have dependent items_________________________________________________Я.",
+  "proceed": "Ж_Proceed with deleting the remaining items______________________Я?",
+  "moreOptions": "Ж_More options_____________Я",
+  "hideOptions": "Ж_Hide options_____________Я",
+  "deletePermanently": "Ж_Delete permanently (This action cannot be undone)__________________________Я",
+  "learnMore": "Ж_Learn more_____________________Я",
+  "summary": {
+    "select": "Ж_Select_____________Я",
+    "deselect": "Ж_Deselect_________________Я",
+    "selectedItems": "Ж_Selected items________________Я:",
+    "permanentlyDelete": "Ж_Permanently delete____________________Я:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Ж_This item is not supported by the recycle bin________________________Я.",
+        "multiple": "Ж_These items are not supported by the recycle bin__________________________Я."
+      },
+      "unsynchronized": "Ж_Unsynchronized edits made to items in a distributed collaboration group will be lost.<br>${startLink}Learn more${endLink}______________________________________________________________Я",
+      "notSupportedAndUnsynchronized": "Ж_Some item types are not supported. Unsynchronized edits made to items in a distributed collaboration group will be lost.<br>${startLink}Learn more${endLink}_______________________________________________________________________________Я",
+      "group": {
+        "notSupported": "Ж_Not supported______________Я",
+        "distributedCollaboration": "Ж_Part of distributed collaboration__________________Я"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Ж_This item can be recovered up to ${days} days________________________Я.",
+      "multiple": "Ж_These items can be recovered up to ${days} days_________________________Я.",
+      "unknown": "Ж_These items can be recovered up to ${days} days_________________________Я."
+    },
+    "willBeRecycled": "Ж_Send to the recycle bin_________________________Я:",
+    "cannotBeDeleted": "Ж_Cannot delete_______________Я:",
+    "deleteDiscouraged": "Ж_Delete discouraged____________________Я:",
+    "hasDependentItems": "Ж_Has dependent items_____________________Я:",
+    "someActionsMayNoLongerWork": {
+      "single": "Ж_If you send this item to the recycle bin, some actions that require access to the source item may no longer work as expected________________________________________________________________Я.",
+      "multiple": "Ж_If you send these items to the recycle bin, some actions that require access to the source items may no longer work as expected_________________________________________________________________Я."
+    },
+    "cannotDelete": {
+      "all": "Ж_Items that are delete protected, part of a distributed collaboration group or have dependent items cannot be deleted____________________________________________________________Я.",
+      "protectedAndCollaboration": "Ж_Items that are delete protected or part of a distributed collaboration group cannot be deleted_________________________________________________Я.",
+      "protectedAndDependent": "Ж_Items that are delete protected or have dependent items cannot be deleted______________________________________Я.",
+      "collaborationAndDependent": "Ж_Items that are part of a distributed collaboration group or have dependent items cannot be deleted___________________________________________________Я."
+    },
+    "deletePermanently": "Ж_Delete permanently: ${count} (This action cannot be undone)_______________________________Я",
+    "deleteAllPermanently": "Ж_Delete all items permanently: ${count} (This action cannot be undone)____________________________________Я",
+    "deleteXPermanently": "Ж_Delete ${subset} of ${total} items permanently (This action cannot be undone)________________________________________Я",
+    "protectedGroup": {
+      "deleteProtected": "Ж_Delete protected_________________Я",
+      "deleteProtectedDescription": "Ж_Items that are delete protected cannot be deleted__________________________Я.",
+      "hasDependentItems": "Ж_Has dependent items____________________Я",
+      "itemUsedBy": "Ж_This item has been used by____________________________Я:",
+      "hasDependentItemsDescription": {
+        "single": "Ж_This item has a dependent item. They must be deleted together________________________________Я.",
+        "multiple": "Ж_These items have other items dependent on them. They must be deleted together________________________________________Я."
+      },
+      "distributedCollaboration": "Ж_Part of distributed collaboration__________________Я",
+      "distributedCollaborationDescription": "Ж_Items that are part of a distributed collaboration group cannot be deleted_______________________________________Я.",
+      "deleteDiscouraged": "Ж_Delete discouraged___________________Я",
+      "deleteDiscouragedDescription": {
+        "single": "Ж_If this item is deleted, dependent items may lose some functionality. You can delete this item from the item details page______________________________________________________________Я.",
+        "multiple": "Ж_If these items are deleted, dependent items may lose some functionality. You can delete these items individually from the item details page_______________________________________________________________________Я."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "Ж_This item will be permanently deleted because it is not supported by the recycle bin____________________________________________Я.",
+    "multiple": "Ж_These items will be permanently deleted because they are not supported by the recycle bin______________________________________________Я.",
+    "unknown": "Ж_These items will be permanently deleted because they are not supported by the recycle bin______________________________________________Я."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "Ж_The selected item belongs to a distributed collaboration group and cannot be moved to the recycle bin. It will be permanently deleted____________________________________________________________________Я.",
+    "multiple": "Ж_The selected items belong to a distributed collaboration group and cannot be moved to the recycle bin. They will be permanently deleted_____________________________________________________________________Я.",
+    "unknown": "Ж_The selected items belong to a distributed collaboration group and cannot be moved to the recycle bin. They will be permanently deleted_____________________________________________________________________Я."
+  },
+  "areYouSure": {
+    "single": "Ж_Are you sure you want to delete this item______________________Я?",
+    "multiple": "Ж_Are you sure you want to delete these items_______________________Я?",
+    "unknown": "Ж_Are you sure you want to delete these items_______________________Я?"
+  },
+  "areYouSureRecycle": {
+    "single": "Ж_This item will stay in the recycle bin for ${days} days before it is permanently deleted______________________________________________Я.",
+    "multiple": "Ж_These items will stay in the recycle bin for ${days} days before they are permanently deleted________________________________________________Я.",
+    "unknown": "Ж_These items will stay in the recycle bin for ${days} days before they are permanently deleted________________________________________________Я."
+  },
+  "areYouSurePermanent": {
+    "single": "Ж_Are you sure you want to permanently delete this ${number} item? This ${carrot} item cannot be recovered after it has been permanently deleted_________________________________________________________________________Я.",
+    "multiple": "Ж_Are you sure you want to permanently delete these items? These items cannot be recovered after they have been permanently deleted__________________________________________________________________Я.",
+    "unknown": "Ж_Are you sure you want to permanently delete these items? These items cannot be recovered after they have been permanently deleted__________________________________________________________________Я."
+  },
+  "folder": {
+    "mustBeEmpty": "Ж_The folder <b>${folder}</b> must be empty in order to be deleted__________________________________Я.",
+    "aFewCannotBeDeleted": "Ж_A few items cannot be deleted. Are you sure you want to proceed with deleting the rest_____________________________________________Я?",
+    "mustBeEmptyProceed": "Ж_The folder <b>${folder}</b> must be empty in order to be deleted. Are you sure you want to proceed with deleting these items________________________________________________________________Я?",
+    "cannotBeDeleted": "Ж_The folder <b>${folder}</b> cannot be deleted because its items cannot be deleted__________________________________________Я."
+  },
+  "deletes": {
+    "single": "Ж_Deletes in ${days} day_______________________Я",
+    "multiple": "Ж_Deletes in ${days} days________________________Я",
+    "unknown": "Ж_Days until delete: ${days}___________________________Я"
+  },
+  "deleteOverride": {
+    "single": "Ж_Are you sure you want to permanently delete this item instead? This action cannot be undone_______________________________________________Я.",
+    "multiple": "Ж_Are you sure you want to permanently delete these items instead? This action cannot be undone________________________________________________Я."
+  },
+  "restore": {
+    "restore": "Ж_Restore_______________Я",
+    "restoreTo": "Ж_Restore to_____________________Я",
+    "restoreItem": "Ж_Restore Item_____________Я",
+    "restoreItems": "Ж_Restore Items______________Я",
+    "noticeMessage": "Ж_Restored items will be unshared. Please review your content before sharing it again___________________________________________Я.",
+    "cannotBulkRestoreXItems": "Ж_Cannot bulk restore more than ${number} items, please deselect a few items_______________________________________Я.",
+    "cannotBulkRestoreMultipleOwners": "Ж_Cannot bulk restore items that belong to different owners. Select items from a single owner to bulk restore_______________________________________________________Я.",
+    "toRestore": {
+      "single": "Ж_Item to Restore_________________Я:",
+      "multiple": "Ж_Items to Restore__________________Я:"
+    },
+    "cannotRestore": "Ж_Cannot restore________________Я:",
+    "dependentItems": {
+      "single": "Ж_This item cannot be restored because it is dependent on <b>${parent}</b>. Restore them together_________________________________________________Я.",
+      "multiple": "Ж_These items cannot be restored because they are dependent on other items in the recycle bin. Restore them together___________________________________________________________Я: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "Ж_Need to recover that accidentally deleted item? Check out the new recycle bin________________________________________Я!",
+    "takeALook": "Ж_Take a look at the new recycle bin___________________Я!",
+    "learnMore": "Ж_Learn more about restoring deleted items_____________________Я",
+    "heldInRecycleBin": "Ж_Items in the recycle bin are held for up to ${days} days______________________________Я.",
+    "goToUserRecycleBin": "Ж_Go to your ${linkStart}recycle bin${linkEnd} to restore or permanently delete items___________________________________________Я.",
+    "goToOrgRecycleBin": "Ж_Go to your ${linkStart}organization's recycle bin${linkEnd} to restore or permanently delete items. Content in the recycle bin continues to consume credits_______________________________________________________________________________Я."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "Ж_${start} - ${end} of ${total} (${size}) in recycle bin____________________________Я",
+    "other": "Ж_${start} - ${end}, total: ${total} (${size}) in recycle bin_______________________________Я"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "Ж_${start} - ${end} of ${total} (>${size}) in recycle bin_____________________________Я",
+    "other": "Ж_${start} - ${end}, total: ${total} (>${size}) in recycle bin_______________________________Я"
+  }
+}

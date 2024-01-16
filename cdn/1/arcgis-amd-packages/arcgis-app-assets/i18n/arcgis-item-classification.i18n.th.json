@@ -1,0 +1,16 @@
+{
+  "cancel": "ก้_Cancel_____________ษฺ",
+  "reset": "ก้_Reset___________ษฺ",
+  "resetting": "ก้_Resetting_____________ษฺ...",
+  "save": "ก้_Save_________ษฺ",
+  "saving": "ก้_Saving___________________ษฺ...",
+  "itemClassificationLabel": "ก้_Classification_______________ษฺ",
+  "itemClassificationCategoryLabel": "ก้_Item classification category label__________________ษฺ",
+  "itemClassificationEditLabel": "ก้_Edit Classification____________________ษฺ",
+  "itemClassificationValidateError": "ก้_Validation failed, the item classification value won't get populated! Please edit and save a new one____________________________________________________ษฺ.",
+  "classificationValueSaved": "ก้_The classification value has been saved_____________________ษฺ",
+  "classificationNotificationHandler": "ก้_Classification notification handler___________________ษฺ",
+  "openModal": "ก้_Open modal_____________________ษฺ",
+  "currentSelections": "ก้_Current Selections___________________ษฺ",
+  "searchForCategory": "ก้_Search for category____________________ษฺ"
+}

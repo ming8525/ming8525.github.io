@@ -1,0 +1,19 @@
+{
+  "backLabel": "Quay lại",
+  "cannotReopenTool": "Không thể mở lại công cụ. Thông số của công cụ đã được trả về giá trị mặc định.",
+  "cannotReopenWebTool": "Đ_Unable to open web tool. <calcite-link target='_blank' href='${ docLink }'>Learn more</calcite-link>___________________________________________________ớ",
+  "creditThresholdModal": {
+    "cancelRun": "Hủy",
+    "confirmationPrompt": "Bạn có muốn tiếp tục không?",
+    "continueRun": "Tiếp tục",
+    "creditEstimate": "Credit ước tính: ${cost}",
+    "creditThreshold": "Ngưỡng credit: ${threshold}",
+    "heading": "Đã đạt đến ngưỡng credit",
+    "learnMore": "Tìm hiểu thêm",
+    "thresholdExceeded": "Chi phí ước tính cho phân tích này lớn hơn ngưỡng credit cho phép của bạn."
+  },
+  "failedToExecuteEstimate": "Gửi thất bại. Không thể thực hiện EstimateRasterAnalysisCost",
+  "missingPermissionForWebTool": "Đ_This tool cannot be accessed. Ensure that the tool exists and that your user has permission to access it______________________________________________________ớ.",
+  "runAnalysisLabel": "Chạy",
+  "webToolJSONChanged": "Đ_One or more parameters have been updated. Some parameters may not be repopulated from history________________________________________________ớ."
+}

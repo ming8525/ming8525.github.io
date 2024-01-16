@@ -1,0 +1,14 @@
+{
+  "AddDataFromUrl": "한_Add data from URL__________________빠",
+  "addData": "한_Add data_________________빠",
+  "clear": "한_Clear___________빠",
+  "file": "한_File_________빠",
+  "fileNotFound": "한_Failed to load file_____________________빠.",
+  "invalidUrl": "한_Invalid URL or file extension_______________________________빠.",
+  "item": "한_Item_________빠",
+  "replaceData": "한_Replace data_____________빠",
+  "required": "한_This parameter is required____________________________빠.",
+  "uploadData": "한_Upload data____________빠",
+  "uploadFailureMsg": "한_Error performing upload operation, file size or type not supported for this service___________________________________________빠.",
+  "url": "한_Url_______빠"
+}

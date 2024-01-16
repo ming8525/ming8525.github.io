@@ -1,0 +1,68 @@
+{
+  "browser": {
+    "filters": "סינונים",
+    "pageRange": "${start}-${end}, סה\"כ: ${total}",
+    "pageRangeAria": "${start}-${end}, סה\"כ פריטים: ${total}",
+    "loading": "טוען תוצאות",
+    "close": "כן_Close___________ש"
+  },
+  "actions": {
+    "more": "עוד"
+  },
+  "filter": {
+    "clear": "נקה"
+  },
+  "filterDate": {
+    "today": "היום",
+    "yesterday": "אתמול",
+    "last7": "7 הימים האחרונים",
+    "last30": "30 הימים האחרונים",
+    "custom": "טווח מותאם אישית...",
+    "title": {
+      "created": "תאריך יצירה",
+      "modified": "תאריך שינוי"
+    },
+    "created": "נוצר: ${date}",
+    "modified": "השתנה: ${date}"
+  },
+  "pagination": {
+    "next": "העמוד הבא",
+    "prev": "העמוד הקודם"
+  },
+  "search": {
+    "label": "חיפוש קבוצות",
+    "search": "חיפוש",
+    "clear": "נקה ביטוי חיפוש",
+    "wildcard": "אין תמיכה בחיפושי עם תוויים כלליים"
+  },
+  "sort": {
+    "sortDirection": "כיוון מיון",
+    "title": "כותרת",
+    "relevance": "רלוונטיות",
+    "modified": "תאריך שינוי",
+    "deleted": "כן_Date deleted_____________ש",
+    "created": "תאריך יצירה",
+    "size": "כן_Size_________ש",
+    "owner": "יוצר",
+    "sizeAsc": "כן_Smallest to largest____________________ש",
+    "sizeDesc": "כן_Largest to smallest____________________ש",
+    "numviews": "ספירת תצוגות",
+    "numAsc": "מהנמוך לגבוה",
+    "numDesc": "מהגבוה לנמוך",
+    "alphabeticalAsc": "סדר א\"ב",
+    "alphabeticalDesc": "סדר א\"ב הפוך",
+    "recentAsc": "הכי פחות עדכני",
+    "recentDesc": "העדכני ביותר",
+    "sortBy": "מיין לפי",
+    "sortByColon": "מיון על ידי:"
+  },
+  "topBar": {
+    "filter": "מסנן"
+  },
+  "filterStatus": {
+    "clear": "נקה",
+    "filters": "מסננים:",
+    "additional": "מסננים פעילים נוספים",
+    "clearAllFilters": "כן_Clear all filters__________________ש"
+  }
+}

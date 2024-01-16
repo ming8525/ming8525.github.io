@@ -1,0 +1,23 @@
+{
+  "CCIAnalysisSettingGroupLabel": "須_Index settings_______________鷗",
+  "CCIAnalysisSettingGroupText": "須_Specify how the index should be calculated_______________________鷗.",
+  "geomeanScaledLabel": "須_Compound differences (Geometric mean of scaled values)____________________________鷗",
+  "indexMethodLabel": "須_Method to scale and combine variables____________________鷗",
+  "inputFeaturesOrTableLabel": "須_Input features or table________________________鷗",
+  "inputLayerGroupText": "須_Choose the features or table and variables to create the index with___________________________________鷗.",
+  "inputVariablesLabel": "須_Input variables________________鷗",
+  "itemProperties": {
+    "description": "須_Feature layer generated from running the Calculate Composite Index analysis tool__________________________________________鷗.",
+    "snippet": "須_Feature layer generated from Calculate Composite Index____________________________鷗"
+  },
+  "meanPercentileLabel": "須_Combine ranks (Mean of percentiles)___________________鷗",
+  "meanScaledLabel": "須_Combine values (Mean of scaled values)____________________鷗",
+  "outputIndexMaxLabel": "須_Maximum_______________鷗",
+  "outputIndexMinLabel": "須_Minimum_______________鷗",
+  "outputIndexMinMaxLabel": "須_Index minimum and maximum values_________________鷗",
+  "outputIndexReverseLabel": "須_Reverse index values_____________________鷗",
+  "reverseVariableLabel": "須_Reverse direction__________________鷗",
+  "sumFlagsPercentileLabel": "須_Highlight extremes (Count of values above 90th percentile)______________________________鷗",
+  "toolName": "須_Calculate Composite Index__________________________鷗",
+  "weight": "須_Weight_____________鷗"
+}

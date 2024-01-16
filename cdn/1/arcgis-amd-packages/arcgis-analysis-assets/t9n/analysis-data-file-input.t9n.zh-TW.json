@@ -1,0 +1,14 @@
+{
+  "AddDataFromUrl": "試_Add data from URL__________________驗",
+  "addData": "試_Add data_________________驗",
+  "clear": "試_Clear___________驗",
+  "file": "試_File_________驗",
+  "fileNotFound": "試_Failed to load file_____________________驗.",
+  "invalidUrl": "試_Invalid URL or file extension_______________________________驗.",
+  "item": "試_Item_________驗",
+  "replaceData": "試_Replace data_____________驗",
+  "required": "試_This parameter is required____________________________驗.",
+  "uploadData": "試_Upload data____________驗",
+  "uploadFailureMsg": "試_Error performing upload operation, file size or type not supported for this service___________________________________________驗.",
+  "url": "試_Url_______驗"
+}

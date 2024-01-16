@@ -1,0 +1,19 @@
+{
+  "backLabel": "Atpakaļ",
+  "cannotReopenTool": "Rīku nevarēja atvērt atkārtoti. Rīka parametriem ir atjaunoti noklusējuma iestatījumi.",
+  "cannotReopenWebTool": "ķ_Unable to open web tool. <calcite-link target='_blank' href='${ docLink }'>Learn more</calcite-link>___________________________________________________ū",
+  "creditThresholdModal": {
+    "cancelRun": "Atcelt",
+    "confirmationPrompt": "Vai vēlaties turpināt?",
+    "continueRun": "Turpināt",
+    "creditEstimate": "Prognozētie servisa kredīti: ${cost}",
+    "creditThreshold": "Servisa kredītu slieksnis: ${threshold}",
+    "heading": "Sasniegts servisa kredītu slieksnis",
+    "learnMore": "Uzzināt vairāk",
+    "thresholdExceeded": "Šīs analīzes paredzamās izmaksas pārsniedz jūsu servisa kredītu slieksni."
+  },
+  "failedToExecuteEstimate": "Iesniegšana neizdevās. Neizdevās izpildīt EstimateRasterAnalysisCost",
+  "missingPermissionForWebTool": "ķ_This tool cannot be accessed. Ensure that the tool exists and that your user has permission to access it______________________________________________________ū.",
+  "runAnalysisLabel": "Palaist",
+  "webToolJSONChanged": "ķ_One or more parameters have been updated. Some parameters may not be repopulated from history________________________________________________ū."
+}

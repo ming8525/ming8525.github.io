@@ -1,0 +1,149 @@
+{
+  "deleteItem": "ķ_Delete item____________ū",
+  "deleteItems": "ķ_Delete items_____________ū",
+  "deleteFolder": "ķ_Delete folder______________ū",
+  "recycleBin": "ķ_Recycle bin____________ū",
+  "delete": "ķ_Delete_____________ū",
+  "permanentlyDelete": "ķ_Permanently delete___________________ū",
+  "back": "ķ_Back_________ū",
+  "cancel": "ķ_Cancel_____________ū",
+  "item": "ķ_item_________ū",
+  "items": "ķ_items___________ū",
+  "cantDelete": "ķ_The following items can't be deleted because they are delete protected or have dependent items_________________________________________________ū.",
+  "proceed": "ķ_Proceed with deleting the remaining items______________________ū?",
+  "moreOptions": "ķ_More options_____________ū",
+  "hideOptions": "ķ_Hide options_____________ū",
+  "deletePermanently": "ķ_Delete permanently (This action cannot be undone)__________________________ū",
+  "learnMore": "ķ_Learn more_____________________ū",
+  "summary": {
+    "select": "ķ_Select_____________ū",
+    "deselect": "ķ_Deselect_________________ū",
+    "selectedItems": "ķ_Selected items________________ū:",
+    "permanentlyDelete": "ķ_Permanently delete____________________ū:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "ķ_This item is not supported by the recycle bin________________________ū.",
+        "multiple": "ķ_These items are not supported by the recycle bin__________________________ū."
+      },
+      "unsynchronized": "ķ_Unsynchronized edits made to items in a distributed collaboration group will be lost.<br>${startLink}Learn more${endLink}______________________________________________________________ū",
+      "notSupportedAndUnsynchronized": "ķ_Some item types are not supported. Unsynchronized edits made to items in a distributed collaboration group will be lost.<br>${startLink}Learn more${endLink}_______________________________________________________________________________ū",
+      "group": {
+        "notSupported": "ķ_Not supported______________ū",
+        "distributedCollaboration": "ķ_Part of distributed collaboration__________________ū"
+      }
+    },
+    "canBeRecovered": {
+      "single": "ķ_This item can be recovered up to ${days} days________________________ū.",
+      "multiple": "ķ_These items can be recovered up to ${days} days_________________________ū.",
+      "unknown": "ķ_These items can be recovered up to ${days} days_________________________ū."
+    },
+    "willBeRecycled": "ķ_Send to the recycle bin_________________________ū:",
+    "cannotBeDeleted": "ķ_Cannot delete_______________ū:",
+    "deleteDiscouraged": "ķ_Delete discouraged____________________ū:",
+    "hasDependentItems": "ķ_Has dependent items_____________________ū:",
+    "someActionsMayNoLongerWork": {
+      "single": "ķ_If you send this item to the recycle bin, some actions that require access to the source item may no longer work as expected________________________________________________________________ū.",
+      "multiple": "ķ_If you send these items to the recycle bin, some actions that require access to the source items may no longer work as expected_________________________________________________________________ū."
+    },
+    "cannotDelete": {
+      "all": "ķ_Items that are delete protected, part of a distributed collaboration group or have dependent items cannot be deleted____________________________________________________________ū.",
+      "protectedAndCollaboration": "ķ_Items that are delete protected or part of a distributed collaboration group cannot be deleted_________________________________________________ū.",
+      "protectedAndDependent": "ķ_Items that are delete protected or have dependent items cannot be deleted______________________________________ū.",
+      "collaborationAndDependent": "ķ_Items that are part of a distributed collaboration group or have dependent items cannot be deleted___________________________________________________ū."
+    },
+    "deletePermanently": "ķ_Delete permanently: ${count} (This action cannot be undone)_______________________________ū",
+    "deleteAllPermanently": "ķ_Delete all items permanently: ${count} (This action cannot be undone)____________________________________ū",
+    "deleteXPermanently": "ķ_Delete ${subset} of ${total} items permanently (This action cannot be undone)________________________________________ū",
+    "protectedGroup": {
+      "deleteProtected": "ķ_Delete protected_________________ū",
+      "deleteProtectedDescription": "ķ_Items that are delete protected cannot be deleted__________________________ū.",
+      "hasDependentItems": "ķ_Has dependent items____________________ū",
+      "itemUsedBy": "ķ_This item has been used by____________________________ū:",
+      "hasDependentItemsDescription": {
+        "single": "ķ_This item has a dependent item. They must be deleted together________________________________ū.",
+        "multiple": "ķ_These items have other items dependent on them. They must be deleted together________________________________________ū."
+      },
+      "distributedCollaboration": "ķ_Part of distributed collaboration__________________ū",
+      "distributedCollaborationDescription": "ķ_Items that are part of a distributed collaboration group cannot be deleted_______________________________________ū.",
+      "deleteDiscouraged": "ķ_Delete discouraged___________________ū",
+      "deleteDiscouragedDescription": {
+        "single": "ķ_If this item is deleted, dependent items may lose some functionality. You can delete this item from the item details page______________________________________________________________ū.",
+        "multiple": "ķ_If these items are deleted, dependent items may lose some functionality. You can delete these items individually from the item details page_______________________________________________________________________ū."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "ķ_This item will be permanently deleted because it is not supported by the recycle bin____________________________________________ū.",
+    "multiple": "ķ_These items will be permanently deleted because they are not supported by the recycle bin______________________________________________ū.",
+    "unknown": "ķ_These items will be permanently deleted because they are not supported by the recycle bin______________________________________________ū."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "ķ_The selected item belongs to a distributed collaboration group and cannot be moved to the recycle bin. It will be permanently deleted____________________________________________________________________ū.",
+    "multiple": "ķ_The selected items belong to a distributed collaboration group and cannot be moved to the recycle bin. They will be permanently deleted_____________________________________________________________________ū.",
+    "unknown": "ķ_The selected items belong to a distributed collaboration group and cannot be moved to the recycle bin. They will be permanently deleted_____________________________________________________________________ū."
+  },
+  "areYouSure": {
+    "single": "ķ_Are you sure you want to delete this item______________________ū?",
+    "multiple": "ķ_Are you sure you want to delete these items_______________________ū?",
+    "unknown": "ķ_Are you sure you want to delete these items_______________________ū?"
+  },
+  "areYouSureRecycle": {
+    "single": "ķ_This item will stay in the recycle bin for ${days} days before it is permanently deleted______________________________________________ū.",
+    "multiple": "ķ_These items will stay in the recycle bin for ${days} days before they are permanently deleted________________________________________________ū.",
+    "unknown": "ķ_These items will stay in the recycle bin for ${days} days before they are permanently deleted________________________________________________ū."
+  },
+  "areYouSurePermanent": {
+    "single": "ķ_Are you sure you want to permanently delete this ${number} item? This ${carrot} item cannot be recovered after it has been permanently deleted_________________________________________________________________________ū.",
+    "multiple": "ķ_Are you sure you want to permanently delete these items? These items cannot be recovered after they have been permanently deleted__________________________________________________________________ū.",
+    "unknown": "ķ_Are you sure you want to permanently delete these items? These items cannot be recovered after they have been permanently deleted__________________________________________________________________ū."
+  },
+  "folder": {
+    "mustBeEmpty": "ķ_The folder <b>${folder}</b> must be empty in order to be deleted__________________________________ū.",
+    "aFewCannotBeDeleted": "ķ_A few items cannot be deleted. Are you sure you want to proceed with deleting the rest_____________________________________________ū?",
+    "mustBeEmptyProceed": "ķ_The folder <b>${folder}</b> must be empty in order to be deleted. Are you sure you want to proceed with deleting these items________________________________________________________________ū?",
+    "cannotBeDeleted": "ķ_The folder <b>${folder}</b> cannot be deleted because its items cannot be deleted__________________________________________ū."
+  },
+  "deletes": {
+    "single": "ķ_Deletes in ${days} day_______________________ū",
+    "multiple": "ķ_Deletes in ${days} days________________________ū",
+    "unknown": "ķ_Days until delete: ${days}___________________________ū"
+  },
+  "deleteOverride": {
+    "single": "ķ_Are you sure you want to permanently delete this item instead? This action cannot be undone_______________________________________________ū.",
+    "multiple": "ķ_Are you sure you want to permanently delete these items instead? This action cannot be undone________________________________________________ū."
+  },
+  "restore": {
+    "restore": "ķ_Restore_______________ū",
+    "restoreTo": "ķ_Restore to_____________________ū",
+    "restoreItem": "ķ_Restore Item_____________ū",
+    "restoreItems": "ķ_Restore Items______________ū",
+    "noticeMessage": "ķ_Restored items will be unshared. Please review your content before sharing it again___________________________________________ū.",
+    "cannotBulkRestoreXItems": "ķ_Cannot bulk restore more than ${number} items, please deselect a few items_______________________________________ū.",
+    "cannotBulkRestoreMultipleOwners": "ķ_Cannot bulk restore items that belong to different owners. Select items from a single owner to bulk restore_______________________________________________________ū.",
+    "toRestore": {
+      "single": "ķ_Item to Restore_________________ū:",
+      "multiple": "ķ_Items to Restore__________________ū:"
+    },
+    "cannotRestore": "ķ_Cannot restore________________ū:",
+    "dependentItems": {
+      "single": "ķ_This item cannot be restored because it is dependent on <b>${parent}</b>. Restore them together_________________________________________________ū.",
+      "multiple": "ķ_These items cannot be restored because they are dependent on other items in the recycle bin. Restore them together___________________________________________________________ū: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "ķ_Need to recover that accidentally deleted item? Check out the new recycle bin________________________________________ū!",
+    "takeALook": "ķ_Take a look at the new recycle bin___________________ū!",
+    "learnMore": "ķ_Learn more about restoring deleted items_____________________ū",
+    "heldInRecycleBin": "ķ_Items in the recycle bin are held for up to ${days} days______________________________ū.",
+    "goToUserRecycleBin": "ķ_Go to your ${linkStart}recycle bin${linkEnd} to restore or permanently delete items___________________________________________ū.",
+    "goToOrgRecycleBin": "ķ_Go to your ${linkStart}organization's recycle bin${linkEnd} to restore or permanently delete items. Content in the recycle bin continues to consume credits_______________________________________________________________________________ū."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "ķ_${start} - ${end} of ${total} (${size}) in recycle bin____________________________ū",
+    "other": "ķ_${start} - ${end}, total: ${total} (${size}) in recycle bin_______________________________ū"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "ķ_${start} - ${end} of ${total} (>${size}) in recycle bin_____________________________ū",
+    "other": "ķ_${start} - ${end}, total: ${total} (>${size}) in recycle bin_______________________________ū"
+  }
+}

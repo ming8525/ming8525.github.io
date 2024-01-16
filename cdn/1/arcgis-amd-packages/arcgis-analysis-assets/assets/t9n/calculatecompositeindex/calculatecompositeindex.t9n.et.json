@@ -1,0 +1,23 @@
+{
+  "CCIAnalysisSettingGroupLabel": "Š_Index settings_______________ä",
+  "CCIAnalysisSettingGroupText": "Š_Specify how the index should be calculated_______________________ä.",
+  "geomeanScaledLabel": "Š_Compound differences (Geometric mean of scaled values)____________________________ä",
+  "indexMethodLabel": "Š_Method to scale and combine variables____________________ä",
+  "inputFeaturesOrTableLabel": "Š_Input features or table________________________ä",
+  "inputLayerGroupText": "Š_Choose the features or table and variables to create the index with___________________________________ä.",
+  "inputVariablesLabel": "Š_Input variables________________ä",
+  "itemProperties": {
+    "description": "Š_Feature layer generated from running the Calculate Composite Index analysis tool__________________________________________ä.",
+    "snippet": "Š_Feature layer generated from Calculate Composite Index____________________________ä"
+  },
+  "meanPercentileLabel": "Š_Combine ranks (Mean of percentiles)___________________ä",
+  "meanScaledLabel": "Š_Combine values (Mean of scaled values)____________________ä",
+  "outputIndexMaxLabel": "Š_Maximum_______________ä",
+  "outputIndexMinLabel": "Š_Minimum_______________ä",
+  "outputIndexMinMaxLabel": "Š_Index minimum and maximum values_________________ä",
+  "outputIndexReverseLabel": "Š_Reverse index values_____________________ä",
+  "reverseVariableLabel": "Š_Reverse direction__________________ä",
+  "sumFlagsPercentileLabel": "Š_Highlight extremes (Count of values above 90th percentile)______________________________ä",
+  "toolName": "Š_Calculate Composite Index__________________________ä",
+  "weight": "Š_Weight_____________ä"
+}

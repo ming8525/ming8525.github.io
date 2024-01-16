@@ -1,0 +1,68 @@
+{
+  "browser": {
+    "filters": "Фильтры",
+    "pageRange": "${start}-${end}, всего: ${total}",
+    "pageRangeAria": "${start}-${end}, всего элементов: ${total}",
+    "loading": "Загрузка результатов",
+    "close": "Ж_Close___________Я"
+  },
+  "actions": {
+    "more": "Больше"
+  },
+  "filter": {
+    "clear": "Очистить"
+  },
+  "filterDate": {
+    "today": "Сегодня",
+    "yesterday": "Вчера",
+    "last7": "Последние 7 дней",
+    "last30": "Последние 30 дней",
+    "custom": "Пользовательский диапазон...",
+    "title": {
+      "created": "Дата создания",
+      "modified": "Дата изменения"
+    },
+    "created": "Создано: ${date}",
+    "modified": "Изменено: ${date}"
+  },
+  "pagination": {
+    "next": "Следующая страница",
+    "prev": "Предыдущая страница"
+  },
+  "search": {
+    "label": "Поиск групп",
+    "search": "Поиск",
+    "clear": "Очистить термин поиска",
+    "wildcard": "Поиск по подстановочным знакам не поддерживается"
+  },
+  "sort": {
+    "sortDirection": "Направление сортировки",
+    "title": "Заголовок",
+    "relevance": "Актуальность",
+    "modified": "Дата изменения",
+    "deleted": "Ж_Date deleted_____________Я",
+    "created": "Дата создания",
+    "size": "Ж_Size_________Я",
+    "owner": "Владелец",
+    "sizeAsc": "Ж_Smallest to largest____________________Я",
+    "sizeDesc": "Ж_Largest to smallest____________________Я",
+    "numviews": "Количество просмотров",
+    "numAsc": "От наименьшего к наибольшему",
+    "numDesc": "От наибольшего к наименьшему",
+    "alphabeticalAsc": "По алфавиту",
+    "alphabeticalDesc": "По алфавиту в обратном порядке",
+    "recentAsc": "Последние",
+    "recentDesc": "Самые свежие",
+    "sortBy": "Сортировать по",
+    "sortByColon": "Сортировать по:"
+  },
+  "topBar": {
+    "filter": "Фильтр"
+  },
+  "filterStatus": {
+    "clear": "Очистить",
+    "filters": "Фильтры:",
+    "additional": "Дополнительные активные фильтры",
+    "clearAllFilters": "Ж_Clear all filters__________________Я"
+  }
+}

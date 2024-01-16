@@ -1,0 +1,68 @@
+{
+  "browser": {
+    "filters": "Filtre",
+    "pageRange": "${start}-${end}, i alt: ${total}",
+    "pageRangeAria": "${start}-${end}, elementer i alt: ${total}",
+    "loading": "Indlæser resultater",
+    "close": "ø_Close___________å"
+  },
+  "actions": {
+    "more": "Mere"
+  },
+  "filter": {
+    "clear": "Ryd"
+  },
+  "filterDate": {
+    "today": "I dag",
+    "yesterday": "I går",
+    "last7": "Seneste 7 dage",
+    "last30": "Seneste 30 dage",
+    "custom": "Tilpasset interval...",
+    "title": {
+      "created": "Oprettelsesdato",
+      "modified": "Ændringsdato"
+    },
+    "created": "Oprettet: ${date}",
+    "modified": "Ændret: ${date}"
+  },
+  "pagination": {
+    "next": "Næste side",
+    "prev": "Forrige side"
+  },
+  "search": {
+    "label": "Søg efter grupper",
+    "search": "Søg",
+    "clear": "Ryd søgeudtryk",
+    "wildcard": "Søgninger med jokertegn understøttes ikke"
+  },
+  "sort": {
+    "sortDirection": "Sorteringsretning",
+    "title": "Titel",
+    "relevance": "Relevans",
+    "modified": "Ændringsdato",
+    "deleted": "ø_Date deleted_____________å",
+    "created": "Oprettelsesdato",
+    "size": "ø_Size_________å",
+    "owner": "Ejer",
+    "sizeAsc": "ø_Smallest to largest____________________å",
+    "sizeDesc": "ø_Largest to smallest____________________å",
+    "numviews": "Vis antal",
+    "numAsc": "Fra mindst til mest",
+    "numDesc": "Fra mest eller mindst",
+    "alphabeticalAsc": "I alfabetisk orden",
+    "alphabeticalDesc": "I omvendt alfabetisk orden",
+    "recentAsc": "Mindst nyligt",
+    "recentDesc": "Seneste",
+    "sortBy": "Sortér efter",
+    "sortByColon": "Sortér efter:"
+  },
+  "topBar": {
+    "filter": "Filtrér"
+  },
+  "filterStatus": {
+    "clear": "Ryd",
+    "filters": "Filtre:",
+    "additional": "Flere aktive filtre",
+    "clearAllFilters": "ø_Clear all filters__________________å"
+  }
+}

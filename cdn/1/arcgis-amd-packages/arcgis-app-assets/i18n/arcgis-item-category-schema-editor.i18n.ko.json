@@ -1,0 +1,62 @@
+{
+  "modalHeader": "한_Configure content categories_____________________________빠",
+  "helpText": "한_Edit, delete, or reorder categories in your organization______________________________빠.",
+  "loadingText": "한_Loading schema templates_________________________빠",
+  "cancel": "한_Cancel_____________빠",
+  "finishSetup": "한_Finish setup_____________빠",
+  "error": {
+    "generic": {
+      "title": "한_Error updating categories__________________________빠",
+      "message": "한_Something went wrong. Please try again later________________________빠."
+    },
+    "maxDepthExceeded": {
+      "title": "한_Error updating categories__________________________빠",
+      "message": "한_You cannot nest categories more than 2 levels deep___________________________빠."
+    },
+    "destinationHasSameName": {
+      "title": "한_Error updating categories__________________________빠",
+      "message": "한_A category with the same name already exists in the destination category______________________________________빠."
+    },
+    "emptyTitle": {
+      "title": "한_Error updating categories__________________________빠",
+      "message": "한_Category title cannot be empty_________________빠."
+    },
+    "noSchema": {
+      "title": "한_Schema not found_________________빠",
+      "message": "한_Item schema not found for user_________________빠."
+    },
+    "maxCharacter": {
+      "title": "한_Error updating categories__________________________빠",
+      "message": "한_Category names can be a maximum of ${maxCharacter} characters long___________________________________빠."
+    }
+  },
+  "warning": {
+    "deleteInUseCategory": {
+      "title": "한_Delete category________________빠",
+      "message": "한_${numItem} items are assigned to this category. Deleting the category will also remove it from these items_______________________________________________________빠.",
+      "cta": "한_Delete category________________빠"
+    }
+  },
+  "template": {
+    "title": "한_Category templates___________________빠",
+    "learnMore": "한_Learn more_____________________빠",
+    "templateList": {
+      "custom": {
+        "title": "한_Custom categories__________________빠",
+        "message": "한_Create your own categories to organize content within your organization_____________________________________빠."
+      },
+      "arcgis": {
+        "title": "한_ArcGIS categories__________________빠",
+        "message": "한_ArcGIS categories include a selection of topic categories and subcategories that can be used to categorize many types of geospatial content. These categories are used to support ArcGIS Living Atlas of the World___________________________________________________________________________________________________________빠."
+      },
+      "iso": {
+        "title": "한_ISO categories_______________빠",
+        "message": "한_ISO categories includes topic categories from the International Organization for Standardization that provide a method for describing and cataloging geographic information_______________________________________________________________________________________빠."
+      },
+      "inspire": {
+        "title": "한_INSPIRE categories___________________빠",
+        "message": "한_INSPIRE categories include a comprehensive set of spatial data themes set out in the INSPIRE Directive_____________________________________________________빠."
+      }
+    }
+  }
+}

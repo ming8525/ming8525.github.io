@@ -1,0 +1,149 @@
+{
+  "deleteItem": "ng_Delete item____________ny",
+  "deleteItems": "ng_Delete items_____________ny",
+  "deleteFolder": "ng_Delete folder______________ny",
+  "recycleBin": "ng_Recycle bin____________ny",
+  "delete": "ng_Delete_____________ny",
+  "permanentlyDelete": "ng_Permanently delete___________________ny",
+  "back": "ng_Back_________ny",
+  "cancel": "ng_Cancel_____________ny",
+  "item": "ng_item_________ny",
+  "items": "ng_items___________ny",
+  "cantDelete": "ng_The following items can't be deleted because they are delete protected or have dependent items_________________________________________________ny.",
+  "proceed": "ng_Proceed with deleting the remaining items______________________ny?",
+  "moreOptions": "ng_More options_____________ny",
+  "hideOptions": "ng_Hide options_____________ny",
+  "deletePermanently": "ng_Delete permanently (This action cannot be undone)__________________________ny",
+  "learnMore": "ng_Learn more_____________________ny",
+  "summary": {
+    "select": "ng_Select_____________ny",
+    "deselect": "ng_Deselect_________________ny",
+    "selectedItems": "ng_Selected items________________ny:",
+    "permanentlyDelete": "ng_Permanently delete____________________ny:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "ng_This item is not supported by the recycle bin________________________ny.",
+        "multiple": "ng_These items are not supported by the recycle bin__________________________ny."
+      },
+      "unsynchronized": "ng_Unsynchronized edits made to items in a distributed collaboration group will be lost.<br>${startLink}Learn more${endLink}______________________________________________________________ny",
+      "notSupportedAndUnsynchronized": "ng_Some item types are not supported. Unsynchronized edits made to items in a distributed collaboration group will be lost.<br>${startLink}Learn more${endLink}_______________________________________________________________________________ny",
+      "group": {
+        "notSupported": "ng_Not supported______________ny",
+        "distributedCollaboration": "ng_Part of distributed collaboration__________________ny"
+      }
+    },
+    "canBeRecovered": {
+      "single": "ng_This item can be recovered up to ${days} days________________________ny.",
+      "multiple": "ng_These items can be recovered up to ${days} days_________________________ny.",
+      "unknown": "ng_These items can be recovered up to ${days} days_________________________ny."
+    },
+    "willBeRecycled": "ng_Send to the recycle bin_________________________ny:",
+    "cannotBeDeleted": "ng_Cannot delete_______________ny:",
+    "deleteDiscouraged": "ng_Delete discouraged____________________ny:",
+    "hasDependentItems": "ng_Has dependent items_____________________ny:",
+    "someActionsMayNoLongerWork": {
+      "single": "ng_If you send this item to the recycle bin, some actions that require access to the source item may no longer work as expected________________________________________________________________ny.",
+      "multiple": "ng_If you send these items to the recycle bin, some actions that require access to the source items may no longer work as expected_________________________________________________________________ny."
+    },
+    "cannotDelete": {
+      "all": "ng_Items that are delete protected, part of a distributed collaboration group or have dependent items cannot be deleted____________________________________________________________ny.",
+      "protectedAndCollaboration": "ng_Items that are delete protected or part of a distributed collaboration group cannot be deleted_________________________________________________ny.",
+      "protectedAndDependent": "ng_Items that are delete protected or have dependent items cannot be deleted______________________________________ny.",
+      "collaborationAndDependent": "ng_Items that are part of a distributed collaboration group or have dependent items cannot be deleted___________________________________________________ny."
+    },
+    "deletePermanently": "ng_Delete permanently: ${count} (This action cannot be undone)_______________________________ny",
+    "deleteAllPermanently": "ng_Delete all items permanently: ${count} (This action cannot be undone)____________________________________ny",
+    "deleteXPermanently": "ng_Delete ${subset} of ${total} items permanently (This action cannot be undone)________________________________________ny",
+    "protectedGroup": {
+      "deleteProtected": "ng_Delete protected_________________ny",
+      "deleteProtectedDescription": "ng_Items that are delete protected cannot be deleted__________________________ny.",
+      "hasDependentItems": "ng_Has dependent items____________________ny",
+      "itemUsedBy": "ng_This item has been used by____________________________ny:",
+      "hasDependentItemsDescription": {
+        "single": "ng_This item has a dependent item. They must be deleted together________________________________ny.",
+        "multiple": "ng_These items have other items dependent on them. They must be deleted together________________________________________ny."
+      },
+      "distributedCollaboration": "ng_Part of distributed collaboration__________________ny",
+      "distributedCollaborationDescription": "ng_Items that are part of a distributed collaboration group cannot be deleted_______________________________________ny.",
+      "deleteDiscouraged": "ng_Delete discouraged___________________ny",
+      "deleteDiscouragedDescription": {
+        "single": "ng_If this item is deleted, dependent items may lose some functionality. You can delete this item from the item details page______________________________________________________________ny.",
+        "multiple": "ng_If these items are deleted, dependent items may lose some functionality. You can delete these items individually from the item details page_______________________________________________________________________ny."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "ng_This item will be permanently deleted because it is not supported by the recycle bin____________________________________________ny.",
+    "multiple": "ng_These items will be permanently deleted because they are not supported by the recycle bin______________________________________________ny.",
+    "unknown": "ng_These items will be permanently deleted because they are not supported by the recycle bin______________________________________________ny."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "ng_The selected item belongs to a distributed collaboration group and cannot be moved to the recycle bin. It will be permanently deleted____________________________________________________________________ny.",
+    "multiple": "ng_The selected items belong to a distributed collaboration group and cannot be moved to the recycle bin. They will be permanently deleted_____________________________________________________________________ny.",
+    "unknown": "ng_The selected items belong to a distributed collaboration group and cannot be moved to the recycle bin. They will be permanently deleted_____________________________________________________________________ny."
+  },
+  "areYouSure": {
+    "single": "ng_Are you sure you want to delete this item______________________ny?",
+    "multiple": "ng_Are you sure you want to delete these items_______________________ny?",
+    "unknown": "ng_Are you sure you want to delete these items_______________________ny?"
+  },
+  "areYouSureRecycle": {
+    "single": "ng_This item will stay in the recycle bin for ${days} days before it is permanently deleted______________________________________________ny.",
+    "multiple": "ng_These items will stay in the recycle bin for ${days} days before they are permanently deleted________________________________________________ny.",
+    "unknown": "ng_These items will stay in the recycle bin for ${days} days before they are permanently deleted________________________________________________ny."
+  },
+  "areYouSurePermanent": {
+    "single": "ng_Are you sure you want to permanently delete this ${number} item? This ${carrot} item cannot be recovered after it has been permanently deleted_________________________________________________________________________ny.",
+    "multiple": "ng_Are you sure you want to permanently delete these items? These items cannot be recovered after they have been permanently deleted__________________________________________________________________ny.",
+    "unknown": "ng_Are you sure you want to permanently delete these items? These items cannot be recovered after they have been permanently deleted__________________________________________________________________ny."
+  },
+  "folder": {
+    "mustBeEmpty": "ng_The folder <b>${folder}</b> must be empty in order to be deleted__________________________________ny.",
+    "aFewCannotBeDeleted": "ng_A few items cannot be deleted. Are you sure you want to proceed with deleting the rest_____________________________________________ny?",
+    "mustBeEmptyProceed": "ng_The folder <b>${folder}</b> must be empty in order to be deleted. Are you sure you want to proceed with deleting these items________________________________________________________________ny?",
+    "cannotBeDeleted": "ng_The folder <b>${folder}</b> cannot be deleted because its items cannot be deleted__________________________________________ny."
+  },
+  "deletes": {
+    "single": "ng_Deletes in ${days} day_______________________ny",
+    "multiple": "ng_Deletes in ${days} days________________________ny",
+    "unknown": "ng_Days until delete: ${days}___________________________ny"
+  },
+  "deleteOverride": {
+    "single": "ng_Are you sure you want to permanently delete this item instead? This action cannot be undone_______________________________________________ny.",
+    "multiple": "ng_Are you sure you want to permanently delete these items instead? This action cannot be undone________________________________________________ny."
+  },
+  "restore": {
+    "restore": "ng_Restore_______________ny",
+    "restoreTo": "ng_Restore to_____________________ny",
+    "restoreItem": "ng_Restore Item_____________ny",
+    "restoreItems": "ng_Restore Items______________ny",
+    "noticeMessage": "ng_Restored items will be unshared. Please review your content before sharing it again___________________________________________ny.",
+    "cannotBulkRestoreXItems": "ng_Cannot bulk restore more than ${number} items, please deselect a few items_______________________________________ny.",
+    "cannotBulkRestoreMultipleOwners": "ng_Cannot bulk restore items that belong to different owners. Select items from a single owner to bulk restore_______________________________________________________ny.",
+    "toRestore": {
+      "single": "ng_Item to Restore_________________ny:",
+      "multiple": "ng_Items to Restore__________________ny:"
+    },
+    "cannotRestore": "ng_Cannot restore________________ny:",
+    "dependentItems": {
+      "single": "ng_This item cannot be restored because it is dependent on <b>${parent}</b>. Restore them together_________________________________________________ny.",
+      "multiple": "ng_These items cannot be restored because they are dependent on other items in the recycle bin. Restore them together___________________________________________________________ny: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "ng_Need to recover that accidentally deleted item? Check out the new recycle bin________________________________________ny!",
+    "takeALook": "ng_Take a look at the new recycle bin___________________ny!",
+    "learnMore": "ng_Learn more about restoring deleted items_____________________ny",
+    "heldInRecycleBin": "ng_Items in the recycle bin are held for up to ${days} days______________________________ny.",
+    "goToUserRecycleBin": "ng_Go to your ${linkStart}recycle bin${linkEnd} to restore or permanently delete items___________________________________________ny.",
+    "goToOrgRecycleBin": "ng_Go to your ${linkStart}organization's recycle bin${linkEnd} to restore or permanently delete items. Content in the recycle bin continues to consume credits_______________________________________________________________________________ny."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "ng_${start} - ${end} of ${total} (${size}) in recycle bin____________________________ny",
+    "other": "ng_${start} - ${end}, total: ${total} (${size}) in recycle bin_______________________________ny"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "ng_${start} - ${end} of ${total} (>${size}) in recycle bin_____________________________ny",
+    "other": "ng_${start} - ${end}, total: ${total} (>${size}) in recycle bin_______________________________ny"
+  }
+}

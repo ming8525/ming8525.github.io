@@ -1,0 +1,19 @@
+{
+  "backLabel": "Atgal",
+  "cannotReopenTool": "Įrankio negalima atidaryti dar kartą. Grąžinti numatytieji įrankio parametrai.",
+  "cannotReopenWebTool": "Į_Unable to open web tool. <calcite-link target='_blank' href='${ docLink }'>Learn more</calcite-link>___________________________________________________š",
+  "creditThresholdModal": {
+    "cancelRun": "Atšaukti",
+    "confirmationPrompt": "Ar norite tęsti?",
+    "continueRun": "Tęsti",
+    "creditEstimate": "Numatyti kreditai: ${cost}",
+    "creditThreshold": "Kredito ribinė vertė: ${threshold}",
+    "heading": "Pasiekta kredito ribinė vertė",
+    "learnMore": "Sužinokite daugiau",
+    "thresholdExceeded": "Apskaičiuota šios analizės kaina yra didesnė už jūsų kredito ribinę vertę."
+  },
+  "failedToExecuteEstimate": "Pateikti nepavyko. Nepavyko vykdyti EstimateRasterAnalysisCost",
+  "missingPermissionForWebTool": "Į_This tool cannot be accessed. Ensure that the tool exists and that your user has permission to access it______________________________________________________š.",
+  "runAnalysisLabel": "Vykdyti",
+  "webToolJSONChanged": "Į_One or more parameters have been updated. Some parameters may not be repopulated from history________________________________________________š."
+}

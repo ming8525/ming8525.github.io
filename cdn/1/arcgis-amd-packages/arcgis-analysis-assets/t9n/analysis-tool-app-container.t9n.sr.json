@@ -1,0 +1,19 @@
+{
+  "backLabel": "Nazad",
+  "cannotReopenTool": "Alat nije mogao ponovo da se otvori. Parametri alata su vraćeni na podrazumevane vrednosti.",
+  "cannotReopenWebTool": "Č_Unable to open web tool. <calcite-link target='_blank' href='${ docLink }'>Learn more</calcite-link>___________________________________________________ž",
+  "creditThresholdModal": {
+    "cancelRun": "Otkaži",
+    "confirmationPrompt": "Želite li da nastavite?",
+    "continueRun": "Nastavi",
+    "creditEstimate": "Procenjeni krediti: ${cost}",
+    "creditThreshold": "Kreditni prag: ${threshold}",
+    "heading": "Dostignut je kreditni prag",
+    "learnMore": "Saznajte više",
+    "thresholdExceeded": "Procenjeni trošak za ovu analizu je veći od vašeg kreditnog praga."
+  },
+  "failedToExecuteEstimate": "Slanje nije uspelo. Izvršavanje procene troška rasterske analize nije uspelo",
+  "missingPermissionForWebTool": "Č_This tool cannot be accessed. Ensure that the tool exists and that your user has permission to access it______________________________________________________ž.",
+  "runAnalysisLabel": "Pokreni",
+  "webToolJSONChanged": "Č_One or more parameters have been updated. Some parameters may not be repopulated from history________________________________________________ž."
+}

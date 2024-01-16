@@ -1,0 +1,17 @@
+{
+  "allowAnalysisReason": "Ĳ_One or more imagery layers from the map are not listed here because the allow analysis service property is not enabled. <a href='${ docLink }' target='_blank'>Learn more.</a><br>__________________________________________________________________________________________ä",
+  "featureCountAboveMaximum": "Het aantal objecten mag niet groter zijn dan ${maximum}.",
+  "featureCountBelowMinimum": "Het aantal objecten mag niet kleiner zijn dan ${minimum}.",
+  "isRequired": "Deze parameter is vereist.",
+  "layer": "Kaartlaag",
+  "layerAction": "${layerName} acties",
+  "layerNotAvailable": "Kaartlaag laden mislukt ${layerName}",
+  "layerNotSupported": "De geselecteerde laag wordt niet ondersteund.",
+  "layersFilteredOut": "Een aantal lagen is uitgefilterd.",
+  "layersNotAllowAnalysis": "Analyse is niet toegestaan voor een aantal lagen in deze kaart.",
+  "multipleLayersNotAvailable": "Kaartlaag ${layerName} en andere laden mislukt",
+  "numberFeatures": "Aantal objecten: ${featureCount}",
+  "numberFeaturesLoading": "Berekenen...",
+  "proxyReason": "Ĳ_One or more layers from the map are not listed here because they are either not shared with you or not publicly accessible. <a href='${ docLink }' target='_blank'>Learn more.</a><br>____________________________________________________________________________________________ä",
+  "replaceLayer": "Laag vervangen"
+}

@@ -1,0 +1,14 @@
+{
+  "AddDataFromUrl": "ø_Add data from URL__________________å",
+  "addData": "ø_Add data_________________å",
+  "clear": "ø_Clear___________å",
+  "file": "ø_File_________å",
+  "fileNotFound": "ø_Failed to load file_____________________å.",
+  "invalidUrl": "ø_Invalid URL or file extension_______________________________å.",
+  "item": "ø_Item_________å",
+  "replaceData": "ø_Replace data_____________å",
+  "required": "ø_This parameter is required____________________________å.",
+  "uploadData": "ø_Upload data____________å",
+  "uploadFailureMsg": "ø_Error performing upload operation, file size or type not supported for this service___________________________________________å.",
+  "url": "ø_Url_______å"
+}

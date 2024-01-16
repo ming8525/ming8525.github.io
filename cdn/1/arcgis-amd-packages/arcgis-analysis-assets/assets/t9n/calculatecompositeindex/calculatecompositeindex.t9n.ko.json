@@ -1,0 +1,23 @@
+{
+  "CCIAnalysisSettingGroupLabel": "한_Index settings_______________빠",
+  "CCIAnalysisSettingGroupText": "한_Specify how the index should be calculated_______________________빠.",
+  "geomeanScaledLabel": "한_Compound differences (Geometric mean of scaled values)____________________________빠",
+  "indexMethodLabel": "한_Method to scale and combine variables____________________빠",
+  "inputFeaturesOrTableLabel": "한_Input features or table________________________빠",
+  "inputLayerGroupText": "한_Choose the features or table and variables to create the index with___________________________________빠.",
+  "inputVariablesLabel": "한_Input variables________________빠",
+  "itemProperties": {
+    "description": "한_Feature layer generated from running the Calculate Composite Index analysis tool__________________________________________빠.",
+    "snippet": "한_Feature layer generated from Calculate Composite Index____________________________빠"
+  },
+  "meanPercentileLabel": "한_Combine ranks (Mean of percentiles)___________________빠",
+  "meanScaledLabel": "한_Combine values (Mean of scaled values)____________________빠",
+  "outputIndexMaxLabel": "한_Maximum_______________빠",
+  "outputIndexMinLabel": "한_Minimum_______________빠",
+  "outputIndexMinMaxLabel": "한_Index minimum and maximum values_________________빠",
+  "outputIndexReverseLabel": "한_Reverse index values_____________________빠",
+  "reverseVariableLabel": "한_Reverse direction__________________빠",
+  "sumFlagsPercentileLabel": "한_Highlight extremes (Count of values above 90th percentile)______________________________빠",
+  "toolName": "한_Calculate Composite Index__________________________빠",
+  "weight": "한_Weight_____________빠"
+}

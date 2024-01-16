@@ -1,0 +1,23 @@
+{
+  "CCIAnalysisSettingGroupLabel": "بيت_Index settings_______________لاحقة",
+  "CCIAnalysisSettingGroupText": "بيت_Specify how the index should be calculated_______________________لاحقة.",
+  "geomeanScaledLabel": "بيت_Compound differences (Geometric mean of scaled values)____________________________لاحقة",
+  "indexMethodLabel": "بيت_Method to scale and combine variables____________________لاحقة",
+  "inputFeaturesOrTableLabel": "بيت_Input features or table________________________لاحقة",
+  "inputLayerGroupText": "بيت_Choose the features or table and variables to create the index with___________________________________لاحقة.",
+  "inputVariablesLabel": "بيت_Input variables________________لاحقة",
+  "itemProperties": {
+    "description": "بيت_Feature layer generated from running the Calculate Composite Index analysis tool__________________________________________لاحقة.",
+    "snippet": "بيت_Feature layer generated from Calculate Composite Index____________________________لاحقة"
+  },
+  "meanPercentileLabel": "بيت_Combine ranks (Mean of percentiles)___________________لاحقة",
+  "meanScaledLabel": "بيت_Combine values (Mean of scaled values)____________________لاحقة",
+  "outputIndexMaxLabel": "بيت_Maximum_______________لاحقة",
+  "outputIndexMinLabel": "بيت_Minimum_______________لاحقة",
+  "outputIndexMinMaxLabel": "بيت_Index minimum and maximum values_________________لاحقة",
+  "outputIndexReverseLabel": "بيت_Reverse index values_____________________لاحقة",
+  "reverseVariableLabel": "بيت_Reverse direction__________________لاحقة",
+  "sumFlagsPercentileLabel": "بيت_Highlight extremes (Count of values above 90th percentile)______________________________لاحقة",
+  "toolName": "بيت_Calculate Composite Index__________________________لاحقة",
+  "weight": "بيت_Weight_____________لاحقة"
+}

@@ -1,0 +1,23 @@
+{
+  "CCIAnalysisSettingGroupLabel": "π_Index settings_______________Ω",
+  "CCIAnalysisSettingGroupText": "π_Specify how the index should be calculated_______________________Ω.",
+  "geomeanScaledLabel": "π_Compound differences (Geometric mean of scaled values)____________________________Ω",
+  "indexMethodLabel": "π_Method to scale and combine variables____________________Ω",
+  "inputFeaturesOrTableLabel": "π_Input features or table________________________Ω",
+  "inputLayerGroupText": "π_Choose the features or table and variables to create the index with___________________________________Ω.",
+  "inputVariablesLabel": "π_Input variables________________Ω",
+  "itemProperties": {
+    "description": "π_Feature layer generated from running the Calculate Composite Index analysis tool__________________________________________Ω.",
+    "snippet": "π_Feature layer generated from Calculate Composite Index____________________________Ω"
+  },
+  "meanPercentileLabel": "π_Combine ranks (Mean of percentiles)___________________Ω",
+  "meanScaledLabel": "π_Combine values (Mean of scaled values)____________________Ω",
+  "outputIndexMaxLabel": "π_Maximum_______________Ω",
+  "outputIndexMinLabel": "π_Minimum_______________Ω",
+  "outputIndexMinMaxLabel": "π_Index minimum and maximum values_________________Ω",
+  "outputIndexReverseLabel": "π_Reverse index values_____________________Ω",
+  "reverseVariableLabel": "π_Reverse direction__________________Ω",
+  "sumFlagsPercentileLabel": "π_Highlight extremes (Count of values above 90th percentile)______________________________Ω",
+  "toolName": "π_Calculate Composite Index__________________________Ω",
+  "weight": "π_Weight_____________Ω"
+}

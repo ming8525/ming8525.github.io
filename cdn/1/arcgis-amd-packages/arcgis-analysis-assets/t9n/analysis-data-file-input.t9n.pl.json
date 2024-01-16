@@ -1,0 +1,14 @@
+{
+  "AddDataFromUrl": "ł_Add data from URL__________________ą",
+  "addData": "ł_Add data_________________ą",
+  "clear": "ł_Clear___________ą",
+  "file": "ł_File_________ą",
+  "fileNotFound": "ł_Failed to load file_____________________ą.",
+  "invalidUrl": "ł_Invalid URL or file extension_______________________________ą.",
+  "item": "ł_Item_________ą",
+  "replaceData": "ł_Replace data_____________ą",
+  "required": "ł_This parameter is required____________________________ą.",
+  "uploadData": "ł_Upload data____________ą",
+  "uploadFailureMsg": "ł_Error performing upload operation, file size or type not supported for this service___________________________________________ą.",
+  "url": "ł_Url_______ą"
+}

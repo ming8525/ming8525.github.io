@@ -1,0 +1,68 @@
+{
+  "browser": {
+    "filters": "Filtros",
+    "pageRange": "${start}-${end}, total: ${total}",
+    "pageRangeAria": "${start}-${end}, total de itens: ${total}",
+    "loading": "A carregar resultados",
+    "close": "ã_Close___________Ç"
+  },
+  "actions": {
+    "more": "Mais"
+  },
+  "filter": {
+    "clear": "Limpar"
+  },
+  "filterDate": {
+    "today": "Hoje",
+    "yesterday": "Ontem",
+    "last7": "Últimos 7 dias",
+    "last30": "Últimos 30 dias",
+    "custom": "Intervalo personalizado...",
+    "title": {
+      "created": "Data de criação",
+      "modified": "Data de modificação"
+    },
+    "created": "Criação: ${date}",
+    "modified": "Modificação: ${date}"
+  },
+  "pagination": {
+    "next": "Página seguinte",
+    "prev": "Página anterior"
+  },
+  "search": {
+    "label": "Procurar grupos",
+    "search": "Pesquisar",
+    "clear": "Limpar termo de pesquisa",
+    "wildcard": "As pesquisas com caracteres universais não são suportadas"
+  },
+  "sort": {
+    "sortDirection": "Ordenar direção",
+    "title": "Título",
+    "relevance": "Relevância",
+    "modified": "Data de modificação",
+    "deleted": "ã_Date deleted_____________Ç",
+    "created": "Data de criação",
+    "size": "ã_Size_________Ç",
+    "owner": "Proprietário",
+    "sizeAsc": "ã_Smallest to largest____________________Ç",
+    "sizeDesc": "ã_Largest to smallest____________________Ç",
+    "numviews": "Visualizar contagem",
+    "numAsc": "Menos para mais",
+    "numDesc": "Mais para menos",
+    "alphabeticalAsc": "Alfabética",
+    "alphabeticalDesc": "Ordem inversa à alfabética",
+    "recentAsc": "Menos recente",
+    "recentDesc": "Mais recente",
+    "sortBy": "Ordenar por",
+    "sortByColon": "Ordenar por:"
+  },
+  "topBar": {
+    "filter": "Filtrar"
+  },
+  "filterStatus": {
+    "clear": "Limpar",
+    "filters": "Filtros:",
+    "additional": "Filtros ativos adicionais",
+    "clearAllFilters": "ã_Clear all filters__________________Ç"
+  }
+}

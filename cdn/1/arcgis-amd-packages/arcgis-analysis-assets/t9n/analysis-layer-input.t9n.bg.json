@@ -1,0 +1,17 @@
+{
+  "allowAnalysisReason": "й_One or more imagery layers from the map are not listed here because the allow analysis service property is not enabled. <a href='${ docLink }' target='_blank'>Learn more.</a><br>__________________________________________________________________________________________й",
+  "featureCountAboveMaximum": "Броят на обектите не може да бъде по-голям от ${maximum}.",
+  "featureCountBelowMinimum": "Броят на обектите не може да бъде по-малък от ${minimum}.",
+  "isRequired": "Този параметър е задължителен.",
+  "layer": "Слой",
+  "layerAction": "${layerName} действия",
+  "layerNotAvailable": "Неуспешно зареждане на слой ${layerName}",
+  "layerNotSupported": "Избраният слой не се поддържа.",
+  "layersFilteredOut": "Някои слоеве са филтрирани.",
+  "layersNotAllowAnalysis": "Анализът не е разрешен за някои слоеве в тази карта.",
+  "multipleLayersNotAvailable": "Неуспешно зареждане на слой ${layerName} и други",
+  "numberFeatures": "Брой обекти: ${featureCount}",
+  "numberFeaturesLoading": "Изчисляване...",
+  "proxyReason": "й_One or more layers from the map are not listed here because they are either not shared with you or not publicly accessible. <a href='${ docLink }' target='_blank'>Learn more.</a><br>____________________________________________________________________________________________й",
+  "replaceLayer": "Смяна на слой"
+}

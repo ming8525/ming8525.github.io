@@ -1,0 +1,19 @@
+{
+  "backLabel": "Indietro",
+  "cannotReopenTool": "Impossibile riaprire lo strumento. I parametri degli strumenti sono stati riportati ai valori predefiniti.",
+  "cannotReopenWebTool": "é_Unable to open web tool. <calcite-link target='_blank' href='${ docLink }'>Learn more</calcite-link>___________________________________________________È",
+  "creditThresholdModal": {
+    "cancelRun": "Annulla",
+    "confirmationPrompt": "Continuare?",
+    "continueRun": "Continua",
+    "creditEstimate": "Crediti stimati: ${cost}",
+    "creditThreshold": "Soglia credito: ${threshold}",
+    "heading": "Soglia credito raggiunta",
+    "learnMore": "Ulteriori informazioni",
+    "thresholdExceeded": "Il costo stimato per questa analisi è superiore alla soglia credito."
+  },
+  "failedToExecuteEstimate": "Invio fallito. Impossibile eseguire EstimateRasterAnalysisCost",
+  "missingPermissionForWebTool": "é_This tool cannot be accessed. Ensure that the tool exists and that your user has permission to access it______________________________________________________È.",
+  "runAnalysisLabel": "Esegui",
+  "webToolJSONChanged": "é_One or more parameters have been updated. Some parameters may not be repopulated from history________________________________________________È."
+}

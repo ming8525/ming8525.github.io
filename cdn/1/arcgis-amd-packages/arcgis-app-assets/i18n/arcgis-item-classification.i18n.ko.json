@@ -1,0 +1,16 @@
+{
+  "cancel": "한_Cancel_____________빠",
+  "reset": "한_Reset___________빠",
+  "resetting": "한_Resetting_____________빠...",
+  "save": "한_Save_________빠",
+  "saving": "한_Saving___________________빠...",
+  "itemClassificationLabel": "한_Classification_______________빠",
+  "itemClassificationCategoryLabel": "한_Item classification category label__________________빠",
+  "itemClassificationEditLabel": "한_Edit Classification____________________빠",
+  "itemClassificationValidateError": "한_Validation failed, the item classification value won't get populated! Please edit and save a new one____________________________________________________빠.",
+  "classificationValueSaved": "한_The classification value has been saved_____________________빠",
+  "classificationNotificationHandler": "한_Classification notification handler___________________빠",
+  "openModal": "한_Open modal_____________________빠",
+  "currentSelections": "한_Current Selections___________________빠",
+  "searchForCategory": "한_Search for category____________________빠"
+}

@@ -1,0 +1,16 @@
+{
+  "cancel": "Ĳ_Cancel_____________ä",
+  "reset": "Ĳ_Reset___________ä",
+  "resetting": "Ĳ_Resetting_____________ä...",
+  "save": "Ĳ_Save_________ä",
+  "saving": "Ĳ_Saving___________________ä...",
+  "itemClassificationLabel": "Ĳ_Classification_______________ä",
+  "itemClassificationCategoryLabel": "Ĳ_Item classification category label__________________ä",
+  "itemClassificationEditLabel": "Ĳ_Edit Classification____________________ä",
+  "itemClassificationValidateError": "Ĳ_Validation failed, the item classification value won't get populated! Please edit and save a new one____________________________________________________ä.",
+  "classificationValueSaved": "Ĳ_The classification value has been saved_____________________ä",
+  "classificationNotificationHandler": "Ĳ_Classification notification handler___________________ä",
+  "openModal": "Ĳ_Open modal_____________________ä",
+  "currentSelections": "Ĳ_Current Selections___________________ä",
+  "searchForCategory": "Ĳ_Search for category____________________ä"
+}

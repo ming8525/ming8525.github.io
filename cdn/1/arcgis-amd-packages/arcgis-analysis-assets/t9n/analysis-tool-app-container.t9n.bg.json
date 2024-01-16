@@ -1,0 +1,19 @@
+{
+  "backLabel": "Назад",
+  "cannotReopenTool": "Инструментът не може да бъде отворен отново. Параметрите на инструмента са върнати към стойностите по подразбиране.",
+  "cannotReopenWebTool": "й_Unable to open web tool. <calcite-link target='_blank' href='${ docLink }'>Learn more</calcite-link>___________________________________________________й",
+  "creditThresholdModal": {
+    "cancelRun": "Отказ",
+    "confirmationPrompt": "Желаете ли да продължите?",
+    "continueRun": "Обработено",
+    "creditEstimate": "Приблизителни кредити: ${cost}",
+    "creditThreshold": "Кредитен праг: ${threshold}",
+    "heading": "Прагът за използване на кредит е достигнат",
+    "learnMore": "Научете повече",
+    "thresholdExceeded": "Очакваната цена за този анализ е по-висока от кредитния Ви праг."
+  },
+  "failedToExecuteEstimate": "Неуспешно подаване. Неуспешно изпълнение EstimateRasterAnalysisCost",
+  "missingPermissionForWebTool": "й_This tool cannot be accessed. Ensure that the tool exists and that your user has permission to access it______________________________________________________й.",
+  "runAnalysisLabel": "Стартиране",
+  "webToolJSONChanged": "й_One or more parameters have been updated. Some parameters may not be repopulated from history________________________________________________й."
+}

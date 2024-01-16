@@ -1,0 +1,14 @@
+{
+  "deleteFolder": "й_Delete folder______________й",
+  "delete": "й_Delete_____________й",
+  "permanentlyDelete": "й_Permanently delete___________________й",
+  "back": "й_Back_________й",
+  "cancel": "й_Cancel_____________й",
+  "message": {
+    "empty": "й_Are you sure you want to delete this folder, <strong style='font-weight: 500'>${title}</strong>_________________________________________________й?",
+    "mustBeEmpty": "й_The folder <strong style='font-weight: 500'>${title}</strong> must be empty in order to be deleted___________________________________________________й.",
+    "aFewCannotBeDeleted": "й_A few items cannot be deleted. Are you sure you want to proceed with deleting the rest_____________________________________________й?",
+    "mustBeEmptyProceed": "й_The folder <strong style='font-weight: 500'>${title}</strong> must be empty in order to be deleted. Are you sure you want to proceed with deleting these items_________________________________________________________________________________й?",
+    "cannotBeDeleted": "й_The folder <strong style='font-weight: 500'>${title}</strong> cannot be deleted because its items cannot be deleted___________________________________________________________й."
+  }
+}

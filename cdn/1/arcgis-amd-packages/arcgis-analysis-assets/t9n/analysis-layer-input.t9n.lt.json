@@ -1,0 +1,17 @@
+{
+  "allowAnalysisReason": "Į_One or more imagery layers from the map are not listed here because the allow analysis service property is not enabled. <a href='${ docLink }' target='_blank'>Learn more.</a><br>__________________________________________________________________________________________š",
+  "featureCountAboveMaximum": "Elementų skaičius negali būti didesnis nei ${maximum}.",
+  "featureCountBelowMinimum": "Elementų skaičius negali būti mažesnis nei ${minimum}.",
+  "isRequired": "Šis parametras yra būtinas.",
+  "layer": "Sluoksnis",
+  "layerAction": "${layerName} veiksmai",
+  "layerNotAvailable": "Sluoksnio ${layerName} įkelti nepavyko",
+  "layerNotSupported": "Pasirinktas sluoksnis nepalaikomas.",
+  "layersFilteredOut": "Kai kurie sluoksniai buvo išfiltruoti.",
+  "layersNotAllowAnalysis": "Kai kurių šio žemėlapio sluoksnių analizė neleidžiama.",
+  "multipleLayersNotAvailable": "Sluoksnio ${layerName} ir kitų įkelti nepavyko",
+  "numberFeatures": "Elementų skaičius: ${featureCount}",
+  "numberFeaturesLoading": "Skaičiuojama...",
+  "proxyReason": "Į_One or more layers from the map are not listed here because they are either not shared with you or not publicly accessible. <a href='${ docLink }' target='_blank'>Learn more.</a><br>____________________________________________________________________________________________š",
+  "replaceLayer": "Pakeisti sluoksnį"
+}

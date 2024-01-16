@@ -1,0 +1,14 @@
+{
+  "AddDataFromUrl": "Ж_Add data from URL__________________Я",
+  "addData": "Ж_Add data_________________Я",
+  "clear": "Ж_Clear___________Я",
+  "file": "Ж_File_________Я",
+  "fileNotFound": "Ж_Failed to load file_____________________Я.",
+  "invalidUrl": "Ж_Invalid URL or file extension_______________________________Я.",
+  "item": "Ж_Item_________Я",
+  "replaceData": "Ж_Replace data_____________Я",
+  "required": "Ж_This parameter is required____________________________Я.",
+  "uploadData": "Ж_Upload data____________Я",
+  "uploadFailureMsg": "Ж_Error performing upload operation, file size or type not supported for this service___________________________________________Я.",
+  "url": "Ж_Url_______Я"
+}

@@ -1,0 +1,62 @@
+{
+  "modalHeader": "á_Configure content categories_____________________________Ó",
+  "helpText": "á_Edit, delete, or reorder categories in your organization______________________________Ó.",
+  "loadingText": "á_Loading schema templates_________________________Ó",
+  "cancel": "á_Cancel_____________Ó",
+  "finishSetup": "á_Finish setup_____________Ó",
+  "error": {
+    "generic": {
+      "title": "á_Error updating categories__________________________Ó",
+      "message": "á_Something went wrong. Please try again later________________________Ó."
+    },
+    "maxDepthExceeded": {
+      "title": "á_Error updating categories__________________________Ó",
+      "message": "á_You cannot nest categories more than 2 levels deep___________________________Ó."
+    },
+    "destinationHasSameName": {
+      "title": "á_Error updating categories__________________________Ó",
+      "message": "á_A category with the same name already exists in the destination category______________________________________Ó."
+    },
+    "emptyTitle": {
+      "title": "á_Error updating categories__________________________Ó",
+      "message": "á_Category title cannot be empty_________________Ó."
+    },
+    "noSchema": {
+      "title": "á_Schema not found_________________Ó",
+      "message": "á_Item schema not found for user_________________Ó."
+    },
+    "maxCharacter": {
+      "title": "á_Error updating categories__________________________Ó",
+      "message": "á_Category names can be a maximum of ${maxCharacter} characters long___________________________________Ó."
+    }
+  },
+  "warning": {
+    "deleteInUseCategory": {
+      "title": "á_Delete category________________Ó",
+      "message": "á_${numItem} items are assigned to this category. Deleting the category will also remove it from these items_______________________________________________________Ó.",
+      "cta": "á_Delete category________________Ó"
+    }
+  },
+  "template": {
+    "title": "á_Category templates___________________Ó",
+    "learnMore": "á_Learn more_____________________Ó",
+    "templateList": {
+      "custom": {
+        "title": "á_Custom categories__________________Ó",
+        "message": "á_Create your own categories to organize content within your organization_____________________________________Ó."
+      },
+      "arcgis": {
+        "title": "á_ArcGIS categories__________________Ó",
+        "message": "á_ArcGIS categories include a selection of topic categories and subcategories that can be used to categorize many types of geospatial content. These categories are used to support ArcGIS Living Atlas of the World___________________________________________________________________________________________________________Ó."
+      },
+      "iso": {
+        "title": "á_ISO categories_______________Ó",
+        "message": "á_ISO categories includes topic categories from the International Organization for Standardization that provide a method for describing and cataloging geographic information_______________________________________________________________________________________Ó."
+      },
+      "inspire": {
+        "title": "á_INSPIRE categories___________________Ó",
+        "message": "á_INSPIRE categories include a comprehensive set of spatial data themes set out in the INSPIRE Directive_____________________________________________________Ó."
+      }
+    }
+  }
+}

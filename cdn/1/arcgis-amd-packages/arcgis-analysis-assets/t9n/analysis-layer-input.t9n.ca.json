@@ -1,0 +1,17 @@
+{
+  "allowAnalysisReason": "ó_One or more imagery layers from the map are not listed here because the allow analysis service property is not enabled. <a href='${ docLink }' target='_blank'>Learn more.</a><br>__________________________________________________________________________________________à",
+  "featureCountAboveMaximum": "El nombre d'entitats no pot ser més gran que ${maximum}.",
+  "featureCountBelowMinimum": "El nombre d'entitats no pot ser més petit que ${minimum}.",
+  "isRequired": "Aquest paràmetre és obligatori.",
+  "layer": "Capa",
+  "layerAction": "Accions ${layerName}",
+  "layerNotAvailable": "No s'ha pogut carregar la capa ${layerName}",
+  "layerNotSupported": "La capa seleccionada no s'admet.",
+  "layersFilteredOut": "S'han exclòs algunes capes.",
+  "layersNotAllowAnalysis": "No es permet l'anàlisi d'algunes capes d'aquest mapa.",
+  "multipleLayersNotAvailable": "No s'han pogut carregar la capa ${layerName} i altres",
+  "numberFeatures": "Recompte d'entitats: ${featureCount}",
+  "numberFeaturesLoading": "S'està calculant...",
+  "proxyReason": "ó_One or more layers from the map are not listed here because they are either not shared with you or not publicly accessible. <a href='${ docLink }' target='_blank'>Learn more.</a><br>____________________________________________________________________________________________à",
+  "replaceLayer": "Substitueix la capa"
+}

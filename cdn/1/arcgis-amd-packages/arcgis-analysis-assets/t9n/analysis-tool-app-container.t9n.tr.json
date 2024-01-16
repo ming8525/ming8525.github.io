@@ -1,0 +1,19 @@
+{
+  "backLabel": "Geri",
+  "cannotReopenTool": "Araç tekrar açılamadı. Araç parametreleri varsayılan değerlere geri döndürüldü.",
+  "cannotReopenWebTool": "ı_Unable to open web tool. <calcite-link target='_blank' href='${ docLink }'>Learn more</calcite-link>___________________________________________________İ",
+  "creditThresholdModal": {
+    "cancelRun": "İptal",
+    "confirmationPrompt": "Devam etmek istiyor musunuz?",
+    "continueRun": "Devam Et",
+    "creditEstimate": "Tahmini krediler: ${cost}",
+    "creditThreshold": "Kredi eşiği: ${threshold}",
+    "heading": "Kredi eşiğine ulaşıldı",
+    "learnMore": "Daha fazla bilgi",
+    "thresholdExceeded": "Bu analizin tahmini maliyeti, kredi eşiğinizden daha yüksek."
+  },
+  "failedToExecuteEstimate": "Gönderim başarısız oldu. EstimateRasterAnalysisCost yürütülemedi",
+  "missingPermissionForWebTool": "ı_This tool cannot be accessed. Ensure that the tool exists and that your user has permission to access it______________________________________________________İ.",
+  "runAnalysisLabel": "Çalıştır",
+  "webToolJSONChanged": "ı_One or more parameters have been updated. Some parameters may not be repopulated from history________________________________________________İ."
+}

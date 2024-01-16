@@ -1,0 +1,19 @@
+{
+  "backLabel": "رجوع",
+  "cannotReopenTool": "تعذرت إعادة فتح الأداة. تم إرجاع معلمات الأداة إلى الإعدادات الافتراضية.",
+  "cannotReopenWebTool": "بيت_Unable to open web tool. <calcite-link target='_blank' href='${ docLink }'>Learn more</calcite-link>___________________________________________________لاحقة",
+  "creditThresholdModal": {
+    "cancelRun": "إلغاء الأمر",
+    "confirmationPrompt": "هل تريد المتابعة؟",
+    "continueRun": "متابعة",
+    "creditEstimate": "الأرصدة المقدرة: ${cost}",
+    "creditThreshold": "حد الرصيد: ${threshold}",
+    "heading": "تم الوصول إلى حد الرصيد",
+    "learnMore": "تعرّف على المزيد",
+    "thresholdExceeded": "التكلفة المقدرة لهذا التحليل تتجاوز حد الرصيد."
+  },
+  "failedToExecuteEstimate": "فشل الإرسال. فشل تنفيذ EstimateRasterAnalysisCost",
+  "missingPermissionForWebTool": "بيت_This tool cannot be accessed. Ensure that the tool exists and that your user has permission to access it______________________________________________________لاحقة.",
+  "runAnalysisLabel": "تشغيل",
+  "webToolJSONChanged": "بيت_One or more parameters have been updated. Some parameters may not be repopulated from history________________________________________________لاحقة."
+}

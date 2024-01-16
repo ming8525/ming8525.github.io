@@ -1,0 +1,17 @@
+{
+  "allowAnalysisReason": "כן_One or more imagery layers from the map are not listed here because the allow analysis service property is not enabled. <a href='${ docLink }' target='_blank'>Learn more.</a><br>__________________________________________________________________________________________ש",
+  "featureCountAboveMaximum": "ספירת היישויות לא יכולה להיות גדולה מ-${maximum}.",
+  "featureCountBelowMinimum": "ספירת היישויות לא יכולה להיות קטנה מ-${minimum}.",
+  "isRequired": "זהו פרמטר חובה.",
+  "layer": "שכבה",
+  "layerAction": "${layerName} פעולות",
+  "layerNotAvailable": "נכשלה טעינת שכבה ${layerName}",
+  "layerNotSupported": "השכבה שנבחרה לא נתמכת.",
+  "layersFilteredOut": "חלק מהשכבות סוננו החוצה.",
+  "layersNotAllowAnalysis": "ניתוח אינו מותר עבור חלק מהשכבות במפה זו.",
+  "multipleLayersNotAvailable": "נכשלה טעינת שכבה ${layerName} ואחרות",
+  "numberFeatures": "מספר ישויות: ${featureCount}",
+  "numberFeaturesLoading": "מחשב...",
+  "proxyReason": "כן_One or more layers from the map are not listed here because they are either not shared with you or not publicly accessible. <a href='${ docLink }' target='_blank'>Learn more.</a><br>____________________________________________________________________________________________ש",
+  "replaceLayer": "החלף שכבה"
+}

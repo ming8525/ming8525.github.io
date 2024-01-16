@@ -1,0 +1,16 @@
+{
+  "cancel": "Š_Cancel_____________č",
+  "reset": "Š_Reset___________č",
+  "resetting": "Š_Resetting_____________č...",
+  "save": "Š_Save_________č",
+  "saving": "Š_Saving___________________č...",
+  "itemClassificationLabel": "Š_Classification_______________č",
+  "itemClassificationCategoryLabel": "Š_Item classification category label__________________č",
+  "itemClassificationEditLabel": "Š_Edit Classification____________________č",
+  "itemClassificationValidateError": "Š_Validation failed, the item classification value won't get populated! Please edit and save a new one____________________________________________________č.",
+  "classificationValueSaved": "Š_The classification value has been saved_____________________č",
+  "classificationNotificationHandler": "Š_Classification notification handler___________________č",
+  "openModal": "Š_Open modal_____________________č",
+  "currentSelections": "Š_Current Selections___________________č",
+  "searchForCategory": "Š_Search for category____________________č"
+}

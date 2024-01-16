@@ -1,0 +1,149 @@
+{
+  "deleteItem": "כן_Delete item____________ש",
+  "deleteItems": "כן_Delete items_____________ש",
+  "deleteFolder": "כן_Delete folder______________ש",
+  "recycleBin": "כן_Recycle bin____________ש",
+  "delete": "כן_Delete_____________ש",
+  "permanentlyDelete": "כן_Permanently delete___________________ש",
+  "back": "כן_Back_________ש",
+  "cancel": "כן_Cancel_____________ש",
+  "item": "כן_item_________ש",
+  "items": "כן_items___________ש",
+  "cantDelete": "כן_The following items can't be deleted because they are delete protected or have dependent items_________________________________________________ש.",
+  "proceed": "כן_Proceed with deleting the remaining items______________________ש?",
+  "moreOptions": "כן_More options_____________ש",
+  "hideOptions": "כן_Hide options_____________ש",
+  "deletePermanently": "כן_Delete permanently (This action cannot be undone)__________________________ש",
+  "learnMore": "כן_Learn more_____________________ש",
+  "summary": {
+    "select": "כן_Select_____________ש",
+    "deselect": "כן_Deselect_________________ש",
+    "selectedItems": "כן_Selected items________________ש:",
+    "permanentlyDelete": "כן_Permanently delete____________________ש:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "כן_This item is not supported by the recycle bin________________________ש.",
+        "multiple": "כן_These items are not supported by the recycle bin__________________________ש."
+      },
+      "unsynchronized": "כן_Unsynchronized edits made to items in a distributed collaboration group will be lost.<br>${startLink}Learn more${endLink}______________________________________________________________ש",
+      "notSupportedAndUnsynchronized": "כן_Some item types are not supported. Unsynchronized edits made to items in a distributed collaboration group will be lost.<br>${startLink}Learn more${endLink}_______________________________________________________________________________ש",
+      "group": {
+        "notSupported": "כן_Not supported______________ש",
+        "distributedCollaboration": "כן_Part of distributed collaboration__________________ש"
+      }
+    },
+    "canBeRecovered": {
+      "single": "כן_This item can be recovered up to ${days} days________________________ש.",
+      "multiple": "כן_These items can be recovered up to ${days} days_________________________ש.",
+      "unknown": "כן_These items can be recovered up to ${days} days_________________________ש."
+    },
+    "willBeRecycled": "כן_Send to the recycle bin_________________________ש:",
+    "cannotBeDeleted": "כן_Cannot delete_______________ש:",
+    "deleteDiscouraged": "כן_Delete discouraged____________________ש:",
+    "hasDependentItems": "כן_Has dependent items_____________________ש:",
+    "someActionsMayNoLongerWork": {
+      "single": "כן_If you send this item to the recycle bin, some actions that require access to the source item may no longer work as expected________________________________________________________________ש.",
+      "multiple": "כן_If you send these items to the recycle bin, some actions that require access to the source items may no longer work as expected_________________________________________________________________ש."
+    },
+    "cannotDelete": {
+      "all": "כן_Items that are delete protected, part of a distributed collaboration group or have dependent items cannot be deleted____________________________________________________________ש.",
+      "protectedAndCollaboration": "כן_Items that are delete protected or part of a distributed collaboration group cannot be deleted_________________________________________________ש.",
+      "protectedAndDependent": "כן_Items that are delete protected or have dependent items cannot be deleted______________________________________ש.",
+      "collaborationAndDependent": "כן_Items that are part of a distributed collaboration group or have dependent items cannot be deleted___________________________________________________ש."
+    },
+    "deletePermanently": "כן_Delete permanently: ${count} (This action cannot be undone)_______________________________ש",
+    "deleteAllPermanently": "כן_Delete all items permanently: ${count} (This action cannot be undone)____________________________________ש",
+    "deleteXPermanently": "כן_Delete ${subset} of ${total} items permanently (This action cannot be undone)________________________________________ש",
+    "protectedGroup": {
+      "deleteProtected": "כן_Delete protected_________________ש",
+      "deleteProtectedDescription": "כן_Items that are delete protected cannot be deleted__________________________ש.",
+      "hasDependentItems": "כן_Has dependent items____________________ש",
+      "itemUsedBy": "כן_This item has been used by____________________________ש:",
+      "hasDependentItemsDescription": {
+        "single": "כן_This item has a dependent item. They must be deleted together________________________________ש.",
+        "multiple": "כן_These items have other items dependent on them. They must be deleted together________________________________________ש."
+      },
+      "distributedCollaboration": "כן_Part of distributed collaboration__________________ש",
+      "distributedCollaborationDescription": "כן_Items that are part of a distributed collaboration group cannot be deleted_______________________________________ש.",
+      "deleteDiscouraged": "כן_Delete discouraged___________________ש",
+      "deleteDiscouragedDescription": {
+        "single": "כן_If this item is deleted, dependent items may lose some functionality. You can delete this item from the item details page______________________________________________________________ש.",
+        "multiple": "כן_If these items are deleted, dependent items may lose some functionality. You can delete these items individually from the item details page_______________________________________________________________________ש."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "כן_This item will be permanently deleted because it is not supported by the recycle bin____________________________________________ש.",
+    "multiple": "כן_These items will be permanently deleted because they are not supported by the recycle bin______________________________________________ש.",
+    "unknown": "כן_These items will be permanently deleted because they are not supported by the recycle bin______________________________________________ש."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "כן_The selected item belongs to a distributed collaboration group and cannot be moved to the recycle bin. It will be permanently deleted____________________________________________________________________ש.",
+    "multiple": "כן_The selected items belong to a distributed collaboration group and cannot be moved to the recycle bin. They will be permanently deleted_____________________________________________________________________ש.",
+    "unknown": "כן_The selected items belong to a distributed collaboration group and cannot be moved to the recycle bin. They will be permanently deleted_____________________________________________________________________ש."
+  },
+  "areYouSure": {
+    "single": "כן_Are you sure you want to delete this item______________________ש?",
+    "multiple": "כן_Are you sure you want to delete these items_______________________ש?",
+    "unknown": "כן_Are you sure you want to delete these items_______________________ש?"
+  },
+  "areYouSureRecycle": {
+    "single": "כן_This item will stay in the recycle bin for ${days} days before it is permanently deleted______________________________________________ש.",
+    "multiple": "כן_These items will stay in the recycle bin for ${days} days before they are permanently deleted________________________________________________ש.",
+    "unknown": "כן_These items will stay in the recycle bin for ${days} days before they are permanently deleted________________________________________________ש."
+  },
+  "areYouSurePermanent": {
+    "single": "כן_Are you sure you want to permanently delete this ${number} item? This ${carrot} item cannot be recovered after it has been permanently deleted_________________________________________________________________________ש.",
+    "multiple": "כן_Are you sure you want to permanently delete these items? These items cannot be recovered after they have been permanently deleted__________________________________________________________________ש.",
+    "unknown": "כן_Are you sure you want to permanently delete these items? These items cannot be recovered after they have been permanently deleted__________________________________________________________________ש."
+  },
+  "folder": {
+    "mustBeEmpty": "כן_The folder <b>${folder}</b> must be empty in order to be deleted__________________________________ש.",
+    "aFewCannotBeDeleted": "כן_A few items cannot be deleted. Are you sure you want to proceed with deleting the rest_____________________________________________ש?",
+    "mustBeEmptyProceed": "כן_The folder <b>${folder}</b> must be empty in order to be deleted. Are you sure you want to proceed with deleting these items________________________________________________________________ש?",
+    "cannotBeDeleted": "כן_The folder <b>${folder}</b> cannot be deleted because its items cannot be deleted__________________________________________ש."
+  },
+  "deletes": {
+    "single": "כן_Deletes in ${days} day_______________________ש",
+    "multiple": "כן_Deletes in ${days} days________________________ש",
+    "unknown": "כן_Days until delete: ${days}___________________________ש"
+  },
+  "deleteOverride": {
+    "single": "כן_Are you sure you want to permanently delete this item instead? This action cannot be undone_______________________________________________ש.",
+    "multiple": "כן_Are you sure you want to permanently delete these items instead? This action cannot be undone________________________________________________ש."
+  },
+  "restore": {
+    "restore": "כן_Restore_______________ש",
+    "restoreTo": "כן_Restore to_____________________ש",
+    "restoreItem": "כן_Restore Item_____________ש",
+    "restoreItems": "כן_Restore Items______________ש",
+    "noticeMessage": "כן_Restored items will be unshared. Please review your content before sharing it again___________________________________________ש.",
+    "cannotBulkRestoreXItems": "כן_Cannot bulk restore more than ${number} items, please deselect a few items_______________________________________ש.",
+    "cannotBulkRestoreMultipleOwners": "כן_Cannot bulk restore items that belong to different owners. Select items from a single owner to bulk restore_______________________________________________________ש.",
+    "toRestore": {
+      "single": "כן_Item to Restore_________________ש:",
+      "multiple": "כן_Items to Restore__________________ש:"
+    },
+    "cannotRestore": "כן_Cannot restore________________ש:",
+    "dependentItems": {
+      "single": "כן_This item cannot be restored because it is dependent on <b>${parent}</b>. Restore them together_________________________________________________ש.",
+      "multiple": "כן_These items cannot be restored because they are dependent on other items in the recycle bin. Restore them together___________________________________________________________ש: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "כן_Need to recover that accidentally deleted item? Check out the new recycle bin________________________________________ש!",
+    "takeALook": "כן_Take a look at the new recycle bin___________________ש!",
+    "learnMore": "כן_Learn more about restoring deleted items_____________________ש",
+    "heldInRecycleBin": "כן_Items in the recycle bin are held for up to ${days} days______________________________ש.",
+    "goToUserRecycleBin": "כן_Go to your ${linkStart}recycle bin${linkEnd} to restore or permanently delete items___________________________________________ש.",
+    "goToOrgRecycleBin": "כן_Go to your ${linkStart}organization's recycle bin${linkEnd} to restore or permanently delete items. Content in the recycle bin continues to consume credits_______________________________________________________________________________ש."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "כן_${start} - ${end} of ${total} (${size}) in recycle bin____________________________ש",
+    "other": "כן_${start} - ${end}, total: ${total} (${size}) in recycle bin_______________________________ש"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "כן_${start} - ${end} of ${total} (>${size}) in recycle bin_____________________________ש",
+    "other": "כן_${start} - ${end}, total: ${total} (>${size}) in recycle bin_______________________________ש"
+  }
+}

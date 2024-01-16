@@ -1,0 +1,21 @@
+{
+  "FPCAnalysisSettingGroupLabel": "Klastri seaded",
+  "FPCAnalysisSettingText": "Määrake meetod ja kriteeriumid, mille abil liigitada punktide kogum klastrina.",
+  "clusteringMethodLabel": "Klasterdusmeetod",
+  "dbscanLabel": "Määratletud kaugus (DBSCAN)",
+  "hdbscanLabel": "Isekohanduv (HDBSCAN)",
+  "inputFeaturesSectionText": "Valige kiht, mis sisaldab punkte, mille põhjal soovite teha klastri analüüsi.",
+  "itemProperties": {
+    "description": "Analüüsitööriista Otsi punktiklastreid käitamise kaudu loodud objektikiht.",
+    "snippet": "Tööriista Otsi punktiklastreid abil loodud objektikiht"
+  },
+  "minFeaturesClusterLabel": "Minimaalne punktide arv klastri kohta",
+  "opticsLabel": "Mitmekordne mõõtkava (OPTICS)",
+  "searchDistanceLabel": "Otsitav vahemaa",
+  "searchDistanceUnitLabel": "Otsinguvahemaa ühik",
+  "searchTimeIntervalLabel": "Š_Search time interval_____________________ä",
+  "searchTimeUnitLabel": "Š_Search time unit_________________ä",
+  "sensitivityLabel": "Klastri tundlikkus",
+  "timeFieldLabel": "Š_Time field_____________________ä",
+  "toolName": "Otsi punktklastreid"
+}

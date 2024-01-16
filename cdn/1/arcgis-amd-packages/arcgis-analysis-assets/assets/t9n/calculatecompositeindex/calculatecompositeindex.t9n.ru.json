@@ -1,0 +1,23 @@
+{
+  "CCIAnalysisSettingGroupLabel": "Ж_Index settings_______________Я",
+  "CCIAnalysisSettingGroupText": "Ж_Specify how the index should be calculated_______________________Я.",
+  "geomeanScaledLabel": "Ж_Compound differences (Geometric mean of scaled values)____________________________Я",
+  "indexMethodLabel": "Ж_Method to scale and combine variables____________________Я",
+  "inputFeaturesOrTableLabel": "Ж_Input features or table________________________Я",
+  "inputLayerGroupText": "Ж_Choose the features or table and variables to create the index with___________________________________Я.",
+  "inputVariablesLabel": "Ж_Input variables________________Я",
+  "itemProperties": {
+    "description": "Ж_Feature layer generated from running the Calculate Composite Index analysis tool__________________________________________Я.",
+    "snippet": "Ж_Feature layer generated from Calculate Composite Index____________________________Я"
+  },
+  "meanPercentileLabel": "Ж_Combine ranks (Mean of percentiles)___________________Я",
+  "meanScaledLabel": "Ж_Combine values (Mean of scaled values)____________________Я",
+  "outputIndexMaxLabel": "Ж_Maximum_______________Я",
+  "outputIndexMinLabel": "Ж_Minimum_______________Я",
+  "outputIndexMinMaxLabel": "Ж_Index minimum and maximum values_________________Я",
+  "outputIndexReverseLabel": "Ж_Reverse index values_____________________Я",
+  "reverseVariableLabel": "Ж_Reverse direction__________________Я",
+  "sumFlagsPercentileLabel": "Ж_Highlight extremes (Count of values above 90th percentile)______________________________Я",
+  "toolName": "Ж_Calculate Composite Index__________________________Я",
+  "weight": "Ж_Weight_____________Я"
+}

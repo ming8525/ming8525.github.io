@@ -1,0 +1,17 @@
+{
+  "allowAnalysisReason": "ng_One or more imagery layers from the map are not listed here because the allow analysis service property is not enabled. <a href='${ docLink }' target='_blank'>Learn more.</a><br>__________________________________________________________________________________________ny",
+  "featureCountAboveMaximum": "Hitungan fitur tidak boleh lebih besar dari ${maximum}.",
+  "featureCountBelowMinimum": "Hitungan fitur tidak boleh kurang dari ${minimum}.",
+  "isRequired": "Parameter ini harus diisi",
+  "layer": "Layer",
+  "layerAction": "${layerName} tindakan",
+  "layerNotAvailable": "Gagal memuat layer ${layerName}",
+  "layerNotSupported": "Layer yang dipilih tidak didukung.",
+  "layersFilteredOut": "Beberap layer telah difilter.",
+  "layersNotAllowAnalysis": "Analisis tidak diizinkan untuk beberapa layer di peta ini.",
+  "multipleLayersNotAvailable": "Gagal memuat layer ${layerName} dan lainnya",
+  "numberFeatures": "Jumlah fitur: ${featureCount}",
+  "numberFeaturesLoading": "Menghitung...",
+  "proxyReason": "ng_One or more layers from the map are not listed here because they are either not shared with you or not publicly accessible. <a href='${ docLink }' target='_blank'>Learn more.</a><br>____________________________________________________________________________________________ny",
+  "replaceLayer": "Ganti layer"
+}

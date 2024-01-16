@@ -1,0 +1,17 @@
+{
+  "allowAnalysisReason": "ก้_One or more imagery layers from the map are not listed here because the allow analysis service property is not enabled. <a href='${ docLink }' target='_blank'>Learn more.</a><br>__________________________________________________________________________________________ษฺ",
+  "featureCountAboveMaximum": "จำนวนฟีเจอร์ต้องไม่เกิน ${maximum}",
+  "featureCountBelowMinimum": "จำนวนฟีเจอร์ต้องไม่น้อยกว่า ${minimum}",
+  "isRequired": "จำเป็นต้องใช้พารามิเตอร์นี้",
+  "layer": "ชั้นข้อมูล",
+  "layerAction": "${layerName} การดำเนินการ",
+  "layerNotAvailable": "ล้มเหลวในการโหลดชั้นข้อมูล ${layerName}",
+  "layerNotSupported": "ไม่รองรับชั้นข้อมูลที่เลือก",
+  "layersFilteredOut": "ชั้นข้อมูลบางส่วนถูกกรองออกไป",
+  "layersNotAllowAnalysis": "ไม่อนุญาตให้ทำการวิเคราะห์สำหรับบางชั้นข้อมูลในแผนที่นี้",
+  "multipleLayersNotAvailable": "ล้มเหลวในการโหลดชั้นข้อมูล ${layerName} และอื่นๆ",
+  "numberFeatures": "จำนวนของฟีเจอร์: ${featureCount}",
+  "numberFeaturesLoading": "กำลังคำนวณ...",
+  "proxyReason": "ก้_One or more layers from the map are not listed here because they are either not shared with you or not publicly accessible. <a href='${ docLink }' target='_blank'>Learn more.</a><br>____________________________________________________________________________________________ษฺ",
+  "replaceLayer": "แทนที่ชั้นข้อมูล"
+}

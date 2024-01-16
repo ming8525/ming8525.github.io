@@ -1,0 +1,19 @@
+{
+  "backLabel": "Vissza",
+  "cannotReopenTool": "Az eszköz újbóli megnyitása nem sikerült. Az eszközparaméterek visszaálltak az alapértelmezett értékekre.",
+  "cannotReopenWebTool": "í_Unable to open web tool. <calcite-link target='_blank' href='${ docLink }'>Learn more</calcite-link>___________________________________________________ő",
+  "creditThresholdModal": {
+    "cancelRun": "Mégse",
+    "confirmationPrompt": "Folytatni kívánja?",
+    "continueRun": "Folytatás",
+    "creditEstimate": "Becsült kreditek: ${cost}",
+    "creditThreshold": "Kreditküszöbérték: ${threshold}",
+    "heading": "Elérte a kreditküszöbértéket",
+    "learnMore": "További információ",
+    "thresholdExceeded": "Ennek az elemzésnek a becsült költsége meghaladja az Ön kreditküszöbértékét."
+  },
+  "failedToExecuteEstimate": "A beküldés nem sikerült. Az EstimateRasterAnalysisCost végrehajtása nem sikerült",
+  "missingPermissionForWebTool": "í_This tool cannot be accessed. Ensure that the tool exists and that your user has permission to access it______________________________________________________ő.",
+  "runAnalysisLabel": "Futtatás",
+  "webToolJSONChanged": "í_One or more parameters have been updated. Some parameters may not be repopulated from history________________________________________________ő."
+}

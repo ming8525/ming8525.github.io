@@ -1,0 +1,17 @@
+{
+  "allowAnalysisReason": "須_One or more imagery layers from the map are not listed here because the allow analysis service property is not enabled. <a href='${ docLink }' target='_blank'>Learn more.</a><br>__________________________________________________________________________________________鷗",
+  "featureCountAboveMaximum": "フィーチャの数を ${maximum} より大きくすることはできません。",
+  "featureCountBelowMinimum": "フィーチャの数を ${minimum} より小さくすることはできません。",
+  "isRequired": "このパラメーターは必須です。",
+  "layer": "レイヤー",
+  "layerAction": "${layerName} 操作",
+  "layerNotAvailable": "レイヤー ${layerName} を読み込めませんでした",
+  "layerNotSupported": "選択したレイヤーはサポートされていません。",
+  "layersFilteredOut": "一部のレイヤーが除外されました。",
+  "layersNotAllowAnalysis": "このマップ内の一部のレイヤーでは解析が許可されていません。",
+  "multipleLayersNotAvailable": "レイヤー ${layerName} と他のレイヤーを読み込めませんでした",
+  "numberFeatures": "フィーチャ数: ${featureCount}",
+  "numberFeaturesLoading": "計算しています...",
+  "proxyReason": "須_One or more layers from the map are not listed here because they are either not shared with you or not publicly accessible. <a href='${ docLink }' target='_blank'>Learn more.</a><br>____________________________________________________________________________________________鷗",
+  "replaceLayer": "レイヤーの置換"
+}

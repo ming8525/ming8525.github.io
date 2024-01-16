@@ -1,0 +1,17 @@
+{
+  "allowAnalysisReason": "Š_One or more imagery layers from the map are not listed here because the allow analysis service property is not enabled. <a href='${ docLink }' target='_blank'>Learn more.</a><br>__________________________________________________________________________________________č",
+  "featureCountAboveMaximum": "Število geoobjekotv ne more biti večje od ${maximum}.",
+  "featureCountBelowMinimum": "Število geoobjektov ne more biti manjše od ${minimum}.",
+  "isRequired": "Ta parameter je obvezen.",
+  "layer": "Sloj",
+  "layerAction": "${layerName} dejanj",
+  "layerNotAvailable": "Nalaganje sloja ${layerName} ni uspelo",
+  "layerNotSupported": "Izbrani sloj ni podprt.",
+  "layersFilteredOut": "Nekateri sloji so bili filtrirani.",
+  "layersNotAllowAnalysis": "Analiza ni dovoljena za nekatere sloje v tej karti.",
+  "multipleLayersNotAvailable": "Nalaganje sloja ${layerName} in drugih ni uspelo",
+  "numberFeatures": "Število geoobjektov: ${featureCount}",
+  "numberFeaturesLoading": "Izračunavanje...",
+  "proxyReason": "Š_One or more layers from the map are not listed here because they are either not shared with you or not publicly accessible. <a href='${ docLink }' target='_blank'>Learn more.</a><br>____________________________________________________________________________________________č",
+  "replaceLayer": "Zamenjaj sloj"
+}

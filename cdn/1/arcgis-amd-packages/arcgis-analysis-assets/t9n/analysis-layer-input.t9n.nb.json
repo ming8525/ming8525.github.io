@@ -1,0 +1,17 @@
+{
+  "allowAnalysisReason": "å_One or more imagery layers from the map are not listed here because the allow analysis service property is not enabled. <a href='${ docLink }' target='_blank'>Learn more.</a><br>__________________________________________________________________________________________ø",
+  "featureCountAboveMaximum": "Antall geoobjekter kan ikke være større enn ${maximum}.",
+  "featureCountBelowMinimum": "Antall geoobjekter kan ikke være mindre enn ${minimum}.",
+  "isRequired": "Denne parameteren kreves.",
+  "layer": "Lag",
+  "layerAction": "${layerName}-handlinger",
+  "layerNotAvailable": "Kan ikke laste inn lag ${layerName}",
+  "layerNotSupported": "Det valgte laget støttes ikke.",
+  "layersFilteredOut": "Noen lag er filtrert ut.",
+  "layersNotAllowAnalysis": "Analysen tillates ikke for enkelte lag i dette kartet.",
+  "multipleLayersNotAvailable": "Kan ikke laste inn lag ${layerName} og andre",
+  "numberFeatures": "Antall geoobjekter: ${featureCount}",
+  "numberFeaturesLoading": "Beregner...",
+  "proxyReason": "å_One or more layers from the map are not listed here because they are either not shared with you or not publicly accessible. <a href='${ docLink }' target='_blank'>Learn more.</a><br>____________________________________________________________________________________________ø",
+  "replaceLayer": "Erstatt lag"
+}

@@ -1,0 +1,13 @@
+{
+  "addDataStore": "á_Add data store_______________Ó",
+  "addFile": "Agregar archivo",
+  "itemNotFound": "El elemento no existe o no es accesible.",
+  "itemPermissionDenied": "No tiene permisos para acceder a este elemento.",
+  "queryModelArgsErrMsg": "Error al consultar argumentos de modelo.",
+  "queryModelArgsMsg": "Consultando argumentos del modelo...",
+  "removeItem": "Eliminar elemento",
+  "replaceItem": "Sustituir elemento",
+  "requiredInputMessage": "Parámetro requerido.",
+  "selectItem": "Seleccionar elemento",
+  "selectModel": "Seleccionar modelo"
+}

@@ -1,0 +1,14 @@
+{
+  "AddDataFromUrl": "بيت_Add data from URL__________________لاحقة",
+  "addData": "بيت_Add data_________________لاحقة",
+  "clear": "بيت_Clear___________لاحقة",
+  "file": "بيت_File_________لاحقة",
+  "fileNotFound": "بيت_Failed to load file_____________________لاحقة.",
+  "invalidUrl": "بيت_Invalid URL or file extension_______________________________لاحقة.",
+  "item": "بيت_Item_________لاحقة",
+  "replaceData": "بيت_Replace data_____________لاحقة",
+  "required": "بيت_This parameter is required____________________________لاحقة.",
+  "uploadData": "بيت_Upload data____________لاحقة",
+  "uploadFailureMsg": "بيت_Error performing upload operation, file size or type not supported for this service___________________________________________لاحقة.",
+  "url": "بيت_Url_______لاحقة"
+}
