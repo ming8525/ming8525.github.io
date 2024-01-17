@@ -1,7 +1,0 @@
-{
-  "unsupportedDataType": "Typen støttes ikke",
-  "currentlyUnsupported": " Et standardredigeringsprogram for ${missingType} er under arbeid og kommer snart. Midlertidig plassholdertekstboks for å angi strengbaserte inndata.",
-  "unsupportedOverrideWarning": "En overstyrende komponent for redigeringsprogrammet som gir bedre UX for å jobbe med følgende parameter(e) er under arbeid, og kommer snart:",
-  "overrideWidgetMissing": "Komponent for overstyrende redigeringsprogram mangler!",
-  "uiIncomplete": "Jobbinnsendingen mislyktes. Funksjonen kan ikke kjøres fordi noen av de påkrevde feltene er ufullstendige eller mangler fra UI-et."
-}

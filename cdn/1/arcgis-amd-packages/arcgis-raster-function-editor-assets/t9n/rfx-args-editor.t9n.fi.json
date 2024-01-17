@@ -1,7 +1,0 @@
-{
-  "unsupportedDataType": "Tyyppiä ei tueta",
-  "currentlyUnsupported": " Tyypin oletuseditori ${missingType} odottaa valmistumista ja saapuu pian. Tilapäinen paikkamerkin tekstiruutu merkkijonoon perustuvien lähtöaineistojen määrittämiseen.",
-  "unsupportedOverrideWarning": "Ohituseditorin komponentti odottaa valmistumista ja saapuu pian, ja se mahdollistaa paremman käyttökokemuksen seuraavia parametreja käytettäessä:",
-  "overrideWidgetMissing": "Ohituseditorin komponentti puuttuu.",
-  "uiIncomplete": "Työn lähetys epäonnistui. Toimintoa ei voi suorittaa, koska jotkin pakollisista kentistä eivät ole yhteensopivia tai ne puuttuvat käyttöliitymästä."
-}

@@ -1,7 +1,0 @@
-{
-  "unsupportedDataType": "Loại không được hỗ trợ",
-  "currentlyUnsupported": " Trình chỉnh sửa mặc định cho ${missingType} đang chờ xử lý nhưng sắp ra mắt. Hộp văn bản giữ chỗ tạm thời dùng để chỉ định chuỗi dựa trên thông tin đầu vào.",
-  "unsupportedOverrideWarning": "Một thành phần trình chỉnh sửa ghi đè cung cấp UX phù hợp hơn với (các) thông số sau đang chờ xử lý nhưng sắp ra mắt:",
-  "overrideWidgetMissing": "Thiếu thành phần trình chỉnh sửa ghi đè!",
-  "uiIncomplete": "Gửi công việc thất bại. Không thể chạy hàm do một số trường bắt buộc chưa được điền đầy đủ hoặc bị thiếu trong UI."
-}

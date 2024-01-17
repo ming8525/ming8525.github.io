@@ -1,9 +1,0 @@
-{
-  "addRaster": "Add Raster Variable",
-  "addScalar": "Add Constant",
-  "raster": "Raster",
-  "scalar": "Scalar",
-  "defaultModelName": "Raster Function Template",
-  "defaultRasterName": "Raster",
-  "invalidRFTMessage": "The Raster Function Template is not valid."
-}

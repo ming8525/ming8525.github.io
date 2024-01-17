@@ -1,7 +1,0 @@
-{
-  "unsupportedDataType": "Nicht unterstützter Typ",
-  "currentlyUnsupported": " Ein Standard-Editor für ${missingType} ist in Kürze verfügbar. Temporäres Platzhalter-Textfeld für die Angabe von auf einer Zeichenfolge basierten Eingaben.",
-  "unsupportedOverrideWarning": "Eine Editor-Komponente zum Überschreiben mit einer besseren Benutzeroberfläche für das Arbeiten mit den folgenden Parametern ist in Kürze verfügbar:",
-  "overrideWidgetMissing": "Editor-Komponente zum Überschreiben fehlt!",
-  "uiIncomplete": "Auftragsübermittlung fehlgeschlagen. Die Funktion kann nicht ausgeführt werden, weil einige der Pflichtfelder nicht ausgefüllt sind oder in der Benutzeroberfläche fehlen."
-}

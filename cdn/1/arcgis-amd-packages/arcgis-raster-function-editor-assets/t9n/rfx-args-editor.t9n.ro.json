@@ -1,7 +1,0 @@
-{
-  "unsupportedDataType": "Tip neacceptat",
-  "currentlyUnsupported": " Un editor implicit pentru ${missingType} este în așteptare, dar va sosi în curând. Casetă de text pentru substituent temporar pentru specificarea intrărilor bazate pe șiruri.",
-  "unsupportedOverrideWarning": "O componentă de editor de suprascriere care furnizează un mai bun UX pentru lucrul cu următorul(i) parametru(i) este în așteptare, dar va sosi în curând:",
-  "overrideWidgetMissing": "Componente editor suprascriere lipsă!",
-  "uiIncomplete": "Trimiterea lucrării nu a reușit. Funcția nu poate fi executată pentru că unele dintre câmpurile obligatorii sunt incomplete sau lipsesc din UI."
-}

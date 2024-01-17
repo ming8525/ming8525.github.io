@@ -1,7 +1,0 @@
-{
-  "unsupportedDataType": "Tipo não suportado",
-  "currentlyUnsupported": " Um editor predefinido para o tipo ${missingType} está pendente, mas está para breve. Caixa de texto temporária de espaço reservado para especificar entradas baseadas em cadeias de caracteres.",
-  "unsupportedOverrideWarning": "Está pendente, mas para breve, um componente do editor de substituições que proporciona uma melhor experiência de utilizador para trabalhar com os seguintes parâmetros:",
-  "overrideWidgetMissing": "Componente do editor de substituições em falta!",
-  "uiIncomplete": "O envio da tarefa falhou. A função não pode ser executada porque alguns dos campos obrigatórios estão incompletos ou em falta na IU."
-}
