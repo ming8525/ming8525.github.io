@@ -1,0 +1,39 @@
+define(['exports'], (function (exports) { 'use strict';
+
+	const modalHeaders = {
+		invalidData: "ก้_Invalid data_____________ษฺ",
+		invalidChart: "ก้_Invalid chart______________ษฺ",
+		noDataAvailable: "ก้_No data available to display_____________________________ษฺ",
+		tooManyFeatures: "ก้_Too many features__________________ษฺ",
+		cannotCombineNegativeAndPositiveSlices: "ก้_Pie charts cannot combine slices with positive values to slices with negative values___________________________________________ษฺ",
+		error: "ก้_Error___________ษฺ",
+		warning: "ก้_Warning_______________ษฺ",
+		newChart: "ก้_New chart___________________ษฺ"
+	};
+	const errors = {
+		divNode: "ก้_Creating a chart requires an HTML div node_______________________ษฺ.",
+		errorRequest: "ก้_Please fix the following errors__________________ษฺ: ",
+		warningRequest: "ก้_Please address the following warnings_____________________ษฺ: ",
+		newChartRequest: "ก้_Configure chart_________________ษฺ.",
+		invalidValueFormatForLineChart: "ก้_The axis 'valueFormat' is invalid. Only numeric type is allowed on the line chart y-axis______________________________________________ษฺ.",
+		invalidValueFormatForBarChart: "ก้_The axis 'valueFormat' is invalid. Only numeric type is allowed on the bar chart y-axis_____________________________________________ษฺ.",
+		invalidValueFormatForComboBarLineChart: "ก้_The axis 'valueFormat' is invalid. Only numeric type is allowed on the bar-line chart y-axis, and category and date types on the x-axis_____________________________________________________________________ษฺ.",
+		invalidValueFormatForBoxPlot: "ก้_The axis 'valueFormat' is invalid. Only numeric type is allowed on the box plot y-axis, and category and date types on the x-axis__________________________________________________________________ษฺ.",
+		invalidValueFormatForHistogram: "ก้_The axis 'valueFormat' is invalid. Only numeric type is allowed on the histogram axes____________________________________________ษฺ.",
+		invalidValueFormatForScatterPlot: "ก้_The axis 'valueFormat' is invalid. Only numeric type is allowed on the scatter plot axes______________________________________________ษฺ.",
+		invalidValueFormatForGauge: "ก้_The axis 'valueFormat' is invalid. Only numeric type is allowed on the gauge________________________________________ษฺ.",
+		mismatchAxisAndValueFormat: "ก้_There's a mismatch between the axis type and the axis 'valueFormat'___________________________________ษฺ.",
+		queryError: "ก้_Failure to read input data____________________________ษฺ.",
+		simpleError: "ก้_Something went wrong______________________ษฺ."
+	};
+	var errors_t9n_th = {
+		modalHeaders: modalHeaders,
+		errors: errors
+	};
+
+	exports["default"] = errors_t9n_th;
+	exports.errors = errors;
+	exports.modalHeaders = modalHeaders;
+
+}));
+//# sourceMappingURL=errors.t9n.th-e2751bf4-ad4aee20.js.map

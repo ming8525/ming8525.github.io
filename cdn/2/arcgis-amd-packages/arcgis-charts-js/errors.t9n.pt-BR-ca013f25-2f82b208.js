@@ -1,0 +1,44 @@
+define(['exports'], (function (exports) { 'use strict';
+
+	const defaultError="Ocorreu um erro ao carregar o gráfico.";const uniqueSeriesBarCountCannotExceedLimit="Há um total de ${ elementCount } barras para este gráfico. Os gráficos de barras com uma série são limitados a ${ totalLimit } barras. Escolha um campo Categoria com menos valores exclusivos ou aplique um filtro aos seus dados.";const twoSeriesBarCountCannotExceedLimit="Os gráficos de barras com duas séries são limitados a ${ totalLimit } barras ou ${ seriesLimit } barras por série. Escolha um campo Categoria com menos valores exclusivos ou aplique um filtro aos seus dados.";const threePlusSeriesBarCountCannotExceedLimit="Os gráficos de barras com três séries são limitados a ${ totalLimit } barras, ou ${ seriesLimit } barras por série. Escolha um campo Categoria com menos valores exclusivos ou aplique um filtro aos seus dados.";const barSeriesCountCannotExceedLimit="Os gráficos de barras são limitados a séries ${ seriesLimit }. Escolha um campo dividido por com menos valores únicos";const defaultInvalidChart="Ocorreu um erro ao criar o gráfico.";const negativeValueInDataForLogTransformation="Não é possível aplicar transformação de log para valores negativos ou zero.";const negativeValueInDataForSqrtTransformation="Não é possível aplicar transformação de raiz quadrada para valores negativos.";const layerLoadFailure="Ocorreu um erro ao carregar a camada. URL = ${ url }. D de item do portal = ${ portalItemId }.";const duplicateSeriesID="${ dataPath } deve ser único. A série denominada ${ seriesName } tem um id (${ seriesID }) que já é usado por outra série.";const nonNumericAggregation="${ dataPath } não deve realizar agregação sem contagem em campo não numérico.";const requiredProperty="${ dataPath } está sem uma propriedade denominada ${ missingProperty }.";const minLength="${ dataPath } não deve ser menor que ${ limit } caracteres.";const minItems="${ dataPath } não deve ter menos que ${ limit } itens.";const maxItems="${ dataPath } não deve ter mais de ${ limit } itens.";const whiteSpacePattern="${ dataPath } deve ter pelo menos um caractere diferente de espaço em branco.";const additionalProperty="${ dataPath } não deve ter ${ additionalProperty }.";const enumValues="${ dataPath } deve ser igual a um destes valores permitidos: ${ allowedValues }.";const anyOfValues="${ dataPath } deve corresponder ao esquema de um destes: ${ schemaOptions }.";const bubbleChartValidateMsg="Gráficos de dispersão com símbolos proporcionais não são suportados. O tamanho padrão do símbolo foi aplicado.";const queryError="Falha ao ler os dados de entrada.";const histogramEmptyField="Os histogramas exigem pelo menos dois valores numéricos.";const invalidSeriesType="O tipo de série esperado no índice${ seriesIndex } é '${ expectedType }' mas '${ receivedType }' foi recebido em seu lugar";const or="ou";const pieChartCannotHaveMixtureOfPositiveAndNegativeSlices="Certifique-se de que a soma total dos campos numéricos escolhidos retorne todos os valores positivos ou todos os valores negativos.";const pieChartSlicesCannotExceedLimit="Há um total de ${ sliceCount } divisões neste gráfico. Os gráficos de pizza são limitados a ${ totalLimit } divisões. Escolha um campo de Categoria com menos valores únicos, adicione menos campos numéricos ou aplique um filtro aos seus dados.";const gaugeCannotExceedLimit="Medidores baseados em feição são limitados a ${ totalLimit } feições. Filtre seus dados.";const uniqueSeriesLineCountCannotExceedLimit="Há um total de ${ elementCount } marcadores neste gráfico. Os gráficos de linhas com uma série são limitados a ${ totalLimit } marcadores. Escolha um campo Categoria com menos valores exclusivos ou aplique um filtro aos seus dados.";const twoSeriesLineCountCannotExceedLimit="Os gráficos de linhas com duas séries estão limitados a ${ totalLimit } marcadores, ou ${ seriesLimit } marcadores por série. Escolha um campo Categoria com menos valores exclusivos ou aplique um filtro aos seus dados.";const threePlusSeriesLineCountCannotExceedLimit="Os gráficos de linhas com três ou mais séries estão limitados a ${ totalLimit } marcadores, ou ${ seriesLimit } marcadores por série. Escolha um campo Categoria com menos valores exclusivos ou aplique um filtro aos seus dados.";const lineSeriesCountCannotExceedLimit="Os gráficos de linhas são limitados a séries ${ seriesLimit }. Escolha um campo dividido por com menos valores únicos";const uniqueSeriesBoxCountCannotExceedLimit="Há um total de caixas ${ elementCount } neste gráfico. Diagramas de caixa com uma série são limitados a ${ totalLimit } caixas. Escolha um campo Categoria com menos valores exclusivos ou aplique um filtro aos seus dados.";const twoSeriesBoxCountCannotExceedLimit="Diagramas de caixa com duas séries são limitados a caixas ${ totalLimit } ou ${ seriesLimit } caixas por série. Escolha um campo Categoria com menos valores exclusivos ou aplique um filtro aos seus dados.";const threePlusBoxLineCountCannotExceedLimit="Diagramas de caixa com três ou mais séries estão limitados a ${ totalLimit } caixas ou ${ seriesLimit } caixas por série. Escolha um campo Categoria com menos valores exclusivos ou aplique um filtro aos seus dados.";const boxSeriesCountCannotExceedLimit="Os diagramas de caixa são limitados às séries ${ seriesLimit }. Escolha um campo dividido por com menos valores únicos";const boxSeriesOutlierCannotExceedLimit="Os gráficos de caixa só podem exibir ${ totalLimit } pontos discrepantes. Filtre seus dados.";var errors_t9n_ptBR={defaultError,uniqueSeriesBarCountCannotExceedLimit,twoSeriesBarCountCannotExceedLimit,threePlusSeriesBarCountCannotExceedLimit,barSeriesCountCannotExceedLimit,defaultInvalidChart,negativeValueInDataForLogTransformation,negativeValueInDataForSqrtTransformation,layerLoadFailure,duplicateSeriesID,nonNumericAggregation,requiredProperty,minLength,minItems,maxItems,whiteSpacePattern,additionalProperty,enumValues,anyOfValues,bubbleChartValidateMsg,queryError,histogramEmptyField,invalidSeriesType,or,pieChartCannotHaveMixtureOfPositiveAndNegativeSlices,pieChartSlicesCannotExceedLimit,gaugeCannotExceedLimit,uniqueSeriesLineCountCannotExceedLimit,twoSeriesLineCountCannotExceedLimit,threePlusSeriesLineCountCannotExceedLimit,lineSeriesCountCannotExceedLimit,uniqueSeriesBoxCountCannotExceedLimit,twoSeriesBoxCountCannotExceedLimit,threePlusBoxLineCountCannotExceedLimit,boxSeriesCountCannotExceedLimit,boxSeriesOutlierCannotExceedLimit};
+
+	exports.additionalProperty = additionalProperty;
+	exports.anyOfValues = anyOfValues;
+	exports.barSeriesCountCannotExceedLimit = barSeriesCountCannotExceedLimit;
+	exports.boxSeriesCountCannotExceedLimit = boxSeriesCountCannotExceedLimit;
+	exports.boxSeriesOutlierCannotExceedLimit = boxSeriesOutlierCannotExceedLimit;
+	exports.bubbleChartValidateMsg = bubbleChartValidateMsg;
+	exports["default"] = errors_t9n_ptBR;
+	exports.defaultError = defaultError;
+	exports.defaultInvalidChart = defaultInvalidChart;
+	exports.duplicateSeriesID = duplicateSeriesID;
+	exports.enumValues = enumValues;
+	exports.gaugeCannotExceedLimit = gaugeCannotExceedLimit;
+	exports.histogramEmptyField = histogramEmptyField;
+	exports.invalidSeriesType = invalidSeriesType;
+	exports.layerLoadFailure = layerLoadFailure;
+	exports.lineSeriesCountCannotExceedLimit = lineSeriesCountCannotExceedLimit;
+	exports.maxItems = maxItems;
+	exports.minItems = minItems;
+	exports.minLength = minLength;
+	exports.negativeValueInDataForLogTransformation = negativeValueInDataForLogTransformation;
+	exports.negativeValueInDataForSqrtTransformation = negativeValueInDataForSqrtTransformation;
+	exports.nonNumericAggregation = nonNumericAggregation;
+	exports.or = or;
+	exports.pieChartCannotHaveMixtureOfPositiveAndNegativeSlices = pieChartCannotHaveMixtureOfPositiveAndNegativeSlices;
+	exports.pieChartSlicesCannotExceedLimit = pieChartSlicesCannotExceedLimit;
+	exports.queryError = queryError;
+	exports.requiredProperty = requiredProperty;
+	exports.threePlusBoxLineCountCannotExceedLimit = threePlusBoxLineCountCannotExceedLimit;
+	exports.threePlusSeriesBarCountCannotExceedLimit = threePlusSeriesBarCountCannotExceedLimit;
+	exports.threePlusSeriesLineCountCannotExceedLimit = threePlusSeriesLineCountCannotExceedLimit;
+	exports.twoSeriesBarCountCannotExceedLimit = twoSeriesBarCountCannotExceedLimit;
+	exports.twoSeriesBoxCountCannotExceedLimit = twoSeriesBoxCountCannotExceedLimit;
+	exports.twoSeriesLineCountCannotExceedLimit = twoSeriesLineCountCannotExceedLimit;
+	exports.uniqueSeriesBarCountCannotExceedLimit = uniqueSeriesBarCountCannotExceedLimit;
+	exports.uniqueSeriesBoxCountCannotExceedLimit = uniqueSeriesBoxCountCannotExceedLimit;
+	exports.uniqueSeriesLineCountCannotExceedLimit = uniqueSeriesLineCountCannotExceedLimit;
+	exports.whiteSpacePattern = whiteSpacePattern;
+
+}));
+//# sourceMappingURL=errors.t9n.pt-BR-ca013f25-2f82b208.js.map

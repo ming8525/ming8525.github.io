@@ -1,0 +1,6 @@
+define(["exports","./config-update-0eaf1dc6","./interfaces-f9fc01bd","esri/request","esri/rest/support/FeatureSet","esri/layers/support/Field","esri/layers/FeatureLayer","esri/geometry/support/jsonUtils","esri/renderers/support/jsonUtils","esri/portal/Portal","esri/core/promiseUtils","esri/rest/support/Query","esri/rest/support/StatisticDefinition","esri/TimeExtent","esri/symbols/support/symbolUtils","esri/Graphic","esri/layers/support/FeatureFilter","esri/smartMapping/statistics/histogram","esri/Map","esri/views/MapView","esri/smartMapping/statistics/summaryStatistics","esri/core/Collection","esri/core/reactiveUtils"],(function(exports,configUpdate,interfaces,esriRequest,FeatureSet,Field,FeatureLayer,geometryJsonUtils,rendererJsonUtils,Portal,promiseUtils,Query,StatisticDefinition,TimeExtent,symbolUtils,Graphic,FeatureFilter,histogram,Map$3$1,MapView,summaryStatistics,Collection,reactiveUtils){"use strict";
+/*!
+	 * All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+	 * See LICENSE.md for details.
+	 * v1.0.0-beta.703
+	 */const ArcgisChartsGauge=configUpdate.ArcGISChartsGauge;const defineCustomElement=configUpdate.defineCustomElement$1;exports.ArcgisChartsGauge=ArcgisChartsGauge;exports.defineCustomElement=defineCustomElement;Object.defineProperty(exports,"__esModule",{value:true})}));

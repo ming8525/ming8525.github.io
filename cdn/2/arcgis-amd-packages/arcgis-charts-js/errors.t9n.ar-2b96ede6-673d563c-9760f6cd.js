@@ -1,0 +1,44 @@
+define(['exports'], (function (exports) { 'use strict';
+
+	const defaultError="حدث خطأ أثناء تحميل المخطط.";const uniqueSeriesBarCountCannotExceedLimit="يوجد إجمالي ${ elementCount } من الأشرطة في هذا المخطط. المخططات الشريطية التي تحتوي على سلسلة واحدة تقتصر على ${ totalLimit } من الأشرطة. اختر حقل فئة بقيم فريدة أقل أو طبّق عامل تصفية على بياناتك.";const twoSeriesBarCountCannotExceedLimit="تقتصر المخططات الشريطية التي تحتوي على سلسلتين على ${ totalLimit } من الأشرطة أو ${ seriesLimit } من الأشرطة لكل سلسلة. اختر حقل فئة بقيم فريدة أقل أو طبّق عامل تصفية على بياناتك.";const threePlusSeriesBarCountCannotExceedLimit="تقتصر المخططات الشريطية التي تحتوي على ثلاث سلاسل أو أكثر على ${ totalLimit } من الأشرطة أو ${ seriesLimit } من الأشرطة لكل سلسلة. اختر حقل فئة بقيم فريدة أقل أو طبّق عامل تصفية على بياناتك.";const barSeriesCountCannotExceedLimit="تقتصر المخططات الشريطية على سلاسل ${ seriesLimit }. اختر حقل التقسيم حسب الذي يحتوي على قليل من القيم الفريدة";const defaultInvalidChart="حدث خطأ أثناء إنشاء المخطط.";const negativeValueInDataForLogTransformation="يتعذر تطبيق تحويل السِّجل إلى قيم سلبية أو إلى صفر.";const negativeValueInDataForSqrtTransformation="يتعذر تطبيق تحويل الجذر التربيعي إلى قيم سلبية.";const layerLoadFailure="حدث خطأ أثناء تحميل الطبقة. URL = ${ url }. معرف عنصر البوابة = ${ portalItemId }.";const duplicateSeriesID="يجب أن يكون ${ dataPath } مميزًا. السلسلة التي اسمها ${ seriesName } تتضمن معرفًا (${ seriesID }) مستخدمًا بالفعل من قبل سلسلة أخرى.";const nonNumericAggregation="يتعذر على ${ dataPath } إجراء تجميع من دون حساب في حقل غير رقمي.";const requiredProperty="يتفقد ${ dataPath } خاصية باسم ${ missingProperty }.";const minLength="يجب ألا يكون ${ dataPath } أقصر من ${ limit } من الحروف.";const minItems="يجب ألا يحتوي ${ dataPath } على أقل من ${ limit } من العناصر.";const maxItems="يجب ألا يحتوي ${ dataPath } على أكثر من ${ limit } من العناصر.";const whiteSpacePattern="يجب أن يتضمن ${ dataPath } حرفًا واحدًا على الأقل ليس مسافة بيضاء.";const additionalProperty="يجب أن يحتوي ${ dataPath } على ${ additionalProperty }.";const enumValues="يجب أن يكون ${ dataPath } مساويًا لإحدى القيم هذه المسموح بها: ${ allowedValues }";const anyOfValues="يجب أن يتطابق ${ dataPath } مع مخطط أحد ما يلي: ${ schemaOptions }.";const bubbleChartValidateMsg="Scatterplots ذات الرموز المتناسبة غير مدعومة. تم تطبيق حجم الرمز الافتراضي.";const queryError="فشلت قراءة البيانات المدخلة.";const histogramEmptyField="تتطلب المدرجات التكرارية قيمتين رقميتين على الأقل.";const invalidSeriesType="نوع السلسلة المتوقع في الفهرس ${ seriesIndex } هو '${ expectedType }' ولكن تم استلام '${ receivedType }' بدلاً من ذلك";const or="أو";const pieChartCannotHaveMixtureOfPositiveAndNegativeSlices="تأكد من أن إجمالي مجموع الحقل الرقمي المختار (الحقول الرقمية المختارة) يُرجع كل القيم الموجبة أو كل القيم السالبة.";const pieChartSlicesCannotExceedLimit="يوجد إجمالي ${ sliceCount } من الشرائح في هذا المخطط. المخططات الدائرية تقتصر على ${ totalLimit } من الشرائح. اختر حقل فئة يحتوي على عدد أقل من القيم الفريدة، أو أضف عددًا أقل من الحقول الرقمية، أو قم بتطبيق عامل تصفية على بياناتك.";const gaugeCannotExceedLimit="تقتصر أجهزة القياس المستندة إلى المعالم على معالم ${ totalLimit }. تصفية بياناتك.";const uniqueSeriesLineCountCannotExceedLimit="يوجد إجمالي من علامات ${ elementCount } في هذا المخطط. تقتصر مخططات الخط التي تحتوي على سلسلة واحدة على ${ totalLimit } علامات. اختر حقل فئة بقيم فريدة أقل أو طبّق عامل تصفية على بياناتك.";const twoSeriesLineCountCannotExceedLimit="تقتصر مخططات الخط التي تحتوي على سلسلتين على ${ totalLimit } علامات أو ${ seriesLimit } علامات لكل سلسلة. اختر حقل فئة بقيم فريدة أقل أو طبّق عامل تصفية على بياناتك.";const threePlusSeriesLineCountCannotExceedLimit="تقتصر مخططات الخط التي تحتوي على ثلاث سلاسل أو أكثر على ${ totalLimit } علامات أو ${ seriesLimit } علامات لكل سلسلة. اختر حقل فئة بقيم فريدة أقل أو طبّق عامل تصفية على بياناتك.";const lineSeriesCountCannotExceedLimit="تقتصر مخططات الخط على سلاسل ${ seriesLimit }. اختر حقل التقسيم حسب الذي يحتوي على قليل من القيم الفريدة";const uniqueSeriesBoxCountCannotExceedLimit="يوجد إجمالي ${ elementCount } من المربعات في هذا المخطط. تقتصر رسومات المربع التي تحتوي على سلسلة واحدة على ${ totalLimit } مربعات. اختر حقل فئة بقيم فريدة أقل أو طبّق عامل تصفية على بياناتك.";const twoSeriesBoxCountCannotExceedLimit="تقتصر رسومات المربع التي تحتوي على سلسلتين على ${ totalLimit } مربعات أو ${ seriesLimit } مربعات لكل سلسلة. اختر حقل فئة بقيم فريدة أقل أو طبّق عامل تصفية على بياناتك.";const threePlusBoxLineCountCannotExceedLimit="تقتصر رسومات المربع التي تحتوي على ثلاث سلاسل أو أكثر على ${ totalLimit } مربعات أو ${ seriesLimit } مربعات لكل سلسلة. اختر حقل فئة بقيم فريدة أقل أو طبّق عامل تصفية على بياناتك.";const boxSeriesCountCannotExceedLimit="تقتصر رسومات المربع على ${ seriesLimit } سلاسل. اختر حقل التقسيم حسب الذي يحتوي على قليل من القيم الفريدة";const boxSeriesOutlierCannotExceedLimit="يمكن أن تعرض رسومات المربع ${ totalLimit } نقاط قيم شاذة بحد أقصى. تصفية بياناتك.";var errors_t9n_ar={defaultError,uniqueSeriesBarCountCannotExceedLimit,twoSeriesBarCountCannotExceedLimit,threePlusSeriesBarCountCannotExceedLimit,barSeriesCountCannotExceedLimit,defaultInvalidChart,negativeValueInDataForLogTransformation,negativeValueInDataForSqrtTransformation,layerLoadFailure,duplicateSeriesID,nonNumericAggregation,requiredProperty,minLength,minItems,maxItems,whiteSpacePattern,additionalProperty,enumValues,anyOfValues,bubbleChartValidateMsg,queryError,histogramEmptyField,invalidSeriesType,or,pieChartCannotHaveMixtureOfPositiveAndNegativeSlices,pieChartSlicesCannotExceedLimit,gaugeCannotExceedLimit,uniqueSeriesLineCountCannotExceedLimit,twoSeriesLineCountCannotExceedLimit,threePlusSeriesLineCountCannotExceedLimit,lineSeriesCountCannotExceedLimit,uniqueSeriesBoxCountCannotExceedLimit,twoSeriesBoxCountCannotExceedLimit,threePlusBoxLineCountCannotExceedLimit,boxSeriesCountCannotExceedLimit,boxSeriesOutlierCannotExceedLimit};
+
+	exports.additionalProperty = additionalProperty;
+	exports.anyOfValues = anyOfValues;
+	exports.barSeriesCountCannotExceedLimit = barSeriesCountCannotExceedLimit;
+	exports.boxSeriesCountCannotExceedLimit = boxSeriesCountCannotExceedLimit;
+	exports.boxSeriesOutlierCannotExceedLimit = boxSeriesOutlierCannotExceedLimit;
+	exports.bubbleChartValidateMsg = bubbleChartValidateMsg;
+	exports["default"] = errors_t9n_ar;
+	exports.defaultError = defaultError;
+	exports.defaultInvalidChart = defaultInvalidChart;
+	exports.duplicateSeriesID = duplicateSeriesID;
+	exports.enumValues = enumValues;
+	exports.gaugeCannotExceedLimit = gaugeCannotExceedLimit;
+	exports.histogramEmptyField = histogramEmptyField;
+	exports.invalidSeriesType = invalidSeriesType;
+	exports.layerLoadFailure = layerLoadFailure;
+	exports.lineSeriesCountCannotExceedLimit = lineSeriesCountCannotExceedLimit;
+	exports.maxItems = maxItems;
+	exports.minItems = minItems;
+	exports.minLength = minLength;
+	exports.negativeValueInDataForLogTransformation = negativeValueInDataForLogTransformation;
+	exports.negativeValueInDataForSqrtTransformation = negativeValueInDataForSqrtTransformation;
+	exports.nonNumericAggregation = nonNumericAggregation;
+	exports.or = or;
+	exports.pieChartCannotHaveMixtureOfPositiveAndNegativeSlices = pieChartCannotHaveMixtureOfPositiveAndNegativeSlices;
+	exports.pieChartSlicesCannotExceedLimit = pieChartSlicesCannotExceedLimit;
+	exports.queryError = queryError;
+	exports.requiredProperty = requiredProperty;
+	exports.threePlusBoxLineCountCannotExceedLimit = threePlusBoxLineCountCannotExceedLimit;
+	exports.threePlusSeriesBarCountCannotExceedLimit = threePlusSeriesBarCountCannotExceedLimit;
+	exports.threePlusSeriesLineCountCannotExceedLimit = threePlusSeriesLineCountCannotExceedLimit;
+	exports.twoSeriesBarCountCannotExceedLimit = twoSeriesBarCountCannotExceedLimit;
+	exports.twoSeriesBoxCountCannotExceedLimit = twoSeriesBoxCountCannotExceedLimit;
+	exports.twoSeriesLineCountCannotExceedLimit = twoSeriesLineCountCannotExceedLimit;
+	exports.uniqueSeriesBarCountCannotExceedLimit = uniqueSeriesBarCountCannotExceedLimit;
+	exports.uniqueSeriesBoxCountCannotExceedLimit = uniqueSeriesBoxCountCannotExceedLimit;
+	exports.uniqueSeriesLineCountCannotExceedLimit = uniqueSeriesLineCountCannotExceedLimit;
+	exports.whiteSpacePattern = whiteSpacePattern;
+
+}));
+//# sourceMappingURL=errors.t9n.ar-2b96ede6-673d563c-9760f6cd.js.map
