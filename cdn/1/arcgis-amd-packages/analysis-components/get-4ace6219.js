@@ -1,1 +1,0 @@
-define(["exports","./_baseGet-9bd467fe"],(function(exports,_baseGet){"use strict";function get(object,path,defaultValue){var result=object==null?undefined:_baseGet.baseGet(object,path);return result===undefined?defaultValue:result}exports.get=get}));

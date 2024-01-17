@@ -1,1 +1,0 @@
-define(["exports","./analysis-block2-c341637a","./index-ef555910"],(function(exports,analysisBlock2,index){"use strict";const AnalysisBlock=analysisBlock2.AnalysisBlock;const defineCustomElement=analysisBlock2.defineCustomElement;exports.AnalysisBlock=AnalysisBlock;exports.defineCustomElement=defineCustomElement;Object.defineProperty(exports,"__esModule",{value:true})}));

@@ -1,1 +1,0 @@
-define(["exports"],(function(exports){"use strict";let strings;function setStrings(newStrings){strings=newStrings}function getStrings(){if(strings===undefined){throw new Error("Translation strings are not loaded.")}return strings}exports.getStrings=getStrings;exports.setStrings=setStrings}));
